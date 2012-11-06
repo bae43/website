@@ -1,0 +1,10 @@
+rock 0 0
+rock 1 0
+rock 2 0
+plant 3 0
+plant 4 0
+plant 5 0
+rock 2 0
+plant 0 0
+plant 3 0
+critter critters/Andru.txt 3 3 1

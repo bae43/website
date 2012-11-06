@@ -1,0 +1,24 @@
+memsize: 7
+defense: 3
+offense: 5
+size: 1
+//test
+energy: 500
+appearance: 17
+mem[5] != 17 --> mem[5] := 17;
+mem[4] > mem[3] * 400 --> grow;
+mem[4] > 400 --> bud;
+ahead[0] < 0-1 and mem[4] < 500 * mem[3] --> eat;
+ahead[1] != 17 and ahead[1] > 0 --> attack;
+ahead[1] < 0-1 --> forward;
+ahead[2] < 0-1 and ahead[1] = 0 --> forward;
+ahead[3] < 0-1 and ahead[1] = 0 --> forward;
+ahead[4] < 0-1 and ahead[1] = 0 --> forward;
+//test
+nearby[0] > 0 --> backward;
+food != 0 and food mod 6 = 0 --> forward;
+food != 0 and food mod 6 = 1 --> right;
+food != 0 and food mod 6 = 2 --> right;
+food != 0 and food mod 6 = 5 --> left;
+food != 0 and food mod 6 = 4 --> left;
+1 > 0 --> left;

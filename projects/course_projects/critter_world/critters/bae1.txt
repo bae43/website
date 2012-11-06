@@ -1,0 +1,23 @@
+memsize: 10
+defense: 5
+offense: 5
+size: 1
+energy: 500
+appearance: 2
+
+//1 - defense
+//2 - offense
+//3 - size
+//4 - energy
+//5 - appearance
+
+
+food = 1 --> eat;
+
+ahead[1] = 1 --> attack;
+
+mem[4] > 450 --> bud;
+
+1 < 2 --> forward;
+
+1 < 2 --> left;

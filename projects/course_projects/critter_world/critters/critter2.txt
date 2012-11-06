@@ -1,0 +1,9 @@
+memsize: 10
+defense: 5
+offense: 5
+size: 9999999
+energy: 500
+appearance: 2
+
+
+1 < 2 --> forward;

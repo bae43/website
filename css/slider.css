@@ -1,0 +1,91 @@
+h1 {
+
+	/* main font */
+	font-family: neutraface, 'trebuchet ms', 'sans serif';
+	font-weight: 100;
+	font-size: 56px;
+	color: #ff8625;
+}
+div.slider_section_title_f {
+	background-color: rgba(66,126,157,0.1); /*427e9d*/
+	color: #38aba7;
+	font-family: neutraface, 'trebuchet ms', 'sans serif';
+	font-size: 28px;
+}
+div.slider_section_title_f:hover {
+	background-color: rgba(45,103,108,0.3); /*2d676c*/
+	color: #adfffc;
+}
+
+div.slider_section_title_s {
+	background-color: rgba(45,103,108,0.1); /*2d676c*/
+	color: #38aba7;
+	font-family: neutraface, 'trebuchet ms', 'sans serif';
+	font-size: 28px;
+}
+div.slider_section_title_s:hover {
+	background-color: rgba(45,103,108,0.3); /*2d676c*/
+	color: #adfffc;
+}
+
+div.slider_section {
+
+	margin: 30px/*,30px, 30px, 30px*/;
+	color: #80b6b4;
+	font-family: neutraface, 'trebuchet ms', 'sans serif';
+	font-size: 22px;
+	opacity: 1;
+}
+
+/***************** Classes Table ****************/
+tr {
+
+	border-bottom: 3px solid teal;
+	/*border-bottom: 1px solid #fff; /*rgba(85,85,85,0.7);*/
+}
+
+td {
+	padding: .5em;
+	font-size: 22px;
+}
+
+a#link1 {
+		color: #80b6b4;
+	text-decoration: none;
+	outline: none;
+}
+
+a.link2 {
+		color: #48a00e;
+	text-decoration: none;
+	outline: none;
+}
+
+a#link1:hover {
+	color: #4a9fff;
+	font-weight: 200;
+	text-decoration: bold;
+}
+
+a.link2:hover {
+	color: #56d700;
+	font-weight: 200;
+	text-decoration: bold;
+}
+
+
+
+
+div.l1 {
+	height: 1px;
+	background-color: rgba(85,85,85,0.4);
+	overflow: hidden;
+}
+div.l2 {
+	height: 1px;
+	background-color: rgba(85,85,85,0.7);
+	border-bottom-color: #888;
+	margin: .5em 10em .5em 0;
+	overflow: hidden;
+}
+

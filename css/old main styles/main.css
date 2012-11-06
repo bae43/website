@@ -1,0 +1,103 @@
+#page {
+
+	width: 600px;
+	margin: 50px auto;
+	height: 240px;
+	border-left: 0px solid #000;
+	border-right: 0px solid #000;
+}
+
+#links {
+	float: left;
+	text-align: center;
+	height: 270px;
+	width: 105px;
+	margin-top: 120px;
+	background-color: rgba(0,0,0,.3);
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#main {
+
+	float: right;
+	text-align: center;
+	width: 480px;
+	/*position: relative;*/
+	height: 270px;
+	margin-top: 120px;
+	background-color: rgba(0,0,0,.3);
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+html {
+	height: 100%;
+	background: -moz-radial-gradient(center, #333, #1A1A1A) no-repeat #1A1A1A;
+	/*							start:  x,   y,  r. end: x,y, r  --*/
+	background: -webkit-gradient(radial, 70% 30%, 0, 60% 40%, 400, from(#2a2a2a), to(#1A1A1A)) no-repeat #191919;
+}
+
+
+h1 {
+	
+	color: #ccf;
+	
+	height: 70px;
+	margin: 15px;
+	/* inset shadowing */
+	/*	background-color: #b59c1a;
+	 -webkit-background-clip: text;
+	 -moz-background-clip: text;
+	 background-clip: text;
+	 color: transparent;*/
+
+	text-shadow: rgba(255,220,37,.5) 0px 1px 1px;
+	/* main font */
+	font-family: neutraface, 'helvetica', 'trebuchet ms', 'sans serif';
+	font-weight: 100;
+	font-size: 80px;
+	/*color: #ff8625;*/
+	/* gradient */
+	/*background: -webkit-gradient(linear, left top, left bottom, from(#cf6d1e), to(#ff8625));
+	 -webkit-background-clip: text;
+	 -webkit-text-fill-color: transparent;*/
+}
+
+#subname {
+	font-family: neutraface , 'sans serif';
+	color: #b59c1a;
+	opacity: 1;
+	font-size: 32px;
+	/* gradient */
+	background: #b59c1a;
+	/*GREEN*/
+	/*background: -webkit-gradient(linear, left bottom, left top, from(#245305), to(#53bf0b));*/
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+div.l {
+
+	height: 1px;
+	background-color: #880000;
+	border-bottom: 1px solid #ff0000;
+	margin: 0em 1.5em 0em 1.5em;
+	overflow: hidden;
+}
+
+#about {
+	margin: 12px;
+}
+#course {
+	margin: 0px, 15px;
+}
+#project {
+	margin: 12px;
+}
+#project:hover {
+	-moz-box-shadow: 3px 3px 4px #fff;
+	-webkit-box-shadow: 3px 3px 4px #fff;
+	box-shadow: 3px 3px 4px #fff;
+}
+

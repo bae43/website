@@ -6,8 +6,8 @@
 
 		<title>Bryce Evans | <?php echo $title; ?> </title>
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-		<LINK REL=StyleSheet HREF="../css/global.css" TYPE="text/css">
-			<LINK REL=StyleSheet HREF="../css/slider.css" TYPE="text/css">
+		<LINK REL=StyleSheet HREF="../../css/global.css" TYPE="text/css">
+			<LINK REL=StyleSheet HREF="../../css/slider.css" TYPE="text/css">
 
 		<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
 
@@ -19,10 +19,13 @@
 			<a href="../index.php">back</a>
 
 			<div id=header>
-				<div id='bar'>
+				<div id='name'>
 					<ul>
 						<li type='none'>
-							<img id="about" src="../images/proj_small.png" ALIGN= LEFT style = "margin = 2px">	<h5>bryce evans</h5>
+							<h5>bryce</h5>
+						</li>
+						<li type='none'>
+							<h5>evans</h5>
 						</li>
 					</ul>
 
@@ -30,7 +33,7 @@
 
 				<div id='header'>
 					<div id='curPage'>
-						<span><h1><b>&nbsp<?php echo $title; ?></b></h1></span>
+						<span><h3><b>&nbsp<?php echo $title; ?></b></h3></span>
 					</div>
 
 				</div>
@@ -41,7 +44,7 @@
 			
 			
 
-				<h1> <?php  echo $contentTitle; ?> </h1>
+				<h2> <?php  echo $contentTitle; ?> </h2>
 				<br />
 				<?php  echo $content; ?>
 

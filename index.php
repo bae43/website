@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 		<LINK REL=StyleSheet HREF="css/global.css" TYPE="text/css">
 		<LINK REL=StyleSheet HREF="css/main.css" TYPE="text/css">
-	
+
 	</head>
 	<body>
 
@@ -19,16 +19,19 @@
 
 			<div id="main">
 
-				<h1>bryce <b>evans</b></h1>
+				<h1> bryce <b>evans</b></h1>
 
-				<div class = 'l'></div>
 				<p>
-					<span id="subname">
-						<br />
-						Computer Science | Engineering </span>
-					<span id="subname">
-						<br />
-						Cornell University </span>
+					<br />
+					<br />
+					<br />
+
+					<div class = 'l'></div>
+					<br />
+					<span id="subname"> Computer Science | Cornell University </span>
+					<br />
+					<br />
+					<div class = 'l'></div>
 
 				</p>
 				<div class="separator"></div>

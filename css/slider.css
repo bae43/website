@@ -1,11 +1,4 @@
-h1 {
 
-	/* main font */
-	font-family: neutraface, 'trebuchet ms', 'sans serif';
-	font-weight: 100;
-	font-size: 56px;
-	color: #ff8625;
-}
 div.slider_section_title_f {
 	background-color: rgba(66,126,157,0.1); /*427e9d*/
 	color: #38aba7;

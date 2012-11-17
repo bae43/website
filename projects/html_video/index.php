@@ -1,5 +1,7 @@
 <LINK REL=StyleSheet HREF="../../css/global.css" TYPE="text/css">
 <LINK REL=StyleSheet HREF="../../css/accordian.css" TYPE="text/css">
+<LINK REL=Script HREF="../../js/underscore.js" TYPE="text/javascript">
+
 
 <style>
 	video {
@@ -103,7 +105,8 @@ Canvas Filter
 
 	document.getElementById('v').addEventListener('click', changeFilter, false); 
 </script>
-<script type="text/javascript" src="filter.js"></script>
+<script type="text/javascript" src="../../js/underscore.js"></script>
+<script type="text/javascript" src="filter2.js"></script>
 EXCERPT;
 
 	include '../../template.php';

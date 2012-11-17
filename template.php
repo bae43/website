@@ -15,21 +15,16 @@
 
 	<body>
 
-		<div id="page">
-			<a href="../index.php">back</a>
-
+		<div id="header">
+			
+			
+				 <span id = 'name'><img id = " secimg" src="../../images/proj_small.png" ALIGN = LEFT>	<h5>bryce evans</h5>
+		
+ </span>
+			
 			<div id=header>
-				<div id='name'>
-					<ul>
-						<li type='none'>
-							<h5>bryce</h5>
-						</li>
-						<li type='none'>
-							<h5>evans</h5>
-						</li>
-					</ul>
+				<a href="../index.php">back</a>
 
-				</div>
 
 				<div id='header'>
 					<div id='curPage'>
@@ -40,11 +35,13 @@
 				<br />
 			</div>
 			<div id='content'>
-				<br />
+				
+				
+			
 			
 			
 
-				<h2> <?php  echo $contentTitle; ?> </h2>
+				<center><h2> <?php  echo $contentTitle; ?> </h2></center>
 				<br />
 				<?php  echo $content; ?>
 

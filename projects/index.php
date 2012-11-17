@@ -4,6 +4,7 @@
 
 $title = "PROJECTS";
 $contentTitle = "&nbspPROJECTS";
+$icon = "other";
 $content = <<<EXCERPT
 
 

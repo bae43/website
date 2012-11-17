@@ -32,7 +32,7 @@
 					</div>
 
 				</div>
-				<br />
+				<br>
 			</div>
 			<div id='content'>
 				
@@ -40,9 +40,9 @@
 			
 			
 			
-
+<br/>
 				<center><h2> <?php  echo $contentTitle; ?> </h2></center>
-				<br />
+				<br>
 				<?php  echo $content; ?>
 
 			</div>

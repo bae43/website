@@ -22,7 +22,7 @@
 				<div id='bar'>
 					<ul>
 						<li type='none'>
-							<img id="about" src="../images/proj_small.png" ALIGN= LEFT style = "margin = 2px">	<h5>bryce evans</h5>
+							<img id="about" src="../images/proj_small.png" ALIGN= LEFT >	<h5>bryce evans</h5>
 						</li>
 					</ul>
 

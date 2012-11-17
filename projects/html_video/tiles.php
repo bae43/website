@@ -23,7 +23,13 @@
 
 <?php
 
-	$title = "PROJECTS";
+		// <form method="GET" action="send.php">
+// <input id="imgform" name="imgform" value="">
+// 
+// </form>
+
+
+	$title = "TILES";
 	$contentTitle = "&nbspWebCam Test";
 	$content = <<<EXCERPT
 
@@ -123,7 +129,7 @@ draw.restore();
 }
 if(debug){
 debug = false;
-document.getElementById('trace').innerHTML = debugStr;
+
 }
 }
 
@@ -205,6 +211,18 @@ return (a.force-b.force);
 }
 
 function dropBomb(evt, obj){
+					
+					
+					
+// function snapshot() {
+//   
+//    
+  		// vsrc = document.getElementById("output");
+				// var screeny = vsrc.toDataURL(); 
+				// document.getElementById("imgform").value = screeny;
+// }
+// snapshot();
+		
 var posx = 0;
 var posy = 0;
 var e = evt || window.event;
@@ -302,21 +320,6 @@ dImageData.data[dpos+3] = sImageData.data[spos+3]; //A
 		</div>
 
 		<script type="text/javascript">
-			var isMouseDown = false;
-			document.onmousedown = function() {
-				isMouseDown = true
-			};
-			document.onmouseup = function() {
-				isMouseDown = false
-			};
-			document.onmousemove = function() {
-				if (isMouseDown) {
-
-					drag(event, Document.getElementById("output"));
-				}
-			};
-		</script>
-		<script type="text/javascript">
 			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 		</script>
@@ -343,6 +346,7 @@ dImageData.data[dpos+3] = sImageData.data[spos+3]; //A
 					video : true
 				}, function(stream) {
 					video.src = window.URL.createObjectURL(stream);
+
 				}, onFailSoHard);
 			} else {
 				alert("error, can't load");
@@ -350,8 +354,27 @@ dImageData.data[dpos+3] = sImageData.data[spos+3]; //A
 			}
 
 		</script>
+		
+
+		
 EXCERPT;
 
+
+
+$to = "bae43@cornell.edu";
+$from = "BAE43";
+$subject = "PHP E-Mail Test";
+$text = "someone is messin' with them tiles";
+
+// $image = "asdf";//$_GET["imgform"];
+// 
+// $message = "<html><head>"+$text+"</head><body>";
+// $message .= base64_encode($image);
+
+$headers = "From: $from";
+$headers .= "Content-type: text/html";
+
+mail($to, $subject, $text);
 	include '../../template.php';
 ?>
 

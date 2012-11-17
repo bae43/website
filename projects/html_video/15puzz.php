@@ -1,21 +1,57 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-	<head>
-		<title>HTML5 Video Destruction</title>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<script type="text/javascript">
+<LINK REL=StyleSheet HREF="../../css/global.css" TYPE="text/css">
+<LINK REL=StyleSheet HREF="../../css/accordian.css" TYPE="text/css">
+<LINK REL=Script HREF="../../js/underscore.js" TYPE="text/javascript">
+
+
+
+
+<script>
+	function hasGetUserMedia() {
+		// Note: Opera is unprefixed.
+		return !!(navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia);
+	}
+
+	if (hasGetUserMedia()) {
+		// Good to go!
+
+	} else {
+		alert('getUserMedia() is not supported in your browser');
+	}
+
+</script>
+
+
+<?php
+$to = "bae43@cornell.edu";
+$from = "BAE43";
+$subject = "PHP E-Mail Test";
+$text = "Someone be playing the 15 puzz...";
+
+$message = "<html><head>"+$text+"</head><body>";
+$message .= "<img src=http://static.fjcdn.com/pictures/Green+Lobster.+An+estimated+one+in+four+people+know+how_03092e_3476572.jpg alt='' /></body></html>";
+
+$headers = "From: $from";
+$headers .= "Content-type: text/html";
+
+mail($to, $subject, $text);
+
+	$title = "PROJECTS > HTML VIDEO";
+	$contentTitle = "&nbsp WebCam 15 Puzzle";
+	$content = <<<EXCERPT
+
+			<script type="text/javascript">
 
 var video;
 var copy;
 var copycanvas;
 var draw;
 
-var TILE_WIDTH = 125;
-var TILE_HEIGHT = 125;
+var TILE_WIDTH = 120;
+var TILE_HEIGHT = 120;
 var TILE_CENTER_WIDTH = TILE_WIDTH/2;
 var TILE_CENTER_HEIGHT = TILE_HEIGHT/2;
 var SOURCERECT = {x:0, y:0, width:0, height:0};
-var PAINTRECT = {x:0, y:0, width:500, height:500};
+var PAINTRECT = {x:0, y:0, width:480, height:480};
 var puzz_state = [[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]];
 var hole = [0,0];
 
@@ -26,6 +62,9 @@ copy = copycanvas.getContext('2d');
 var outputcanvas = document.getElementById('output');
 draw = outputcanvas.getContext('2d');
 setInterval("processFrame()", 33);
+
+
+
 }
 function createTiles(){
 
@@ -108,8 +147,14 @@ document.getElementById('trace').innerHTML = debugStr;
 }
 }
 
-function fix(tile){
+function fix(event){
+
+	for(var i=5; i<tiles.length; i++){
+var tile = tiles[i];
+		tile.pos = tile.pos_final;
+
 //contract
+
 var diffx = (tile.originX-tile.currentX)*0.2;
 var diffy = (tile.originY-tile.currentY)*0.2;
 var diffRot = (0-tile.rotation)*0.2;
@@ -128,7 +173,7 @@ if(Math.abs(diffRot) < 0.5){
 tile.rotation = 0;
 }else{
 tile.rotation += diffRot;
-}
+}}
 
 }
 
@@ -140,7 +185,7 @@ var tile = tiles[i];
 var xdiff = tile.currentX-x;
 var ydiff = tile.currentY-y;
 var dist = Math.sqrt(xdiff*xdiff + ydiff*ydiff);
-if(dist < TILE_CENTER_WIDTH){
+if(dist < TILE_CENTER_WIDTH && Math.abs(tile.pos[0]-hole[0])+ Math.abs(tile.pos[1]-hole[1]) < 2){
 
 tile.force = .544;
 var radians = Math.atan2(ydiff, xdiff);
@@ -238,10 +283,11 @@ dImageData.data[dpos+3] = sImageData.data[spos+3]; //A
 		<div style="display:none">
 			<video id="sourcevid" autoplay="true" loop="true"></video>
 			<canvas id="sourcecopy" width="500" height="500"></canvas>
+			
 		</div>
 		<div>
 
-			<canvas id="output" width="500" height="500"  onmousedown="move(event, this)"></canvas>
+			<canvas id="output" width="500" height="500" onmousedown="move(event, this)" ></canvas>
 
 		</div>
 
@@ -281,12 +327,9 @@ dImageData.data[dpos+3] = sImageData.data[spos+3]; //A
 			}
 
 		</script>
-	</body>
-</html>
->
+EXCERPT;
 
+	include '../../template.php';
+?>
 
-<video autoplay></video>
-<img src="">
-<canvas style="display:none;"></canvas>
 

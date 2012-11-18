@@ -20,17 +20,17 @@ $content = <<<EXCERPT
 		</li>
 		<li>
 			<div class="image_title">
-				<a href="#">Independent</a>
+				<a href="indep/index.php">Independent</a>
 			</div>
-			<a href="#">
+			<a href="indep/index.php">
 				<img src="../images/na.png"/>
 			</a>
 		</li>
 		<li>
 			<div class="image_title">
-				<a href="course_projects/critter_world/index.php">Coursework</a>
+				<a href="coursework/index.php">Coursework</a>
 			</div>
-			<a href="course_projects/critter_world/index.php">
+			<a href="coursework/index.php">
 				<img src="../images/classwork.png"/>
 			</a>
 		</li>
@@ -54,8 +54,7 @@ $content = <<<EXCERPT
 </div>
 
 
-				<a href="course_projects/critter_world/index.php">Critter World</a>
-			<!-- 	<span><h5>bryce evans</h5><h6>|</h6><h3><b>PROJECTS</b></h3></span> -->
+			
 		</div>
 
 		<div id="footer">

@@ -1,9 +1,0 @@
-memsize: 10
-defense: 5
-offense: 5
-size: 1
-energy: 100000
-appearance: 1
-
-
-1 < 2 --> mate;

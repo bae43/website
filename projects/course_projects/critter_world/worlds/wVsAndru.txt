@@ -1,8 +1,0 @@
-rock 0 0
-rock 3 4
-rock 10 7
-plant 1 1
-
-
-critter critters/andru.txt 3 3 1
-critter critters/bae1.txt 2 2 1

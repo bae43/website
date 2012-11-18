@@ -18,7 +18,7 @@
 		<div id="header">
 			
 			
-				 <span id = 'name'><img id = " secimg" src="../../images/proj_small.png" ALIGN = LEFT>	<h5>bryce evans</h5>
+				 <span id = 'name'><img id = " secimg" src="../images/proj_small.png" ALIGN = LEFT>	<h5>bryce evans</h5>
 		
  </span>
 			

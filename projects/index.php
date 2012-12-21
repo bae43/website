@@ -14,8 +14,8 @@ $content = <<<EXCERPT
 			<div class="image_title">
 				<a href="#">Featured</a>
 			</div>
-			<a href="campus_conquest">
-				<img src="../images/featured.png"/>
+			<a href="featured/index.php">
+				<img src="images/featured.png"/>
 			</a>
 		</li>
 		<li>
@@ -23,7 +23,7 @@ $content = <<<EXCERPT
 				<a href="indep/index.php">Independent</a>
 			</div>
 			<a href="indep/index.php">
-				<img src="../images/na.png"/>
+				<img src="images/na.png"/>
 			</a>
 		</li>
 		<li>
@@ -31,7 +31,7 @@ $content = <<<EXCERPT
 				<a href="coursework/index.php">Coursework</a>
 			</div>
 			<a href="coursework/index.php">
-				<img src="../images/classwork.png"/>
+				<img src="images/classwork.png"/>
 			</a>
 		</li>
 		<li>
@@ -39,15 +39,15 @@ $content = <<<EXCERPT
 				<a href="graphic_art">Graphic Art</a>
 			</div>
 			<a href="graphic_art">
-				<img src="../images/graphic_art.jpg"/>
+				<img src="images/graphic_art.jpg"/>
 			</a>
 		</li>
 		<li>
 			<div class="image_title">
 				<a href="#">Photography</a>
 			</div>
-			<a href="#">
-				<img src="../images/na.png"/>
+			<a href="other/index.php">
+				<img src="images/other.png"/>
 			</a>
 		</li>
 	</ul>

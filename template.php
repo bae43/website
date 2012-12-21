@@ -6,10 +6,10 @@
 
 		<title>Bryce Evans | <?php echo $title; ?> </title>
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-		<LINK REL=StyleSheet HREF="../../css/global.css" TYPE="text/css">
-			<LINK REL=StyleSheet HREF="../../css/slider.css" TYPE="text/css">
+		<LINK REL=StyleSheet HREF="/css/global.css" TYPE="text/css">
+			<LINK REL=StyleSheet HREF="/css/slider.css" TYPE="text/css">
 
-		<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="/js/jquery-1.7.2.min.js"></script>
 
 	</head>
 
@@ -18,7 +18,7 @@
 		<div id="header">
 			
 			
-				 <span id = 'name'><img id = " secimg" src="../images/proj_small.png" ALIGN = LEFT>	<h5>bryce evans</h5>
+				 <span id = 'name'><img id = " secimg" src="/proj_small.png" ALIGN = LEFT>	<h5>bryce evans</h5>
 		
  </span>
 			

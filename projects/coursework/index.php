@@ -1,12 +1,3 @@
-<LINK REL=StyleSheet HREF="../../css/global.css" TYPE="text/css">
-<LINK REL=StyleSheet HREF="../../css/accordian.css" TYPE="text/css">
-	
-	
-	
-<script src="js/jquery-1.7.2.min.js"></script>
-<script src="js/lightbox.js"></script>
-<link href="css/lightbox.css" rel="stylesheet" />
-
 
 <?php 
 
@@ -14,8 +5,10 @@ $title = "PROJECTS";
 $contentTitle = "&nbspCOURSEWORK";
 $content = <<<EXCERPT
 
-
-<a href="critterworld/index.php" >Critter World</a>
+<a NAME= "#contents" ></a>
+<a href="critterworld/index.php" >Chrysalis Renderer [CS 4620]</a> <br>
+<a href="critterworld/index.php" >Critter World [CS 2112]</a> <br>
+<a href="maze_solver/index.php" >Maze Solver [CS 1114]</a>
 
 
 

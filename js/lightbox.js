@@ -172,7 +172,7 @@
 					a = _ref[i];
 					this.album.push({
 						link : $(a).attr('href'),
-						title : $(a).attr('title')
+						title : $(a).attr('title') + "<br>" + $(a).attr('date')//picture caption
 					});
 					if ($(a).attr('href') === $link.attr('href'))
 						imageNumber = i;

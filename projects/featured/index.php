@@ -15,62 +15,65 @@
 	</head>
 
 	<body>
-
 		<div id="header">
 
-			<span id = 'name'><img id = " secimg" src="../../images/proj_small.png" ALIGN = LEFT> <h5>bryce evans</h5> </span>
+		</div>
+		<div id='page' style="width: 1000px; border:solid black 1px;">
 
-			<div id=header>
-				<a href="../index.php">back</a>
+			<span id = 'name'><img id = "secimg" src="../../images/proj_small.png" ALIGN = LEFT> bryce evans </span>
+			<nav style="float:right;">
+				<a href="/Website/about/index.php"> About  </a> | <a href="/Website/education/index.php"> Resume </a> | <a href="/Website/projects/index.php"> Projects </a>
+			</nav>
 
-				<div id='header'>
-					<div id='curPage'>
-						<span><h3><b>&nbspPROJECTS > Campus Conquest</b></h3></span>
-					</div>
-					<br/>
-					<center>
-						<h2> A Strategy Game Set on Campus</h2>
-						
-						A capture the flag game set on the Cornell campus, Campus Conquest allows players to fight and control buildings on the campus.
-					
-						<h2> Vivid Graphics Right in Your Browser </h2>
-						No downloads, no plug-ins. Play from anywhere. 
-
-						</center>
-					<br>
-
+			<div >
+				<div id='curPage'>
+					<span><h3><b>&nbsp;Campus Conquest</b></h3></span>
 				</div>
-				<br>
+
 			</div>
-			<div id='content'>
+			<h2> A Strategy Game Set on Campus</h2>
 
-				<br/>
-				<center>
+			A capture the flag game set on the Cornell campus, Campus Conquest allows players to fight and control buildings on the campus.
 
-					<div class="imageRow">
-						<div class="set">
-							<div class="single first">
-								<a href="images/hip.png" rel="lightbox[plants]" title="Click the X or anywhere outside the image to close"><img src="images/hip_tile.png" alt="Hip" /></a>
+			<h2> Vivid Graphics Right in Your Browser </h2>
+			No downloads, no plug-ins. Play from anywhere.
 
-								<a href="images/hip.png" rel="lightbox[plants]" title="Click the X or anywhere outside the image to close"><img src="images/hip_tile.png" alt="Hip" /></a>
+			</center>
+			<br>
 
-								<a href="images/hip.png" rel="lightbox[plants]" title="Click the X or anywhere outside the image to close"><img src="images/hip_tile.png" alt="Hip" /></a>
+		</div>
+		<br>
+		</div>
+		<div id='content'>
 
-								<a href="images/lobster_flag.png" rel="lightbox[plants]" title="Click the X or anywhere outside the image to close"><img src="images/lobster_flag_tile.png" alt="Hip" /></a>
+			<br/>
+			<center>
 
-							</div>
+				<div class="imageRow">
+					<div class="set">
+						<div class="single first">
+							<a href="images/hip.png" rel="lightbox[plants]" title="Click the X or anywhere outside the image to close"><img src="images/hip_tile.png" alt="Hip" /></a>
+
+							<a href="images/hip.png" rel="lightbox[plants]" title="Click the X or anywhere outside the image to close"><img src="images/hip_tile.png" alt="Hip" /></a>
+
+							<a href="images/hip.png" rel="lightbox[plants]" title="Click the X or anywhere outside the image to close"><img src="images/hip_tile.png" alt="Hip" /></a>
+
+							<a href="images/lobster_flag.png" rel="lightbox[plants]" title="Click the X or anywhere outside the image to close"><img src="images/lobster_flag_tile.png" alt="Hip" /></a>
 
 						</div>
 
-				</center>
-				<br>
+					</div>
 
-			</div>
-			<div id="footer">
-				<p>
-					&copy; 2012 Bryce Evans
-				</p>
-			</div>
+			</center>
+			<br>
+
+		</div>
+		</div>
+		<div id="footer">
+			<p>
+				&copy; 2012 Bryce Evans
+			</p>
+		</div>
 		</div>
 	</body>
 </html>

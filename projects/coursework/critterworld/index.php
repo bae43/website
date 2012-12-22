@@ -16,23 +16,7 @@ $contentTitle = "&nbspCOURSEWORK";
 $content = <<<EXCERPT
 
 
-Critter World
-[CS 2112]
 
-A simulation of evolving artificial life. 
-
-
-				<a href="CritterWorld.zip">DOWNLOAD (~40MB)</a>
-				</div>
-
-		<div id="footer">
-			<p>
-				&copy; 2012 Bryce Evans
-			</p>
-		</div>
-
-	</body>
-</html>
 
 
 EXCERPT;

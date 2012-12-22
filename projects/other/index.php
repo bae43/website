@@ -34,76 +34,83 @@
 
 		<div id="header">
 
-			<span id = 'name'><img id = " secimg" src="../../images/proj_small.png" ALIGN = LEFT> <h5>bryce evans</h5> </span>
+		</div>
+		<div id='page' style="width: 1000px; border:solid black 1px;">
 
-			<div id=header>
-				<a href="../index.php">back</a>
+			<span id = 'name'><img id = "secimg" src="../../images/proj_small.png" ALIGN = LEFT> bryce evans </span>
+			<nav style="float:right;">
+				<a href="/Website/about/index.php"> About </a> | <a href="/Website/education/index.php"> Resume </a> | <a href="/Website/projects/index.php"> Projects </a>
+			</nav>
 
-				<div id='header'>
-					<div id='curPage'>
-						<span><h3><b>&nbspPROJECTS ></b></h3></span>
-					</div>
-					<br/>
-					<center>
-						<h2> Art </h2>
-					</center>
-					<br>
-
+			<div >
+				<div id='curPage'>
+					<span><h3><b>&nbsp;Art</b></h3></span>
 				</div>
-				<br>
+
 			</div>
+			<br>
+
 			<div id='content'>
 
 				<br/>
 				<center>
-					<div style = "width : 950px; ">
-						<div>
-							Photography | Etch-a-Sketch
-						</div>
-						<div id = "side_pane" style="float: left; text-align : right; width = 100px;">
-							<h4> Year </h4>
-							<br>
-							2012
-							<br>
-							2011
-							<br>
-							2010
-							<br>
-							2009
-							<br>
-							2008
-						</div>
-						<div class="imageRow" style="float: right; position : relative; top: 50px;">
-							<div class="set">
-								<div class="single first">
 
-									<a href="images/etches/scotty%20full.png"  class = "t" rel="lightbox[plants]" title="Click the X or anywhere outside the image to close"><img src="images/etches/scotty_tile.png" alt="Hip" /></a>
-									<a href="images/etches/band_close.jpg"  class = "t" rel="lightbox[plants]" title="Click the X or anywhere outside the image to close"><img src="images/etches/band_tile.png" alt="band" /></a>
-									<a href="images/etches/Ptero%20full.jpg"  class = "t" rel="lightbox[plants]" title="Click the X or anywhere outside the image to close"><img src="images/etches/pterodactle_tile.png" alt="Pterodactyl" /></a>
-									<a href="images/etches/karl_close.jpg"  class = "t" rel="lightbox[plants]" title="Click the X or anywhere outside the image to close"><img src="images/etches/karl_tile.png" alt="Hip" /></a>
-									<br>
-									<a href="images/etches/mm.jpg"  class = "t" rel="lightbox[plants]" title="Click the X or anywhere outside the image to close"><img src="images/etches/mm_tile.png" alt="missing" /></a>
-									<a href="images/etches/quail.png"  class = "t" rel="lightbox[plants]" title="Click the X or anywhere outside the image to close"><img src="images/etches/quail_tile.png" alt="missing" /></a>
-									<a href="images/etches/Ptero%20full.jpg"  class = "t" rel="lightbox[plants]" title="Click the X or anywhere outside the image to close"><img src="images/etches/pterodactle_tile.png" alt="missing" /></a>
-									<a href="images/etches/lobster.png"  class = "t" rel="lightbox[plants]" title="Click the X or anywhere outside the image to close"><img src="images/etches/lobster_tile.png" alt="missing" /></a>
-									<br>
-									<a href="images/fish.png"  class = "tile" rel="lightbox[plants]" title="Click the X or anywhere outside the image to close"><img src="images/fish_tile.png" alt="goldfish" /></a>
-									<br>
+					<div>
+						Photography | Etch-a-Sketch
+					</div>
+					<div id = "side_pane" style="float: left; text-align : right; width = 100px;">
+						<h4> Year </h4>
+						<br>
+						2012
+						<br>
+						2011
+						<br>
+						2010
+						<br>
+						2009
+						<br>
+						2008
+					</div>
+					<div class="imageRow" style="float: right; position : relative; top: 50px;">
+						<div class="set">
+							<div class="single first">
 
-								</div>
+								<a href="images/etches/scotty%20full.png"  class = "t" rel="lightbox[etch]" title="A Scotty Dog" date ="Nov 2012"><img src="images/etches/scotty_tile.png" alt="Hip" /></a>
+								<a href="images/etches/band_close.jpg"  class = "t" rel="lightbox[etch]" title="Winds" date ="Jan 2011"><img src="images/etches/band_tile.png" alt="band" /></a>
+								<a href="images/etches/butterfly.png"  class = "t" rel="lightbox[etch]" title="Spring" date ="Mar 2012"><img src="images/etches/butterfly_tile.png" alt="band" /></a>
+								<a href="images/etches/pterodactle.png"  class = "t" rel="lightbox[etch]" title="Pterodactyl" date = "Jan 2008"><img src="images/etches/pterodactle_tile.png" alt="Pterodactyl" /></a>
+								<br>
+								<a href="images/etches/karl_close.jpg"  class = "t" rel="lightbox[etch]" title="Karl" date="Oct 2009"><img src="images/etches/karl_tile.png" alt="Hip" /></a>
+								<a href="images/etches/mm.jpg"  class = "t" rel="lightbox[etch]" title="Of Mice and Men" date= "Mar 2009"><img src="images/etches/mm_tile.png" alt="missing" /></a>
+								<a href="images/etches/quail.png"  class = "t" rel="lightbox[etch]" title="Happy Birthday to Amanda Quain!" date = "Oct 2011"><img src="images/etches/quail_tile.png" alt="missing" /></a>
+								<a href="images/etches/nuthatch.png"  class = "t" rel="lightbox[etch]" title="Nuthatch" date = "Dec 2006"><img src="images/etches/nuthatch_tile.png" alt="missing" /></a>
+								<br>
+								<a href="images/etches/lobster.png"  class = "t" rel="lightbox[etch]" title="Happy Birthday to Christina Hanco!" date = "Sep 2011"><img src="images/etches/lobster_tile.png" alt="missing" /></a>
 
+								<br>
+								<br>
 							</div>
 						</div>
+					</div>
+					<div class="imageRow" style="float: right; position : relative; top: 50px;">
+
+						<div class="single">
+							<a href="images/fish.png"  class = "t" rel="lightbox[misc]" title="Seymour the Goldfish" date="Jun 2012"><img src="images/fish_tile.png" alt="goldfish" /></a>
+						</div>
+						<div class="single">
+							<a href="images/fish.png"  class = "t" rel="lightbox[misc]" title="Seymour the Goldfish" date="Jun 2012"><img src="images/fish_tile.png" alt="goldfish" /></a>
+						</div>
+						<div class="single">
+							<a href="images/fish.png"  class = "t" rel="lightbox[misc]" title="Seymour the Goldfish" date="Jun 2012"><img src="images/fish_tile.png" alt="goldfish" /></a>
+						</div>
+
+					</div>
 
 				</center>
 				<br>
 
 			</div>
-			<div id="footer">
-				<p>
-					&copy; 2012 Bryce Evans
-				</p>
-			</div>
 		</div>
 	</body>
 </html>
+

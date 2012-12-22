@@ -1,44 +1,40 @@
 /*@font-face {
-	font-family: 'Neutra Text Light';
-	src: local('../fonts/NeutraText-Light.ttf');
+ font-family: 'Neutra Text Light';
+ src: local('../fonts/NeutraText-Light.ttf');
+ }
+
+ @font-face {
+ font-family: 'Neutra Text';
+ src: local('../fonts/NeutraText-Demi.ttf');
+ }*/
+
+@font-face {
+	font-family: neutraface;
+	src: url('../fonts/NeutraText-Demi.ttf');
 }
 
 @font-face {
-	font-family: 'Neutra Text';
-	src: local('../fonts/NeutraText-Demi.ttf');
-}*/
-
-@font-face
-{
-font-family: neutraface;
-src: url('../fonts/NeutraText-Demi.ttf');
+	font-family: harabara;
+	src: url('../fonts/HARABARA.TTF');
 }
-
-@font-face
-{
-font-family: harabara;
-src: url('../fonts/HARABARA.TTF');
-}
-@font-face
-{
-font-family: bebasneue;
-src: url('../fonts/BebasNeue.otf');
+@font-face {
+	font-family: bebasneue;
+	src: url('../fonts/BebasNeue.otf');
 }
 
 /* @font-face
-{
-font-family: myFirstFont;
-src: url('Sansation_Light.ttf'),
-     url('Sansation_Light.eot');
-}
+ {
+ font-family: myFirstFont;
+ src: url('Sansation_Light.ttf'),
+ url('Sansation_Light.eot');
+ }
 
-div
-{
-font-family:myFirstFont;
-}
+ div
+ {
+ font-family:myFirstFont;
+ }
 
-
-=================================================================*/
+ =================================================================*/
 
 #page {
 	margin: 50px auto;
@@ -57,7 +53,7 @@ font-family:myFirstFont;
 	font-family: bebasneue, neutraface, 'trebuchet ms', 'sans serif';
 	font-size: 32px;
 	color: #4fc600;
-/*	text-shadow: rgba(0,0,0,.5) 0px -2px -1px;*/
+	/*	text-shadow: rgba(0,0,0,.5) 0px -2px -1px;*/
 }
 
 div {
@@ -83,7 +79,6 @@ h1 {
 	/* main font */
 	margin: 0px;
 	font-family: bebasneue, 'trebuchet ms', 'sans serif';
-	font-weight: 100;
 	font-size: 56px;
 	color: #fff;
 	/*text-shadow: rgba(0,0,0,.5) 0px -2px -1px;*/
@@ -93,19 +88,18 @@ h2 {
 
 	margin: 0px;
 	font-family: neutraface, 'trebuchet ms', 'sans serif';
-	font-weight: 100;
 	font-size: 36px;
 	color: #ff8625;
-/*	text-shadow: rgba(0,0,0,.5) 0px -2px -1px;*/
+	/*	text-shadow: rgba(0,0,0,.5) 0px -2px -1px;*/
 }
 
 h3 {
 
 	margin: 0px;
 	font-family: bebasneue, neutraface, 'trebuchet ms', 'sans serif';
-	font-size: 36px;
+	font-size: 46px;
 	color: #f8f8f8; /*#4fc600;*/
-/*	text-shadow: rgba(0,0,0,.5) 0px -2px -1px;*/
+	/*	text-shadow: rgba(0,0,0,.5) 0px -2px -1px;*/
 }
 
 h4 {
@@ -115,7 +109,7 @@ h4 {
 	font-weight: 100;
 	font-size: 36px;
 	color: #a3f1ff;
-/*	text-shadow: rgba(0,0,0,.5) 0px -2px -1px;*/
+	/*	text-shadow: rgba(0,0,0,.5) 0px -2px -1px;*/
 }
 
 h5 {
@@ -125,7 +119,7 @@ h5 {
 	font-weight: 100;
 	font-size: 44px;
 	color: #fff;
-/*	text-shadow: rgba(0,0,0,.5) 0px -2px -1px;*/
+	/*	text-shadow: rgba(0,0,0,.5) 0px -2px -1px;*/
 }
 
 h6 {
@@ -147,18 +141,60 @@ a:hover {
 	text-decoration: bold;
 }
 
-#secimg {
-	margin: 5px;
-}
-
-#name {
+#header {
+	position: absolute;
+	top: 0;
+	left: 0;
 	width: 100%;
+	height: 56px;
+	background-color: #111;
+	z-index: 1;
+}
+#name {
+
+	position: relative;
+	top: -32px;
+	left: 60px;
+	margin: 0px;
+	font-family: harabara, 'trebuchet ms', 'sans serif';
+	font-size: 44px;
+	color: #fff;
 	height: 50px;
 	float: left;
-	font-size: 8px;
 	line-height: 14px;
 	margin: 30px, 14px;
-	background-color: #111;
+	z-index: 2;
+}
+
+#secimg {
+	position: absolute;
+	top: -19px;
+	left: -60px;
+	margin: 5px;
+	border: none;
+}
+#secimg:hover {
+
+	border: none;
+}
+
+nav {
+
+	position: relative;
+	top: -30px;
+	right: 60px;
+	font-family: bebasneue, 'trebuchet ms', 'sans serif';
+	font-size: 28px;
+	color: #fff;
+	height: 50px;
+	float: left;
+	line-height: 14px;
+	margin: 30px, 14px;
+	z-index: 2;
+}
+#page {
+	position: relative;
+	top: 0;
 }
 #curPage {
 	float: left;
@@ -166,7 +202,7 @@ a:hover {
 	font-weight: 100;
 	font-size: 68px;
 	color: #16aff6;
-	text-shadow: rgba(0,0,0,.5) 0px -2px -1px;
+	/*text-shadow: rgba(0,0,0,.5) 0px -2px -1px;*/
 	border-left: 2px solid #cb0a0f;
 }
 #bar {
@@ -189,6 +225,12 @@ a:hover {
 	height: 18px
 }
 
-::selection { background: #8c8c9f; color: #c8c8de; } /* Safari 3.1+, Opera 9.5+, Chrome 2+ */
-::-moz-selection { background: #8c8c9f; color: #c8c8de; } /* Mozilla Firefox */
+::selection {
+	background: #8c8c9f;
+	color: #c8c8de;
+}/* Safari 3.1+, Opera 9.5+, Chrome 2+ */
+::-moz-selection {
+	background: #8c8c9f;
+	color: #c8c8de;
+} /* Mozilla Firefox */
 

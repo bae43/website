@@ -3,44 +3,37 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 
-		<title>Bryce Evans | GRAPHIC ART </title>
+		<title>Bryce Evans | PROJECTS </title>
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 		<LINK REL=StyleSheet HREF="../../css/global.css" TYPE="text/css">
-		<link rel="stylesheet" href="../../css/pic_tiles.css" type="text/css" media="screen" />
-		<link rel="stylesheet" href="../../css/lightbox.css" type="text/css" media="screen" />
-
-		<style>
-		</style>
+		<LINK REL=StyleSheet HREF="../../css/slider.css" TYPE="text/css">
 
 		<script type="text/javascript" src="../../js/jquery-1.7.2.min.js"></script>
-		<script type="text/javascript" src="../../js/lightbox.js"></script>
 
 	</head>
 
 	<body>
-
 		<div id="header">
 
-			<span id = 'name'><img id = " secimg" src="../../images/proj_small.png" ALIGN = LEFT> <h5>bryce evans</h5> </span>
+		</div>
+		<div id='page' style="width: 1000px; border:solid black 1px;">
 
-			<div id=header>
-				<a href="../index.php">back</a>
-
-				<div id='header'>
-					<div id='curPage'>
-						<span><h3><b>&nbspPROJECTS ></b></h3></span>
-					</div>
-					<br/>
-					<center>
-						<h2> Graphic Art </h2>
-					</center>
-					<br>
-
+			<span id = 'name'><img id = "secimg" src="../../images/proj_small.png" ALIGN = LEFT> bryce evans </span>
+<nav style="float:right;">
+				<a href="/Website/about/index.php"> About  </a> | <a href="/Website/education/index.php"> Resume </a> | <a href="/Website/projects/index.php"> Projects </a>
+			</nav>
+			
+			<div >
+				<div id='curPage'>
+					<span><h3><b>&nbsp;ASDFASDGLJREG</b></h3></span>
 				</div>
-				<br>
+
 			</div>
+			<br>
+
 			<div id='content'>
 
+				<!-- -------------------------------------------------------------------------------------  -->
 				<br/>
 				<center>
 					<div style = "width : 950px; ">
@@ -59,36 +52,43 @@
 						</div>
 						<div style="float: right; position : relative; top: 50px;">
 							<div>
-						
-<a href= "http://www.splatlaser.com/" >SPLAT</a>
-Smartphone LAser Tag
-<br>
 
-I designed, modeled, and 3D printed the original prototype of the gun shell for SPLAT's laser tag game. 
+								<a href= "http://www.splatlaser.com/" >SPLAT</a>
+								Smartphone LAser Tag
+								<br>
+
+								I designed, modeled, and 3D printed the original prototype of the gun shell for SPLAT's laser tag game.
 
 							</div>
 
 							<div>
-						
-<a href= "http://www.projecteuler.com/" >Project Euler</a>
-I have done 25 Project Euler questions to date (and continuing to do more).
-<br>
 
+								<a href= "http://www.projecteuler.com/" >Project Euler</a>
+								I have done 25 Project Euler questions to date (and continuing to do more).
+								<br>
 
 							</div>
-							
+
 						</div>
 
 				</center>
 				<br>
 
+				<!-- -------------------------------------------------------------------------------------  -->
 			</div>
+
 			<div id="footer">
 				<p>
 					&copy; 2012 Bryce Evans
 				</p>
 			</div>
 		</div>
+
 	</body>
+</html>
+
+</div>
+</div>
+</body>
 </html>
 

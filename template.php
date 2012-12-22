@@ -15,25 +15,29 @@
 
 	<body>
 
-		<div id="header">
+			<div id="header"></div>
+
+			<span id = 'name'><img id = "secimg" src="../images/proj_small.png" ALIGN = LEFT> bryce evans </span>
+
+			<div >
+				<div id='curPage'>
+					<span><h3><b>&nbsp;Coursework</b></h3></span>
+				</div>
+
+			</div>
 			
-			
-				 <span id = 'name'><img id = " secimg" src="/proj_small.png" ALIGN = LEFT>	<h5>bryce evans</h5>
 		
- </span>
-			
-			<div id=header>
 				<a href="../index.php">back</a>
 
 
-				<div id='header'>
+				<div>
 					<div id='curPage'>
 						<span><h3><b>&nbsp<?php echo $title; ?></b></h3></span>
 					</div>
 
 				</div>
 				<br>
-			</div>
+			
 			<div id='content'>
 				
 				
@@ -51,6 +55,6 @@
 					&copy; 2012 Bryce Evans
 				</p>
 			</div>
-		</div>
+		
 	</body>
 </html>

@@ -16,29 +16,31 @@
 
 	<body>
 
-		<div id="header">
+		<div id="header"></div>
 
-			<span id = 'name'><img id = " secimg" src="/images/proj_small.png" ALIGN = LEFT> <h5>bryce evans</h5> </span>
+		<span id = 'name'><img id = " secimg" src="/images/proj_small.png" ALIGN = LEFT> bryce evans </span>
 
-			<div id=header>
-				<a href="../index.php">back</a>
+		<div>
+			<a href="../index.php">back</a>
 
-				<div id='header'>
-					<div id='curPage'>
-						<span><h3><b>&nbspPROJECTS > </b></h3></span>
-					</div>
-					<br/>
-					<center>
-						<h2> Maze Solver</h2>
-						A fast and robust maze solver made in MatLab. Open an image, 
-						click on the start and end points, and the solver will find the 
-						shortest path of white connecting them. Works on any image.
-					</center>
-					<br>
-
+			<div>
+				<div id='curPage'>
+					<span><h3><b>&nbspPROJECTS > </b></h3></span>
 				</div>
+				<br/>
+				<center>
+					<div>
+						<h2> Maze Solver</h2>
+						A fast and robust maze solver made in MatLab. Open an image,
+						click on the start and end points, and the solver will find the
+						shortest path of white connecting them. Works on any image.
+					</div>
+				</center>
 				<br>
+
 			</div>
+			<br>
+
 			<div id='content'>
 
 				<br/>

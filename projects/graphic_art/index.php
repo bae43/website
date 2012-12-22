@@ -10,18 +10,17 @@
 		<link rel="stylesheet" href="../../css/lightbox.css" type="text/css" media="screen" />
 
 		<style>
-			.img {
+			img {
 				position: relative;
-				margin: 4px,0px;
-
+				/*margin: 5px;;*/
+				margin: 0px 3px;
+				border: 3px solid #101010;
 			}
 			img:hover, img.highlight {
 
-				box-sizing: border-box;
-				-moz-box-sizing: border-box;
-				-webkit-box-sizing: border-box;
-				width: 200px;
-				height: 200px;
+				/*	width: 200px;
+				 height: 200px;*/
+				margin: 0px 3px;
 				border: 3px solid #98bf21;
 			}
 		</style>
@@ -35,24 +34,20 @@
 
 		<div id="header">
 
-			<span id = 'name'><img id = " secimg" src="../../images/proj_small.png" ALIGN = LEFT> <h5>bryce evans</h5> </span>
+		</div>
+		<div id='page' style="width: 1000px; border:solid black 1px;">
 
-			<div id=header>
-				<a href="../index.php">back</a>
-
-				<div id='header'>
-					<div id='curPage'>
-						<span><h3><b>&nbspPROJECTS ></b></h3></span>
-					</div>
-					<br/>
-					<center>
-						<h2> Graphic Art </h2>
-					</center>
-					<br>
-
+			<span id = 'name'><img id = "secimg" src="../../images/proj_small.png" ALIGN = LEFT> bryce evans </span>
+			<nav style="float:right;">
+				<a href="/Website/about/index.php"> About </a> | <a href="/Website/education/index.php"> Resume </a> | <a href="/Website/projects/index.php"> Projects </a>
+			</nav>
+			<div >
+				<div id='curPage'>
+					<span><h3><b>&nbsp;PROJECTS</b></h3></span>
 				</div>
-				<br>
+
 			</div>
+			<br>
 			<div id='content'>
 
 				<br/>

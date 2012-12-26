@@ -17,7 +17,7 @@
 		<div id="header">
 
 		</div>
-		<div id='page' style="width: 1000px; border:solid black 1px;">
+		<div id='page' style="width: 1000px; border:solid black 0px;">
 
 			<span id = 'name'><img id = "secimg" src="../images/proj_small.png" ALIGN = LEFT> bryce evans </span>
 			<nav style="float:right;">
@@ -86,4 +86,3 @@
 
 </body>
 </html>
-

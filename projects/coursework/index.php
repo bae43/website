@@ -3,104 +3,28 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 
-		<title>Bryce Evans | PROJECTS </title>
+		<title>Bryce Evans | Projects </title>
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 		<LINK REL=StyleSheet HREF="../../css/global.css" TYPE="text/css">
 		<LINK REL=StyleSheet HREF="../../css/slider.css" TYPE="text/css">
+		<LINK REL=StyleSheet HREF="../../css/cards.css" TYPE="text/css">
 		<link rel="stylesheet" href="../../css/lightbox.css" type="text/css" media="screen" />
 
 		<script type="text/javascript" src="../../js/jquery-1.7.2.min.js"></script>
 		<script type="text/javascript" src="../../js/lightbox.js"></script>
 
-		<style>
-			body {
-				background-color: #181818;
-			}
-			.proj_title {
-				/*background: #181818;*/
-			}
-			.info {
-				position: relative;
-				left: 40px;
-				font-size: 15px;
-				line-height: 18px;
-			}
-			.desc {
-				/*max-width: 49%;*/
-				/*float: left;*/
-				font-size: 16px;
-				line-height: 22px;
-			}
-			.main_img {
-				max-width: 49%;
-				border: solid 1px #000;
-				-moz-box-shadow: 3px 3px 4px #000;
-				-webkit-box-shadow: 3px 3px 4px #000;
-				box-shadow: 3px 3px 4px #000;
-				margin: 10px 20px;
-			}
 
-			.flipper_img {
-				display: block;
-				position: absolute;
-				top: 0;
-				left: 10px;
-			}
-
-			.flipper_img2 {
-				display: block;
-				position: absolute;
-				top: 0;
-				right: 23px;
-			}
-			.proj_border {
-				border: solid black 1px;
-				border-radius: 4px;
-				background: #222;
-			}
-			.cushion {
-				margin: 20px;
-			}
-
-			#imgs {
-				position: relative;
-				left: 10%;
-				top: 0;
-				width: 128px;
-				text-align: center;
-			}
-			#imgs2 {
-				position: relative;
-				right: 45%;
-				top: 0;
-				width: 128px;
-				height: 100%;
-				text-align: center;
-			}
-
-			li {
-				list-style-image: url(images/bullet.png);
-			}
-
-			.lb-outerContainer {
-
-				background-color: black;
-			}
-			.sep {
-				color: #779;
-			}
-		</style>
 	</head>
 
 	<body>
 		<div id="header">
 
 		</div>
-		<div id='page' style="width: 1040px; border:solid black 0px; ">
+		<div id='page'>
 
 			<span id = 'name'><img id = "secimg" src="../../images/proj_small.png" ALIGN = LEFT> bryce evans </span>
-			<nav style="float:right; color:#ccc;" >
-				<a href="/about/index.php"> About </a> | <a href="/education/index.php"> Resume </a> | <a href="/projects/index.php" style="color:#fff; text-decoration:none;"> Projects </a>
+			<nav  >
+				<a class="nav_item" href="/index.php"> &nbsp;HOME </a> | <a class="nav_item" href="/about/index.php"> &nbsp;ABOUT </a> | <a class="nav_item" href="/education/index.php"> &nbsp;RESUME </a> | <a href="/projects/index.php" class="nav_item" style="color:#fff; text-decoration:none;"> &nbsp;PROJECTS </a>
 			</nav>
 
 			<!-- 			<div >
@@ -117,7 +41,8 @@
 				<div>
 					<br/>
 					<center>
-						<h2 style="font-size:42px;"> Course Projects </h2>
+						<h1> Course Projects </h1>
+						<div class="l"></div>
 					</center>
 					<br>
 					<div>
@@ -272,7 +197,7 @@
 							<div class="body">
 
 								<a name="maze" ><h2> Poke Jouki</h2></a>
-								<a href="images/xl_solved.png"  rel="lightbox[breakout]" title="A Solved Maze" date="Runtime - 4 minutes on Intel i3 2.1 GHz"><img src="images/maze_solve.png" alt="" align="right" class = "main_img" style="max-width: 35%;" /></a>
+								<a href="images/pokejouki.png"  rel="lightbox[poke]" title="Poke Jouki" date=""><img src="images/pokejouki.png" alt="" align="right" class = "main_img" style="max-width: 35%;" /></a>
 
 								CS 3110: Functional Programming<span class="sep"> | </span> Fall 2012
 								<div class="info">
@@ -496,8 +421,10 @@
 					<div class="body">
 
 						<a name="maze" ><h2> Breakout</h2></a>
-						ECE 1210: Modern Computing Devices<span class="sep"> | </span> Fall 2011 <a href="images/breakout_holder.png"  rel="lightbox[breakout]" title="A Solved Maze" date="The game graphic interface. Each pixel is set manually by the program."><img src="images/breakout_holder.png" alt="" align="right" class = "main_img" style="max-width: 35%;" /></a>
+						<a href="images/breakout_holder.png"  rel="lightbox[breakout]" title="A Solved Maze" date="The game graphic interface. Each pixel is set manually by the program."><img src="images/breakout_holder.png" alt="" align="right" class = "main_img" style="max-width: 35%; max-height:150px;" /></a>
 
+						ECE 1210: Modern Computing Devices<span class="sep"> | </span> Fall 2011 
+						
 						<div class="info">
 
 							Language: LC3 Assembly
@@ -510,22 +437,13 @@
 
 							<div class="desc">
 
-								"Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-								Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-								nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-								reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-								pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-								culpa qui officia deserunt mollit anim id est laborum."
-								<br>
-								<br>
-								"Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-								Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-								nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-								reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-								pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-								culpa qui officia deserunt mollit anim id est laborum."
+								Breakout is the classic arcade game with a paddle, ball, and bricks to hit and destroy.
+							
+								Creating Breakout from the most absolute basics was really eye opening
+								to how computers function on the lowest level. Starting from just manipulating 
+								memory locations to draw a square on the screen and slowly constructing a playable game
+								was highly rewarding and eventually led me to switch from electrical engineering to computer
+								science. 
 								<br>
 							</div>
 

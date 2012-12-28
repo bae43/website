@@ -7,106 +7,26 @@
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 		<LINK REL=StyleSheet HREF="../css/global.css" TYPE="text/css">
 		<LINK REL=StyleSheet HREF="../css/slider.css" TYPE="text/css">
+		<LINK REL=StyleSheet HREF="../css/cards.css" TYPE="text/css">
 		<link rel="stylesheet" href="../css/lightbox.css" type="text/css" media="screen" />
 
 		<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
 		<script type="text/javascript" src="../js/lightbox.js"></script>
 
-		<style>
-			img {
-				position: relative;
-				/*margin: 5px;;*/
-				margin: 0px 3px;
-				border: 3px solid #101010;
-			}
-			img:hover, img.highlight {
-
-				/*	width: 200px;
-				 height: 200px;*/
-				margin: 0px 3px;
-				border: 3px solid #98bf21;
-			}
-
-			body {
-				background-color: #181818;
-			}
-			.proj_title {
-				/*background: #181818;*/
-			}
-			.info {
-				position: relative;
-				left: 40px;
-				font-size: 15px;
-				line-height: 18px;
-			}
-			.desc {
-				/*max-width: 49%;*/
-				/*float: left;*/
-				font-size: 16px;
-				line-height: 22px;
-			}
-			.main_img {
-				max-width: 49%;
-				border: solid 1px #000;
-				-moz-box-shadow: 3px 3px 4px #000;
-				-webkit-box-shadow: 3px 3px 4px #000;
-				box-shadow: 3px 3px 4px #000;
-				margin: 10px 20px;
-			}
-
-			.proj_border {
-				border: solid black 1px;
-				border-radius: 4px;
-				background: #222;
-			}
-			.cushion {
-				margin: 20px;
-			}
-
-			#imgs {
-				position: relative;
-				left: 10%;
-				top: 0;
-				width: 128px;
-				text-align: center;
-			}
-			#imgs2 {
-				position: relative;
-				right: 45%;
-				top: 0;
-				width: 128px;
-				height: 100%;
-				text-align: center;
-			}
-
-			li {
-				list-style-image: url(images/bullet.png);
-			}
-
-			.lb-outerContainer {
-
-				background-color: black;
-			}
-		</style>
 	</head>
 
 	<body>
 		<div id="header">
 
 		</div>
-		<div id='page' style="width: 1040px; border:solid black 0px; ">
+		<div id='page'>
 
-			<span id = 'name'><img id = "secimg" src="../images/proj_small.png" ALIGN = LEFT> bryce evans </span>
-			<nav style="float:right; color:#ccc;" >
-				<a href="/about/index.php" style="color:#fff; text-decoration:none;"> About </a> | <a href="/education/index.php"> Resume </a> | <a href="/projects/index.php" > Projects </a>
+			<span id = 'name'><img id = "secimg" src="../images/icon_about_small.png" ALIGN = LEFT> bryce evans </span>
+			<nav>
+
+				<a class="nav_item" href="/index.php"> &nbsp;HOME </a> | <a class="nav_item" href="/about/index.php" href="/about/index.php" style="color:#fff; text-decoration:none;"> &nbsp;ABOUT </a> | <a class="nav_item" href="/education/index.php"> &nbsp;RESUME </a> | <a href="/projects/index.php" class="nav_item"> &nbsp;PROJECTS </a>
 			</nav>
 
-			<!-- 			<div >
-			<div id='curPage'>
-			<span><h3><b>&nbsp;Projects></b></h3></span>
-			</div>
-
-			</div> -->
 			<br>
 
 			<div id='content'>
@@ -114,11 +34,19 @@
 				<!-- -------------------------------------------------------------------------------------  -->
 				<div>
 					<br/>
-
-					<h2 style="font-size:42px;"> About </h2>
-
+					<center>
+						<h1 > About Me </h1><div class = 'l'></div>
+					</center>
 					<br>
-	
+					<span style="font-size:22px; margin-left:1em;">Contents:</span>
+					<div style="margin-left:3em;">
+
+						<a href="#" >Section 1</a>
+						<br>
+						<a href="#" >Section 2</a>
+						<br>
+						<a href="#" >Section 3</a>
+					</div>
 				</div>
 				<div>
 					<br>
@@ -132,22 +60,101 @@
 						</div>
 					</div>
 					<br>
+					<!-- 					<div class="proj_border ">
+					<div class ="cushion" > -->
+
+					<!-- 							<div id = "side_pane" style="float: left; text-align : right; width = 100px; height:100%; margin:1em;">
+
+					<h4> Year </h4>
+					<br>
+					2012
+					<br>
+					2011
+					<br>
+					2010
+					<br>
+					2009
+					<br>
+					2008
+					</div> -->
+
+					<div class="imageRow" style="position : relative; top: 0px; right:-5em;">
+						<div class="set">
+							<div class="single first">
+
+								<a href="images/rupees.png"  class = "img" rel="lightbox[blender]" title="Click the X or anywhere outside the image to close"><img src="images/rupee_tile.png" alt="" /></a>
+
+								<a href="images/hip5.png"  class = "img" rel="lightbox[blender]" title="Click the X or anywhere outside the image to close"><img src="images/hip_tile.png" alt="" /></a>
+
+								<a href="images/hip5.png"  class = "img" rel="lightbox[blender]" title="Click the X or anywhere outside the image to close"><img src="images/hip_tile.png" alt="Hip" /></a>
+
+								<a href="images/lobster_flag.png"  class = "img" rel="lightbox[blender]" title="Click the X or anywhere outside the image to close"><img src="images/lobster_flag_tile.png" alt="Hip" /></a>
+
+								<br>
+								<a href="images/color_wheel.jpg"  class = "img" rel="lightbox[blender]" title="Click the X or anywhere outside the image to close"><img src="images/color_wheel_tile.png" alt="color_wheel" /></a>
+
+								<a href="images/Stallion.png"  class = "img" rel="lightbox[blender]" title="Click the X or anywhere outside the image to close"><img src="images/stallion_tile.png" alt="Hip" /></a>
+
+								<a href="images/lobster_flag.png"  class = "img" rel="lightbox[blender]" title="Click the X or anywhere outside the image to close"><img src="images/lobster_flag_tile.png" alt="Hip" /></a>
+
+								<a href="images/chess.png" class = "img"  rel="lightbox[blender]" title=""><img src="images/chess_tile.jpg" alt="" /></a>
+								<br>
+								<a href="images/check.png"  class = "img" rel="lightbox[blender]" title="Link's Check" date="Mar 2010"><img src="images/check_tile.jpg" alt="Hip" /></a>
+
+								<a href="images/horn.png"  class = "img" rel="lightbox[blender]" title="Skullkid's New Horn" date=""><img src="images/horn_tile.jpg" alt="" /></a>
+
+								<a href="images/lobster_flag.png"  class = "img" rel="lightbox[blender]" title="Click the X or anywhere outside the image to close"><img src="images/lobster_flag_tile.png" alt="Hip" /></a>
+
+								<br>
+								<br>
+							</div>
+							<!-- 						</div>
+							</div> -->
+
+						</div>
+					</div>
+				</div>
+				<br>
+				<div>
+					<div class="proj_border ">
+						<div class ="cushion" >
+							<div class="body">
+
+								<h2>Photography</h2>
+
+							</div>
+						</div>
+					</div>
+					<br>
+					<div class="imageRow" style="position : relative; top: 0px; right:-5em;">
+
+						<div class="single">
+							<a href="images/fish.png"  class = "t" rel="lightbox[misc]" title="Seymour the Goldfish" date="Jun 2012"><img src="images/fish_tile.png" alt="goldfish" /></a>
+
+							<a href="images/fish.png"  class = "t" rel="lightbox[misc]" title="Seymour the Goldfish" date="Jun 2012"><img src="images/fish_tile.png" alt="goldfish" /></a>
+
+							<a href="images/fish.png"  class = "t" rel="lightbox[misc]" title="Seymour the Goldfish" date="Jun 2012"><img src="images/fish_tile.png" alt="goldfish" /></a>
+							<a href="images/fish.png"  class = "t" rel="lightbox[misc]" title="Seymour the Goldfish" date="Jun 2012"><img src="images/fish_tile.png" alt="goldfish" /></a>
+						</div>
+
+					</div>
 
 				</div>
 			</div>
+		</div>
 
-			<!-- -------------------------------------------------------------------------------------  -->
+		<!-- -------------------------------------------------------------------------------------  -->
 
-			<br>
-			<br>
-			<br>
-			<br>
+		<br>
+		<br>
+		<br>
+		<br>
 
-			<div id="footer">
-				<p>
-					&copy; 2012 Bryce Evans
-				</p>
-			</div>
+		<div id="footer">
+			<p>
+				&copy; 2012 Bryce Evans
+			</p>
+		</div>
 
 	</body>
 </html>

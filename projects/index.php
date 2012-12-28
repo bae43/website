@@ -9,6 +9,7 @@
 		<LINK REL=StyleSheet HREF="../css/slider.css" TYPE="text/css">
 		<LINK REL=StyleSheet HREF="../css/accordian.css" TYPE="text/css">
 
+
 		<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
 
 	</head>
@@ -17,20 +18,26 @@
 		<div id="header">
 
 		</div>
-		<div id='page' style="width: 1000px; border:solid black 0px;">
+		<div id='page'>
 
 			<span id = 'name'><img id = "secimg" src="../images/proj_small.png" ALIGN = LEFT> bryce evans </span>
-			<nav style="float:right;">
-				<a href="/Website/about/index.php"> About </a> | <a href="/Website/education/index.php"> Resume </a> | <a href="/Website/projects/index.php"> Projects </a>
+			<nav  >
+				<a class="nav_item" href="/index.php"> &nbsp;HOME </a> | <a class="nav_item" href="/about/index.php"> &nbsp;ABOUT </a> | <a class="nav_item" href="/education/index.php"> &nbsp;RESUME </a> | <a href="/projects/index.php" class="nav_item" style="color:#fff; text-decoration:none;"> &nbsp;PROJECTS </a>
 			</nav>
 
-			<div >
-				<div id='curPage'>
-					<span><h3><b>&nbsp;PROJECTS</b></h3></span>
-				</div>
 
-			</div>
 			<br>
+
+			<div id='content'>
+
+				<!-- -------------------------------------------------------------------------------------  -->
+				<div>
+					<br/>
+					<center>
+						<h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Projects </h1>
+						<div class="l"></div>
+					</center>
+					<br>
 
 			<div id='content'>
 

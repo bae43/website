@@ -21,6 +21,10 @@
 	font-family: bebasneue;
 	src: url('../fonts/BebasNeue.otf');
 }
+@font-face {
+	font-family: oswald;
+	src: url('../fonts/Oswald-Bold.ttf');
+}
 
 /* @font-face
  {
@@ -38,7 +42,7 @@
 
 #page {
 	margin: 50px auto;
-	width: 975px;
+	width: 960px;
 	/*	border-left: 1px solid #cb0a0f;
 	 border-right: 1px solid #cb0a0f;
 	 border-bottom: 1px solid #cb0a0f;
@@ -67,19 +71,22 @@ html {
 
 body {
 
-	background-color: transparent;
-	color: #ccc;
+	background-color: #181818;
+	/*				background: #181818 url("https://d2dfho4r6t7asi.cloudfront.net/assets/grey-6f26ed25ab8b1bb09d210c42af2a7a5a.jpg");*/
+
+	color: #eee;
 	font-family: helvetica, Lucida Sans Unicode, 'sans serif';
 	font-size: 18px;
 	opacity: 1;
 }
 
+
 h1 {
 
 	/* main font */
 	margin: 0px;
-	font-family: bebasneue, 'trebuchet ms', 'sans serif';
-	font-size: 56px;
+	font-family: oswald, 'trebuchet ms', 'sans serif';
+	font-size: 38px;
 	color: #fff;
 	/*text-shadow: rgba(0,0,0,.5) 0px -2px -1px;*/
 }
@@ -87,9 +94,9 @@ h1 {
 h2 {
 
 	margin: 0px;
-	font-family: neutraface, 'trebuchet ms', 'sans serif';
+	font-family: neutraface, helvetica, 'sans serif';
 	font-size: 36px;
-	color: #ff8625;
+	color: #5bbd2c; /*#3cb6c1;*/ /*#ff8625;*/
 	/*	text-shadow: rgba(0,0,0,.5) 0px -2px -1px;*/
 }
 
@@ -116,7 +123,6 @@ h5 {
 
 	margin: 0px;
 	font-family: harabara, 'trebuchet ms', 'sans serif';
-	font-weight: 100;
 	font-size: 44px;
 	color: #fff;
 	/*	text-shadow: rgba(0,0,0,.5) 0px -2px -1px;*/
@@ -129,6 +135,15 @@ h6 {
 	font-weight: 100;
 	font-size: 36px;
 	color: #cb0a0f;
+}
+
+div.l {
+
+	height: 1px;
+	background-color: #03b8c8;
+	/*border-bottom: 1px solid #00eaff;*/
+	margin: 0em 1.5em 0em 1.5em;
+	overflow: hidden;
 }
 
 a, a:visited {
@@ -153,7 +168,7 @@ a:hover {
 #name {
 
 	position: relative;
-	top: -32px;
+	top: -45px;
 	left: 60px;
 	margin: 0px;
 	font-family: harabara, 'trebuchet ms', 'sans serif';
@@ -161,14 +176,17 @@ a:hover {
 	color: #fff;
 	height: 50px;
 	float: left;
-	line-height: 14px;
+	line-height: 100%;
 	margin: 30px, 14px;
 	z-index: 2;
+	background: -webkit-linear-gradient(#fff, #aaa);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 #secimg {
 	position: absolute;
-	top: -19px;
+	top: -5px;
 	left: -60px;
 	margin: 5px;
 	border: none;
@@ -185,17 +203,23 @@ nav {
 	right: 60px;
 	font-family: bebasneue, 'trebuchet ms', 'sans serif';
 	font-size: 28px;
-	color: #fff;
+	color: #ccc;
 	height: 50px;
-	float: left;
+	float: right;
 	line-height: 14px;
 	margin: 30px, 14px;
 	z-index: 2;
 }
+.nav_item:hover {
+	border-bottom: #5bbd2c solid 3px;
+	color: #fff;
+}
 #page {
 	position: relative;
 	top: 0;
+	width: 960px;
 }
+
 #curPage {
 	float: left;
 	margin: 5px;
@@ -223,6 +247,10 @@ nav {
 	left: 0px;
 	width: 100%;
 	height: 18px
+}
+
+li {
+	list-style-image: url(images/bullet_blue.png);
 }
 
 ::selection {

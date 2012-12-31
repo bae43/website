@@ -42,11 +42,13 @@
 			</div>
 
 		</div>
-		<div id="footer">
-			<p>
-				&copy; 2012 Bryce Evans
-			</p>
-		</div>
+	
+			<div  id="footer" style="position:absolute;">
+				<p>
+					&copy; 2012 Bryce Evans
+				</p>
+			</div>
+		
 	</body>
 </html>
 

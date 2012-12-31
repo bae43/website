@@ -17,13 +17,12 @@
 
 		<style>
 			#pdf {
-				font-size: 24px;
-				line-height: 20px;
-				margin: 0 1em;
-			}
-			#pdf {
+				font-size: 20px;
+				line-height: 0px;
+				margin: 0 1.5em;
 				border-bottom: 2px solid #181818;
 			}
+			
 			#pdf:hover {
 				color: #fff;
 				border-bottom: 2px solid #3CA900;
@@ -171,10 +170,10 @@
 							CS 4820: Analysis of Algorithms I
 
 							<div class = 'l2'></div>
-							<a href="http://www.engineering.cornell.edu/admissions/undergraduate/apply/transfer/course_descriptions.cfm#CP_JUMP_8541"target="_blank">CS 3410: Systems Programming</a>
+							CS 3410: Systems Programming
 
 							<div class = 'l2'></div>
-							<a href="http://www.engineering.cornell.edu/admissions/undergraduate/apply/transfer/course_descriptions.cfm#CP_JUMP_8540"target="_blank">DSOC 1101: Intro to Sociology</a>
+							DSOC 1101: Intro to Sociology
 							<div class = 'l2'></div>
 						</div>
 						<div class='slider_section_title_f' id="f12_title">
@@ -320,17 +319,21 @@
 				<div class="indent">
 					<h3> Course Consultant for CS 1114 : Robotics with MatLab<span class="sep" style="float:right">Spring 2013</span></h3>
 					<div style="margin-left:2em; width: 550px;">
-						I am currently a course consultant, responsible for running a class section, grading, and 
+						I am currently a course consultant, responsible for running a class section, grading, and
 						writing assignments.
 					</div>
 				</div>
 				<br>
 				<div class="indent">
-					<h3> Human Services Coalition of Tompkins County (HSCTC)<span class="sep" style="float:right">Summer 2012</span></h3>
+					<h3> Human Services Coalition of Tompkins County <a href="http://www.hsctc.org/">(HSCTC)</a><span class="sep" style="float:right">Summer 2012</span></h3>
 					<div style="margin-left:2em; width: 550px;">
-						I worked on the back-end of HSC's database, helping add support for multiple counties in their
-						merge with the neighboring county. I also built a reservation system for people to sign up for
-						workshops.
+						
+						I worked on the back-end of HSCTC's database, helping add support for multiple counties in their
+						merge with the neighboring county. Two other project I was involved in were building a 
+						reservation system for workshops and creating a new website for aiding people without means
+						of transportation.
+						
+						
 					</div>
 				</div>
 				<br>
@@ -453,6 +456,7 @@
 					</div>
 				</div>
 			</div>
+			<br>
 			<div class="indent">
 				<h3> Cornell Big Red Marching Band &amp; Pep Band <span class="sep"> | </span> Clarinet </h3>
 

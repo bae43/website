@@ -1,3 +1,5 @@
+<!------------------------------- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -------------------------------------->
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -21,10 +23,15 @@
 		</div>
 		<div id='page'>
 
-			<span id = 'name'><img id = "secimg" src="../images/icon_about_small.png" ALIGN = LEFT> bryce evans </span>
+			<span id = 'name'><img id = "secimg" src="../images/icon_courses_small.png" ALIGN = LEFT> bryce evans </span>
 			<nav>
-
-				<a class="nav_item" href="/index.php"> &nbsp;HOME </a> | <a class="nav_item" href="/about/index.php" href="/about/index.php" style="color:#fff; text-decoration:none;"> &nbsp;ABOUT </a> | <a class="nav_item" href="/education/index.php"> &nbsp;RESUME </a> | <a href="/projects/index.php" class="nav_item"> &nbsp;PROJECTS </a>
+				<a class="nav_item" href="/index.php"> &nbsp;HOME </a>
+				|
+				<a class="nav_item" href="/about/index.php" href="/about/index.php" > &nbsp;ABOUT </a>
+				|
+				<a class="nav_item" href="/education/index.php" style="color:#fff; text-decoration:none;"> &nbsp;RESUME </a>
+				|
+				<a href="/projects/index.php" class="nav_item"> &nbsp;PROJECTS </a>
 			</nav>
 
 			<br>
@@ -35,122 +42,24 @@
 				<div>
 					<br/>
 					<center>
-						<h1 > About Me </h1><div class = 'l'></div>
+						<h1> About Me </h1>
+						<div class="l"></div>
 					</center>
 					<br>
-					<span style="font-size:22px; margin-left:1em;">Contents:</span>
-					<div style="margin-left:3em;">
 
-						<a href="#" >Section 1</a>
-						<br>
-						<a href="#" >Section 2</a>
-						<br>
-						<a href="#" >Section 3</a>
-					</div>
 				</div>
-				<div>
-					<br>
-					<br>
 
-					<div class="proj_border ">
-						<div class ="cushion" >
-
-							<h2>Blender</h2>
-
-						</div>
-					</div>
-					<br>
-					<!-- 					<div class="proj_border ">
-					<div class ="cushion" > -->
-
-					<!-- 							<div id = "side_pane" style="float: left; text-align : right; width = 100px; height:100%; margin:1em;">
-
-					<h4> Year </h4>
-					<br>
-					2012
-					<br>
-					2011
-					<br>
-					2010
-					<br>
-					2009
-					<br>
-					2008
-					</div> -->
-
-					<div class="imageRow" style="position : relative; top: 0px; right:-5em;">
-						<div class="set">
-							<div class="single first">
-
-								<a href="images/rupees.png"  class = "img" rel="lightbox[blender]" title="Click the X or anywhere outside the image to close"><img src="images/rupee_tile.png" alt="" /></a>
-
-								<a href="images/hip5.png"  class = "img" rel="lightbox[blender]" title="Click the X or anywhere outside the image to close"><img src="images/hip_tile.png" alt="" /></a>
-
-								<a href="images/hip5.png"  class = "img" rel="lightbox[blender]" title="Click the X or anywhere outside the image to close"><img src="images/hip_tile.png" alt="Hip" /></a>
-
-								<a href="images/lobster_flag.png"  class = "img" rel="lightbox[blender]" title="Click the X or anywhere outside the image to close"><img src="images/lobster_flag_tile.png" alt="Hip" /></a>
-
-								<br>
-								<a href="images/color_wheel.jpg"  class = "img" rel="lightbox[blender]" title="Click the X or anywhere outside the image to close"><img src="images/color_wheel_tile.png" alt="color_wheel" /></a>
-
-								<a href="images/Stallion.png"  class = "img" rel="lightbox[blender]" title="Click the X or anywhere outside the image to close"><img src="images/stallion_tile.png" alt="Hip" /></a>
-
-								<a href="images/lobster_flag.png"  class = "img" rel="lightbox[blender]" title="Click the X or anywhere outside the image to close"><img src="images/lobster_flag_tile.png" alt="Hip" /></a>
-
-								<a href="images/chess.png" class = "img"  rel="lightbox[blender]" title=""><img src="images/chess_tile.jpg" alt="" /></a>
-								<br>
-								<a href="images/check.png"  class = "img" rel="lightbox[blender]" title="Link's Check" date="Mar 2010"><img src="images/check_tile.jpg" alt="Hip" /></a>
-
-								<a href="images/horn.png"  class = "img" rel="lightbox[blender]" title="Skullkid's New Horn" date=""><img src="images/horn_tile.jpg" alt="" /></a>
-
-								<a href="images/lobster_flag.png"  class = "img" rel="lightbox[blender]" title="Click the X or anywhere outside the image to close"><img src="images/lobster_flag_tile.png" alt="Hip" /></a>
-
-								<br>
-								<br>
-							</div>
-							<!-- 						</div>
-							</div> -->
-
-						</div>
-					</div>
-				</div>
 				<br>
-				<div>
-					<div class="proj_border ">
-						<div class ="cushion" >
-							<div class="body">
-
-								<h2>Photography</h2>
-
-							</div>
-						</div>
-					</div>
-					<br>
-					<div class="imageRow" style="position : relative; top: 0px; right:-5em;">
-
-						<div class="single">
-							<a href="images/fish.png"  class = "t" rel="lightbox[misc]" title="Seymour the Goldfish" date="Jun 2012"><img src="images/fish_tile.png" alt="goldfish" /></a>
-
-							<a href="images/fish.png"  class = "t" rel="lightbox[misc]" title="Seymour the Goldfish" date="Jun 2012"><img src="images/fish_tile.png" alt="goldfish" /></a>
-
-							<a href="images/fish.png"  class = "t" rel="lightbox[misc]" title="Seymour the Goldfish" date="Jun 2012"><img src="images/fish_tile.png" alt="goldfish" /></a>
-							<a href="images/fish.png"  class = "t" rel="lightbox[misc]" title="Seymour the Goldfish" date="Jun 2012"><img src="images/fish_tile.png" alt="goldfish" /></a>
-						</div>
-
-					</div>
-
-				</div>
-			</div>
-		</div>
-
-		<!-- -------------------------------------------------------------------------------------  -->
-
-		<br>
-		<br>
-		<br>
-		<br>
-
-		<div id="footer">
+				<br>
+				I play clarinet and am part of the Big Red Marching Band. I also enjoy playing
+				the piano and have played for many years.
+				<br />
+				<br />
+				My interests have grown increasingly with web development recently for it's ease in distributing 
+				an application to anyone anywhere. With WebGL and new improvement to 3D graphics online, I am particularly 
+				interested in constructing a multiplayer game that doesn't require purchase or even a download, but just has
+				instantaneous access. Exploring shaders and new techniques with graphics in my 
+				project <a href="/projects/featured/index.php">Campus Conquest</a> has been very fun.
 			<p>
 				&copy; 2012 Bryce Evans
 			</p>

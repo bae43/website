@@ -40,16 +40,27 @@
 					</center>
 
 					<br>
-					<span style="font-size:22px; margin-left:1em;">Contents:</span>
-					<div style="margin-left:3em;">
+			<div>
+						<div style="float:left">
+							<span style="font-size:22px; margin:1em;">Contents:</span>
+							<div style="margin-left:3em; margin-right:1em;">
 
-						<a href="#" >Section 1</a>
+								<a href="#chrysalis" >Section 1</a>
+								<br>
+								<a href="#cw" >Section 2</a>
+								<br>
+								<a href="#maze" >Section 3</a>
+							</div>
+						</div>
+						<div >
+						 A short portfolio of some of my other hobbies.
+						</div>
 						<br>
-						<a href="#" >Section 2</a>
 						<br>
-						<a href="#" >Section 3</a>
+						<br>
 					</div>
 				</div>
+
 				<div>
 					<br>
 					<br>
@@ -84,17 +95,20 @@
 						<div class="set">
 							<div class="single first">
 
-								<a href="images/etches/scotty%20full.png"  class = "t" rel="lightbox[etch]" title="A Scotty Dog" date ="Nov 2012"><img src="images/etches/scotty_tile.png" alt="Hip" /></a>
-								<a href="images/etches/band_close.jpg"  class = "t" rel="lightbox[etch]" title="Winds" date ="Jan 2011"><img src="images/etches/band_tile.png" alt="band" /></a>
-								<a href="images/etches/butterfly.png"  class = "t" rel="lightbox[etch]" title="Spring" date ="Mar 2012"><img src="images/etches/butterfly_tile.png" alt="band" /></a>
-								<a href="images/etches/pterodactle.png"  class = "t" rel="lightbox[etch]" title="Pterodactyl" date = "Jan 2008"><img src="images/etches/pterodactle_tile.png" alt="Pterodactyl" /></a>
+								<a href="images/etches/scotty%20full.png"  class = "t" rel="lightbox[etch]" title="A Scotty Dog" date ="Nov 2012"><img src="images/etches/scotty_tile.png" alt="" /></a>
+								<a href="images/etches/band_close.jpg"  class = "t" rel="lightbox[etch]" title="Winds" date ="Jan 2011"><img src="images/etches/band_tile.png" alt="" /></a>
+								<a href="images/etches/butterfly.png"  class = "t" rel="lightbox[etch]" title="Spring" date ="Mar 2012"><img src="images/etches/butterfly_tile.png" alt="" /></a>
+								<a href="images/etches/pterodactle.png"  class = "t" rel="lightbox[etch]" title="Pterodactyl" date = "Jan 2008"><img src="images/etches/pterodactle_tile.png" alt="" /></a>
 								<br>
-								<a href="images/etches/karl_close.jpg"  class = "t" rel="lightbox[etch]" title="Karl" date="Oct 2009"><img src="images/etches/karl_tile.png" alt="Hip" /></a>
-								<a href="images/etches/mm.jpg"  class = "t" rel="lightbox[etch]" title="Of Mice and Men" date= "Mar 2009"><img src="images/etches/mm_tile.png" alt="missing" /></a>
-								<a href="images/etches/quail.png"  class = "t" rel="lightbox[etch]" title="Happy Birthday to Amanda Quain!" date = "Oct 2011"><img src="images/etches/quail_tile.png" alt="missing" /></a>
-								<a href="images/etches/nuthatch.png"  class = "t" rel="lightbox[etch]" title="Nuthatch" date = "Dec 2006"><img src="images/etches/nuthatch_tile.png" alt="missing" /></a>
+								<a href="images/etches/karl_close.jpg"  class = "t" rel="lightbox[etch]" title="Karl" date="Oct 2009"><img src="images/etches/karl_tile.png" alt="" /></a>
+								<a href="images/etches/mm.jpg"  class = "t" rel="lightbox[etch]" title="Of Mice and Men" date= "Mar 2009"><img src="images/etches/mm_tile.png" alt="" /></a>
+								<a href="images/etches/quail.png"  class = "t" rel="lightbox[etch]" title="Happy Birthday to Amanda Quain!" date = "Oct 2011"><img src="images/etches/quail_tile.png" alt="" /></a>
+								<a href="images/etches/nuthatch.png"  class = "t" rel="lightbox[etch]" title="Nuthatch" date = "Dec 2006"><img src="images/etches/nuthatch_tile.png" alt="" /></a>
 								<br>
-								<a href="images/etches/lobster.png"  class = "t" rel="lightbox[etch]" title="Happy Birthday to Christina Hanco!" date = "Sep 2011"><img src="images/etches/lobster_tile.png" alt="missing" /></a>
+								<a href="images/etches/lobster.png"  class = "t" rel="lightbox[etch]" title="Happy Birthday to Christina Hanco!" date = "Sept 2011"><img src="images/etches/lobster_tile.png" alt="" /></a>
+								<a href="images/etches/pearl.png"  class = "t" rel="lightbox[etch]" title="Steinbeck's The Pearl" date = "May 2008"><img src="images/etches/pearl_tile.png" alt="" /></a>
+								<a href="images/etches/psu.png"  class = "t" rel="lightbox[etch]" title="Nittanty Lion" date = "July 2008"><img src="images/etches/psu_tile.png" alt="" /></a>
+								<a href="images/etches/vines.png"  class = "t" rel="lightbox[etch]" title="Vines" date = "Sept 2012"><img src="images/etches/vines_tile.png" alt="" /></a>
 
 								<br>
 								<br>
@@ -120,12 +134,12 @@
 					<div class="imageRow" style="position : relative; top: 0px; right:-5em;">
 
 						<div class="single">
-							<a href="images/fish.png"  class = "t" rel="lightbox[misc]" title="Seymour the Goldfish" date="Jun 2012"><img src="images/fish_tile.png" alt="goldfish" /></a>
+							<a href="images/fish.png"  class = "t" rel="lightbox[photos]" title="Seymour the Goldfish" date="Jun 2012"><img src="images/fish_tile.png" alt="" /></a>
 
-							<a href="images/fish.png"  class = "t" rel="lightbox[misc]" title="Seymour the Goldfish" date="Jun 2012"><img src="images/fish_tile.png" alt="goldfish" /></a>
 
-							<a href="images/fish.png"  class = "t" rel="lightbox[misc]" title="Seymour the Goldfish" date="Jun 2012"><img src="images/fish_tile.png" alt="goldfish" /></a>
-							<a href="images/fish.png"  class = "t" rel="lightbox[misc]" title="Seymour the Goldfish" date="Jun 2012"><img src="images/fish_tile.png" alt="goldfish" /></a>
+							<a href="images/bee_on_flower.png"  class = "t" rel="lightbox[photos]" title="Bee on Flower" date="Oct 2012"><img src="images/bee_tile.png" alt="" /></a>
+							<a href="images/skipper2.png"  class = "t" rel="lightbox[photos]" title="Snowfall" date="Dec 2012"><img src="images/skipper2_tile.png" alt="" /></a>
+							<a href="images/skipper_in_window.png"  class = "t" rel="lightbox[photos]" title="Snowfall" date="Dec 2012"><img src="images/skipper_in_window_tile.png" alt="" /></a>
 						</div>
 
 					</div>

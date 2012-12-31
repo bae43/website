@@ -13,7 +13,6 @@
 		<script type="text/javascript" src="../../js/jquery-1.7.2.min.js"></script>
 		<script type="text/javascript" src="../../js/lightbox.js"></script>
 
-
 	</head>
 
 	<body>
@@ -58,11 +57,10 @@
 							</div>
 						</div>
 						<div >
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-							ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-							laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-							voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-							cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laboru
+							This is a list of every major final project I have completed for a class. I make
+							a special effort to create a final product that is exceptional with extensions to the 
+							original specification. Doing so has helped me enjoy my work more and 
+							been very rewarding in numerous ways.
 						</div>
 					</div>
 				</div>
@@ -90,6 +88,7 @@
 
 								<div class="desc">
 									<br>
+
 									Chrysalis is a Whitted raytracer that supports:
 									<br>
 									<ul style="margin: 0">
@@ -113,15 +112,18 @@
 										</li>
 
 									</ul>
+
 									<br>
 
-									The last three features listed were extensions not covered in the class, but we added for use in our submission to the class's annual Raytracer Competition. Our submission "Misty Morning" won first place.
 								</div>
 
 								<a href="images/gears.png"  rel="lightbox[chrysalis]" title="Gears" date=""><img src="images/gears_small.png" alt="" align="left" class = "main_img" style="max-width: 35%;" /></a>
-
+								<br>
 								<div class="desc">
-									"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+									Working with 3D modeling for several years, I always took the raytracer for granid but building
+									one and seeing the internals was really fascinating. The project was engrossing to both of us and
+									we added many features that helped our raytracer stand out as being able to render near photo-realistic images.
+									Our submission to the annual Raytracer Rendering Competition "Misty Morning" won first place.
 								</div>
 								<br>
 
@@ -175,7 +177,7 @@
 											</li>
 
 										</ul>
-
+										<br>
 										In addition, I also added support for multiple textures and added a terrain primitive. The terrain
 										could be loaded with a height map to construct detailed geometry. It was also procedurally textured based on
 										slope and height to give realistic coloration and fading of grass to steep stone cliffs.
@@ -202,7 +204,7 @@
 								CS 3110: Functional Programming<span class="sep"> | </span> Fall 2012
 								<div class="info">
 
-									Language: Ocaml
+									Language: OCaml
 									<br>
 									Partner: Swathi Jayevel &lt;sj336&gt;
 									<br>
@@ -212,22 +214,20 @@
 
 									<div class="desc">
 
-										"Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-										sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-										Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-										nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-										reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-										pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-										culpa qui officia deserunt mollit anim id est laborum."
+										Poke Jouki is based off of Pokemon Stadium from the late '90s. 
+										Each team selects "steammon" from a list and then take turns 
+										picking attacks and using items in order to knock out the other player's steammon
+										and win. The catch is that only an AI program can be submitted, that decides which
+										move to make each turn. Creating strong strategies and finding efficient implementations
+										of them was very fun. 
+										<br /> 
+										<br /> 
+										The game is built with a Java Swing GUI (which was given) and  an OCaml back-end.
+										
+										
 										<br>
 										<br>
-										"Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-										sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-										Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-										nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-										reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-										pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-										culpa qui officia deserunt mollit anim id est laborum."
+									
 										<br>
 									</div>
 
@@ -250,15 +250,17 @@
 									<br>
 									Partner: Nipat Tuntasood &lt;nt255&gt;
 									<br>
-									<div style="float:left">Awards:</div>
+									<div style="float:left">
+										Awards:
+									</div>
 									<div align="left">
 
-									High Score on Grammar Interpretation
-									<br>
-									Best GUI
-									<br>
-									"Champion Critter" - Best Critter AI
-</div>
+										High Score on Grammar Interpretation
+										<br>
+										Best GUI
+										<br>
+										"Champion Critter" - Best Critter AI
+									</div>
 								</div>
 
 							</div>
@@ -423,8 +425,8 @@
 						<a name="maze" ><h2> Breakout</h2></a>
 						<a href="images/breakout_holder.png"  rel="lightbox[breakout]" title="A Solved Maze" date="The game graphic interface. Each pixel is set manually by the program."><img src="images/breakout_holder.png" alt="" align="right" class = "main_img" style="max-width: 35%; max-height:150px;" /></a>
 
-						ECE 1210: Modern Computing Devices<span class="sep"> | </span> Fall 2011 
-						
+						ECE 1210: Modern Computing Devices<span class="sep"> | </span> Fall 2011
+
 						<div class="info">
 
 							Language: LC3 Assembly
@@ -438,12 +440,12 @@
 							<div class="desc">
 
 								Breakout is the classic arcade game with a paddle, ball, and bricks to hit and destroy.
-							
+
 								Creating Breakout from the most absolute basics was really eye opening
-								to how computers function on the lowest level. Starting from just manipulating 
+								to how computers function on the lowest level. Starting from just manipulating
 								memory locations to draw a square on the screen and slowly constructing a playable game
 								was highly rewarding and eventually led me to switch from electrical engineering to computer
-								science. 
+								science.
 								<br>
 							</div>
 

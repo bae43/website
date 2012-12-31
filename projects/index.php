@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 
-		<title>Bryce Evans | PROJECTS </title>
+		<title>Bryce Evans | Projects </title>
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 		<LINK REL=StyleSheet HREF="../css/global.css" TYPE="text/css">
 		<LINK REL=StyleSheet HREF="../css/slider.css" TYPE="text/css">

@@ -27,9 +27,9 @@
 			<nav>
 				<a class="nav_item" href="/index.php"> &nbsp;HOME </a>
 				|
-				<a class="nav_item" href="/about/index.php" href="/about/index.php" > &nbsp;ABOUT </a>
+				<a class="nav_item" href="/about/index.php" href="/about/index.php" style="color:#fff; text-decoration:none;" > &nbsp;ABOUT </a>
 				|
-				<a class="nav_item" href="/education/index.php" style="color:#fff; text-decoration:none;"> &nbsp;RESUME </a>
+				<a class="nav_item" href="/education/index.php" > &nbsp;RESUME </a>
 				|
 				<a href="/projects/index.php" class="nav_item"> &nbsp;PROJECTS </a>
 			</nav>

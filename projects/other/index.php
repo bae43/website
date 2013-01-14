@@ -14,6 +14,22 @@
 		<script type="text/javascript" src="../../js/jquery-1.7.2.min.js"></script>
 		<script type="text/javascript" src="../../js/lightbox.js"></script>
 
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-37666233-1']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
+
+		</script>
+
 	</head>
 
 	<body>
@@ -40,7 +56,7 @@
 					</center>
 
 					<br>
-			<div>
+					<div>
 						<div style="float:left">
 							<span style="font-size:22px; margin:1em;">Contents:</span>
 							<div style="margin-left:3em; margin-right:1em;">
@@ -53,7 +69,7 @@
 							</div>
 						</div>
 						<div >
-						 A short portfolio of some of my other hobbies.
+							A short portfolio of some of my other hobbies.
 						</div>
 						<br>
 						<br>
@@ -135,7 +151,6 @@
 
 						<div class="single">
 							<a href="images/fish.png"  class = "t" rel="lightbox[photos]" title="Seymour the Goldfish" date="Jun 2012"><img src="images/fish_tile.png" alt="" /></a>
-
 
 							<a href="images/bee_on_flower.png"  class = "t" rel="lightbox[photos]" title="Bee on Flower" date="Oct 2012"><img src="images/bee_tile.png" alt="" /></a>
 							<a href="images/skipper2.png"  class = "t" rel="lightbox[photos]" title="Snowfall" date="Dec 2012"><img src="images/skipper2_tile.png" alt="" /></a>

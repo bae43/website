@@ -14,6 +14,22 @@
 		<script type="text/javascript" src="../../js/jquery-1.7.2.min.js"></script>
 		<script type="text/javascript" src="../../js/lightbox.js"></script>
 
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-37666233-1']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
+
+		</script>
+
 	</head>
 
 	<body>
@@ -82,30 +98,34 @@
 						<div class="set">
 							<div class="single first">
 
-								<a href="images/rupees.png"  class = "img" rel="lightbox[blender]" title="Click the X or anywhere outside the image to close"><img src="images/rupee_tile.png" alt="" /></a>
+								<a href="images/cells.png"  class = "img" rel="lightbox[blender]" title=""><img src="images/cells_tile.png" alt="" /></a>
+								<a href="images/rupees.png"  class = "img" rel="lightbox[blender]" title= ""><img src="images/rupee_tile.png" alt="" /></a>
 
-								<a href="images/hip5.png"  class = "img" rel="lightbox[blender]" title="Click the X or anywhere outside the image to close"><img src="images/hip_tile.png" alt="" /></a>
+								<a href="images/grass.png"  class = "img" rel="lightbox[blender]" title="Blender Render of 'Misty Morning'"><img src="images/grass_tile.png" alt="" /></a>
 
-								<a href="images/hip5.png"  class = "img" rel="lightbox[blender]" title="Click the X or anywhere outside the image to close"><img src="images/hip_tile.png" alt="Hip" /></a>
+								<a href="images/quintrino.png"  class = "img" rel="lightbox[blender]" title="A quintrino composed of red wire"><img src="images/quintrino_tile.png" alt="" /></a>
 
-								<a href="images/lobster_flag.png"  class = "img" rel="lightbox[blender]" title="Click the X or anywhere outside the image to close"><img src="images/lobster_flag_tile.png" alt="Hip" /></a>
+								<a href="images/hip5.png"  class = "img" rel="lightbox[blender]" title= ""><img src="images/hip_tile.png" alt="" /></a>
 
-								<br>
-								<a href="images/color_wheel.jpg"  class = "img" rel="lightbox[blender]" title="Click the X or anywhere outside the image to close"><img src="images/color_wheel_tile.png" alt="color_wheel" /></a>
+								<a href="images/crystal.png"  class = "img" rel="lightbox[blender]" title=""><img src="images/crystal_tile.png" alt="Hip" /></a>
 
-								<a href="images/Stallion.png"  class = "img" rel="lightbox[blender]" title="Click the X or anywhere outside the image to close"><img src="images/stallion_tile.png" alt="Hip" /></a>
+								<a href="images/color_wheel.jpg"  class = "img" rel="lightbox[blender]" title= ""><img src="images/color_wheel_tile.png" alt="color_wheel" /></a>
 
-								<a href="images/lobster_flag.png"  class = "img" rel="lightbox[blender]" title="Click the X or anywhere outside the image to close"><img src="images/lobster_flag_tile.png" alt="Hip" /></a>
+								<a href="images/Stallion.png"  class = "img" rel="lightbox[blender]" title= ""><img src="images/stallion_tile.png" alt="" /></a>
+
+								<a href="images/hallow.png"  class = "img" rel="lightbox[blender]" title= ""><img src="images/hallow_tile.png" alt="" /></a>
+
+								<a href="images/lobster_flag.png"  class = "img" rel="lightbox[blender]" title= ""><img src="images/lobster_flag_tile.png" alt="" /></a>
+
+								<a href="images/craw.jpg" class = "img"  rel="lightbox[blender]" title=""><img src="images/craw_tile.jpg" alt="" /></a>
 
 								<a href="images/chess.png" class = "img"  rel="lightbox[blender]" title=""><img src="images/chess_tile.jpg" alt="" /></a>
-								<br>
-								<a href="images/check.png"  class = "img" rel="lightbox[blender]" title="Link's Check" date="Mar 2010"><img src="images/check_tile.jpg" alt="Hip" /></a>
 
-								<a href="images/horn.png"  class = "img" rel="lightbox[blender]" title="Skullkid's New Horn" date=""><img src="images/horn_tile.jpg" alt="" /></a>
+								<a href="images/check.png"  class = "img" rel="lightbox[blender]" title="Link's Check" date="Mar 2010"><img src="images/check_tile.jpg" alt="" /></a>
 
-								<a href="images/lobster_flag.png"  class = "img" rel="lightbox[blender]" title="Click the X or anywhere outside the image to close"><img src="images/lobster_flag_tile.png" alt="Hip" /></a>
+								<a href="images/horn.jpg"  class = "img" rel="lightbox[blender]" title="Skullkid's New Horn" date=""><img src="images/horn_tile.jpg" alt="" /></a>
+								<a href="images/lobster_paint.png"  class = "img" rel="lightbox[blender]" title= ""><img src="images/lobster_paint_tile.png" alt="" /></a>
 
-								<br>
 								<br>
 							</div>
 							<!-- 						</div>
@@ -115,31 +135,7 @@
 					</div>
 				</div>
 				<br>
-				<div>
-					<div class="proj_border ">
-						<div class ="cushion" >
-							<div class="body">
 
-								<h2>Photography</h2>
-
-							</div>
-						</div>
-					</div>
-					<br>
-					<div class="imageRow" style="position : relative; top: 0px; right:-5em;">
-
-						<div class="single">
-							<a href="images/fish.png"  class = "t" rel="lightbox[misc]" title="Seymour the Goldfish" date="Jun 2012"><img src="images/fish_tile.png" alt="goldfish" /></a>
-
-							<a href="images/fish.png"  class = "t" rel="lightbox[misc]" title="Seymour the Goldfish" date="Jun 2012"><img src="images/fish_tile.png" alt="goldfish" /></a>
-
-							<a href="images/fish.png"  class = "t" rel="lightbox[misc]" title="Seymour the Goldfish" date="Jun 2012"><img src="images/fish_tile.png" alt="goldfish" /></a>
-							<a href="images/fish.png"  class = "t" rel="lightbox[misc]" title="Seymour the Goldfish" date="Jun 2012"><img src="images/fish_tile.png" alt="goldfish" /></a>
-						</div>
-
-					</div>
-
-				</div>
 			</div>
 		</div>
 

@@ -1,0 +1,499 @@
+
+<!DOCTYPE html>
+
+<html itemscope itemtype="http://schema.org/WebPage" xmlns:og="http://ogp.me/ns#">
+<head>
+    
+        <script type="text/javascript" src="http://webglplayground.net/js/codemirror/codemirror.js"></script>
+    
+        <script type="text/javascript" src="http://webglplayground.net/js/codemirror/overlay.js"></script>
+    
+        <script type="text/javascript" src="http://webglplayground.net/js/codemirror/mode/javascript.js"></script>
+    
+        <script type="text/javascript" src="http://webglplayground.net/js/codemirror/mode/clike_glsl.js"></script>
+    
+        <script type="text/javascript" src="http://webglplayground.net/js/jquery-1.6.2.min.js"></script>
+    
+        <script type="text/javascript" src="http://cdn.jquerytools.org/1.2.5/all/jquery.tools.min.js"></script>
+    
+        <script type="text/javascript" src="http://webglplayground.net/js/editormode.js"></script>
+    
+        <script type="text/javascript" src="http://webglplayground.net/js/main.js"></script>
+    
+        <script type="text/javascript" src="http://webglplayground.net/js/header.js"></script>
+    
+    
+        <link type="text/css" rel="stylesheet" href="http://webglplayground.net/js/codemirror/codemirror.css">
+    
+        <link type="text/css" rel="stylesheet" href="http://webglplayground.net/js/codemirror/theme/default.css">
+    
+        <link type="text/css" rel="stylesheet" href="http://webglplayground.net/js/main.css">
+    
+    <!--code mirror-->
+<!--    <script src="http://webglplayground.net//js/codemirror/codemirror.js"></script>
+    <link rel="stylesheet" href="http://webglplayground.net//js/codemirror/codemirror.css">
+    <script src="http://webglplayground.net//js/codemirror/overlay.js"></script>
+    <script src="http://webglplayground.net//js/codemirror/mode/javascript.js"></script>
+    <script src="http://webglplayground.net//js/codemirror/mode/clike.js"></script>
+    <link rel="stylesheet" href="http://webglplayground.net//js/codemirror/theme/default.css">
+-->    <!--jquery-->
+    <!--<script src="http://webglplayground.net//js/jquery-1.6.2.min.js"></script>-->
+        <!--<script type="text/javascript" src="http://webglplayground.net//js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>-->
+        <!--<script type="text/javascript" src="http://webglplayground.net//js/fancybox/jquery.easing-1.3.pack.js"></script>-->
+        <!--<link rel="stylesheet" href="http://webglplayground.net//js/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />-->
+    <!--<script src="http://cdn.jquerytools.org/1.2.5/all/jquery.tools.min.js"></script>-->
+        <!--<script src="http://webglplayground.net//js/jquery.blockUI.js"></script>-->
+        <!--request animation frame-->
+    <!--main-->
+    <!--<link rel="stylesheet" href="http://webglplayground.net//js/main.css">-->
+    
+    <title>WebGL playground [beta]</title>
+
+<meta name="description" content="An online tool for creating, testing, and sharing WebGL projects. The editor lets you work on JavaScript code and GLSL vertex/fragment shaders (if you have any) at the same time in a convenient way. You see the result on the same page. And you can use arbitrary JavaScript libraries/frameworks." />
+
+<meta itemprop="name" content="WebGL playground">
+<meta itemprop="description" content="WebGL playground is a straightforward idea: type in your WebGL script and see the results. But the cool part is that the editor and the results are just on the same page and that you get a handful of features that make your life easier. No need to create multiple files (html/css/js/glsl), no need to save anything after each update, no need to switch between the editor and the browser, and no need to set up the skeleton code. All necessary things are added behind the scenes. Furthermore, you start new projects from templates or gallery entries which set up most of the core code for you!">
+<meta itemprop="image" content="http://webglplayground.net/webglplayground.png">
+
+<meta property="og:title" content="WebGL playground"/>
+<meta property="og:site_name" content="WebGL playground"/>
+<meta property="og:url" content="http://webglplayground.net"/>
+<meta property="og:image" content="http://webglplayground.net/webglplayground.png"/>
+<meta property="og:type" content="website"/>
+<meta property="og:description" content="An online tool for creating, testing, and sharing WebGL projects. The editor lets you work on JavaScript code and GLSL vertex/fragment shaders (if you have any) at the same time in a convenient way. You see the result on the same page. And you can use arbitrary JavaScript libraries/frameworks."/>
+
+<link href="https://plus.google.com/110373479209528879659" rel="publisher" />
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27207478-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body>
+    
+    <!--<div id="background_div">-->
+    
+    <div id="menu_wrap">
+    <ul id="menu">
+        
+            <li><a id="about_button" href="http://webglplayground.net/about">About</a></li>
+        
+        
+            <li><a id="new_button" href="http://webglplayground.net/new">New</a></li>
+        
+        
+            <li><a id="save_button" href="#">Save</a></li>
+        
+        
+            <li><a id="fork_button" href="#">Fork</a></li>
+        
+        
+        
+            <li><a id="share_button" href="#">Share</a></li>
+        
+        
+            <li><a id="contribute_button" href="#">Contribute</a></li>
+        
+        <!--<a id="delete_button" href="#">Delete</a>-->
+        
+            <li><a id="gallery_button" href="http://webglplayground.net/gallery">Gallery</a></li>
+        
+        
+            <li><a id="documentation_button" href="http://webglplayground.net/documentation">Documentation</a></li>
+        
+    </ul>
+</div>
+
+<div id="header">
+</div>
+
+
+    <div id="donate">
+
+<a style="z-index: 5; float: right; position: relative; top: 6px; left: -6px;" href="http://www.twitter.com/krystiansamp" target="_blank"><img src="http://twitter-badges.s3.amazonaws.com/t_mini-a.png" alt="Follow krystiansamp on Twitter"/></a>
+
+<div id="tweeter">
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://webglplayground.net" data-text="WebGL playground. Check this out!" data-count="horizontal" data-via="krystiansamp">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+</div>
+
+<a style="z-index: 5; float: right; position: relative; top: 6px; left: -6px; margin-right: 5px" href="http://www.facebook.com/webglplayground" target="_blank"><img src="http://webglplayground.net/f_logo.png" style="width:16px; height:16px;"></a>
+
+<div id="facebook">
+  <iframe src="//www.facebook.com/plugins/like.php?locale=en_US&href=http%3A%2F%2Fwebglplayground.net&amp;send=false&amp;layout=button_count&amp;width=85&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:85px; height:21px;" allowTransparency="true"></iframe>
+</div>
+
+<div id="plusone">
+    <g:plusone size="medium" href="http://webglplayground.net"></g:plusone>
+    
+    <script type="text/javascript">
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+    </script>
+</div>
+
+<div id="flattr">
+    <a href="http://flattr.com/thing/440068/WebGL-playground" target="_blank">
+<img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
+</div>
+
+<div id="paypal">
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="AEBYJHXVJ79DC">
+            <input type="submit" value="paypal donate" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+</div>
+
+    </div>
+
+    
+<a id="logo" href="http://webglplayground.net/">
+    <img src="http://webglplayground.net//images/logo.png" width="203" height="24" alt="WebGL playground">
+</a>
+
+
+<!-- OVERLAYS -->
+
+
+    <!-- TODO: inform a user that he wants to share a project which has not been updated -->
+    <div id="share_overlay" style="display:none">
+        <dl>
+            
+            
+            <dt>Standalone version</dt>
+            <dd>
+                
+                    <textarea rows="2">?fullscreen=0&width=600&height=400&info=1&header=1</textarea>
+                
+                <!-- <a href="?fullscreen=0&width=600&height=400&header=1">?fullscreen=0&width=600&height=400&header=1</a> <br/> -->
+                This link let you share a standalone version of this project. No edit box. By the way,
+                you have a handful of parameters in the URL which you can change to your liking:
+                <ul>
+                    <li>fullscren = 0|1 <span>- enable/disable fullscreen mode</span></li>
+                    <li>width and height <span>- specify resolution in pixels</span></li>
+                    <li>header = 0|1 <span>- enable/disable top header</span></li>
+                </ul>
+            </dd>
+            
+            <dt>Embed version</dt>
+            <dd>
+                
+                    <textarea rows="4"><iframe width="600" height="400" src="?fullscreen=0&width=600&height=400&header=0" frameborder="0"></iframe></textarea>
+                
+                You can tweak parameters of the embed version. Please, see the description of the standalone
+                version for all the options.
+            </dd>
+        </dl>
+    </div>
+
+
+
+    <div id="save_nochanges_overlay" style="display:none">
+        <p>Your project has been saved already and you haven't made any changes since then</p>
+    </div>
+    
+    <div id="save_saving_overlay" style="display:none">
+        <p>Saving ...</p>
+    </div>
+
+
+
+    <div id="submitting_overlay" style="display:none">
+        <p>Submitting ...</p>
+    </div>
+    
+    <div id="contribute_overlay" style="display:none">
+        <p id="contribute_boldp">Contribute the current project</p>
+        <div><span class="contribute_property">project address</span> <textarea id="contribute_taurl" rows="1"></textarea> </div>
+        <div><span class="contribute_property">submission type</span> <input type="radio" name="type" value="gallery" checked>gallery <input type="radio" name="type" value="template">template </div>
+        <div><span class="contribute_property">author</span> <textarea id="contribute_taauthor" class="contribute_ta" rows="1"></textarea> </div>
+        <div><span class="contribute_property">info</span> <textarea id="contribute_tainfo" rows="5"></textarea>
+        <p class="contribute_infop">Thank you! If you leave your email address in the author or the info box
+        I will be able to contact you back. You can request that your email address should not appear in the
+        description.
+        </p>
+        <p class="contribute_infop">I promise to review all submissions. And in the case a submission is accepted the author will
+        be credited properly.
+        </p>
+        <p class="contribute_infop">Note that alternatively you can send your submission (or any queries) to <span class="contributeemail"></span></p>
+        </p>
+        </div>
+        <div id="contribute_submit">Submit</div>
+    </div>
+
+
+
+    <div id="save_overlay" style="display:none">
+        <p>Please save the project first</p>
+    </div>
+
+
+
+    <div id="wrap">
+    <div id="c1_div">
+        <div id="c1">
+            <textarea id="editor">@info
+type your project information here
+and the author
+
+@libs
+http://webglplayground.net/libs/jquery-1.6.2.min.js
+http://webglplayground.net/libs/Three_r46.js
+
+@main
+// The JQuery library facilitates DOM operations and normalizes parameters for input events across the browsers
+
+var renderer = new THREE.WebGLRenderer();
+renderer.setSize(viewportWidth, viewportHeight);
+$('#' + containerId).append(renderer.domElement);
+
+var scene = new THREE.Scene();
+var camera = new THREE.OrthographicCamera(-1, 1, 1, -1, 0.1, 100.0);
+camera.position.z = 1.0;
+scene.add( camera );
+
+var uniforms = {
+  time: { type:"f", value:0 },
+  mouse: { type:"v2", value:new THREE.Vector2(0,0) },
+  mouseLeft: { type:"i", value:0 },
+  tex0: { type:"t", value:0, texture: THREE.ImageUtils.loadTexture("/samples/concrete1.jpg") }
+};
+uniforms.tex0.texture.wrapS = uniforms.tex0.texture.wrapT = THREE.Repeat;
+
+var material = new THREE.ShaderMaterial({
+  uniforms: uniforms,
+  vertexShader: glsl_vs1,
+  fragmentShader: glsl_fs1
+});
+
+var geometry = new THREE.Geometry();
+geometry.vertices.push(new THREE.Vertex(new THREE.Vector3(-1, -1, 0)));
+geometry.vertices.push(new THREE.Vertex(new THREE.Vector3(1, -1, 0)));
+geometry.vertices.push(new THREE.Vertex(new THREE.Vector3(1, 1, 0)));
+geometry.vertices.push(new THREE.Vertex(new THREE.Vector3(-1, 1, 0)));
+geometry.faces.push(new THREE.Face4(0,1,2,3));
+
+var s = viewportWidth/512.0;
+var t = viewportHeight/512.0;
+
+// Three.js does not support flipping y coordinate of a loaded textures
+// so we do it manually
+geometry.faceVertexUvs[0].push([
+  new THREE.UV(0,t),
+  new THREE.UV(s,t),
+  new THREE.UV(s,0),
+  new THREE.UV(0,0)
+]);
+
+var mesh = new THREE.Mesh(geometry, material);
+scene.addObject(mesh);
+
+/*
+ * for a complete list of JQuery keyboard and mouse events see:
+ * keyboard events: http://api.jquery.com/category/events/keyboard-events/
+ * mouse events: http://api.jquery.com/category/events/mouse-events/
+ *
+ * alternatively you can use document.addEventListener for 'mousedown', 'touchstart', 'keydown' etc.
+ * e.g., document.addEventListener( 'mousedown', onDocumentMouseDown, false );
+ */
+$(document).keydown( function(event) {
+  event.preventDefault();
+  var key = event.which;
+});
+
+$(document).mousemove( function(event) {
+  event.preventDefault();
+  // transforming cursor coordinates to [-1.0, 1.0] range
+  // [0,0] being in the left bottom corner to match the vertex coordinates
+  var x = (event.pageX / viewportWidth)*2.0 - 1.0;
+  var y = 0.0 - ((event.pageY / viewportHeight)*2.0 - 1.0);
+  uniforms.mouse.value.set(x, y);
+});
+
+$(document).mousedown( function(event) {
+  event.preventDefault();
+  var key = event.which;
+  var x = event.pageX;
+  var y = event.pageY;
+  if (key==1) {
+    uniforms.mouseLeft.value = 1;
+  }
+});
+
+$(document).mouseup( function(event) {
+  event.preventDefault();
+  var key = event.which;
+  if (key==1) {
+    uniforms.mouseLeft.value = 0;
+  }
+});
+
+$(document).mouseleave( function(event) {
+  event.preventDefault();
+  uniforms.mouse.value.set(0,0);
+});
+
+// invoked every frame
+function frame(runningTime, deltaTime) {
+  uniforms.time.value = runningTime;	
+  renderer.render(scene, camera);
+}
+
+@glsl_vs1
+varying vec2 t;
+varying vec2 pos;
+
+void main() {
+  vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
+  gl_Position = projectionMatrix * mvPosition;
+  t = uv;
+  pos = vec2(position.x, position.y);
+}
+
+@glsl_fs1
+#ifdef GL_ES
+precision highp float;
+#endif
+
+varying vec2 t;
+varying vec2 pos;
+
+uniform float time;
+uniform vec2 mouse;
+uniform int mouseLeft;
+uniform sampler2D tex0;
+  
+void main() {
+  float v1 = (sin(t.s+time) + 1.0) / 2.0;
+  float v2 = (cos(t.t+time) + 1.0) / 2.0;
+
+  float d = distance(mouse, pos);
+  
+  vec2 tt = vec2(t.s+sin(time/10.0), t.t+cos(time/10.0));
+  vec4 c1 = texture2D(tex0, tt) * 1.1;
+
+  float avg = (c1.r+c1.g+c1.b)/3.0;
+  float r = c1.r+v1*pow(avg,4.0) - pow(d,pow(avg,2.0) +float(mouseLeft)*avg);
+  float g = c1.g+v2*pow(avg,4.0) - pow(d,pow(avg,2.0) +float(mouseLeft)*avg);
+  float b = c1.g - pow(d,pow(avg,2.0) +float(mouseLeft)*avg);
+
+  gl_FragColor = vec4(r, g, b, 1.0);
+}
+</textarea>
+        </div>
+    </div>
+    <div id="c2">
+        <div id="fps">FPS:</div>
+        <div id="run">Run</div>
+    </div>
+</div>
+
+
+    <!-- TODO: inform a user that he wants to share a project which has not been updated -->
+    <div id="share_overlay" style="display:none">
+            <dl>
+                <dt>Edit version</dt>
+                <dd>
+                    <textarea rows="1"></textarea>
+                    <!-- <a href=""></a> <br/> -->
+                    This is the same address as the one in the browser address bar. It lets
+                anyone access your project as you can see it now. Consequently, editing and
+                updating will be possible.
+                </dd>
+                
+                <dt>Standalone version</dt>
+                <dd>
+                    <textarea rows="2">?fullscreen=0&width=600&height=400&header=1</textarea>
+                    <!-- <a href="?fullscreen=0&width=600&height=400&header=1">?fullscreen=0&width=600&height=400&header=1</a> <br/> -->
+                    This link let you share a standalone version of your project. No edit box. By the way,
+                you have a handful of parameters in the url which you can change to your liking:
+                    <ul>
+                        <li>fullscren = 0|1 <span>- enable/disable fullscreen mode</span></li>
+                        <li>width and height <span>- specify resolution in pixels</span></li>
+                        <li>header = 0|1 <span>- enable/disable top header</span></li>
+                    </ul>
+                </dd>
+                
+                <dt>Embed version</dt>
+                <dd>
+                    <textarea rows="4"><iframe width="600" height="400" src="?fullscreen=0&width=600&height=400&header=0" frameborder="0"></iframe></textarea>
+                    You can tweak parameters of the embed version. Please, see the description of the standalone
+                    version for all the options.
+                </dd>
+            </dl>
+    </div>
+    
+    <div id="save_overlay" style="display:none">
+        <p>Please save the project first</p>
+    </div>
+
+    <div id="save_nochanges_overlay" style="display:none">
+        <p>Your project has been saved already and you haven't made any changes since then</p>
+    </div>
+
+    <div id="save_saving_overlay" style="display:none">
+        <p>Saving ...</p>
+    </div>
+    
+    <div id="submitting_overlay" style="display:none">
+        <p>Submitting ...</p>
+    </div>
+
+    <div id="contribute_overlay" style="display:none">
+        <p id="contribute_boldp">Contribute the current project</p>
+        <div><span class="contribute_property">project address</span> <textarea id="contribute_taurl" rows="1"></textarea> </div>
+        <div><span class="contribute_property">submission type</span> <input type="radio" name="type" value="gallery" checked>gallery <input type="radio" name="type" value="template">template </div>
+        <div><span class="contribute_property">author</span> <textarea id="contribute_taauthor" class="contribute_ta" rows="1"></textarea> </div>
+        <div><span class="contribute_property">info</span> <textarea id="contribute_tainfo" rows="5"></textarea>
+        <p class="contribute_infop">Thank you! If you leave your email address in the author or the info box
+        we will be able to contact you back. You can request that your email address should not appear in the
+        description.
+        </p>
+        <p class="contribute_infop">We promise to review all submissions. And in the case it is accepted the author will
+        be credited properly.
+        </p>
+        <p class="contribute_infop">Note that alternatively you can send your submission (or any queries) to <span class="contributeemail"></span></p>
+        </p>
+        </div>
+        <div id="contribute_submit">Submit</div>
+    <!--</div>-->
+
+    <!--<script src="http://webglplayground.net//js/editormode.js"></script>-->
+    <!--<script src="http://webglplayground.net//js/main.js"></script>-->
+    </div>
+    
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=7424447; 
+var sc_invisible=1; 
+var sc_security="e27dfe2c"; 
+var sc_https=1; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost +
+"statcounter.com/counter/counter.js'></"+"script>");</script>
+<noscript><div class="statcounter"><a title="tumblr
+counter" href="http://statcounter.com/tumblr/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/7424447/0/e27dfe2c/1/"
+alt="tumblr counter"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+</body>
+</html>

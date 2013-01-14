@@ -57,7 +57,7 @@
 <div id="caption">
 CSS Filter: None
 </div>
-<canvas id=c></canvas>
+<canvas id="c"></canvas>
 <div id="c_caption">
 Canvas Filter
 </div>

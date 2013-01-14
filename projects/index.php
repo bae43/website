@@ -9,8 +9,23 @@
 		<LINK REL=StyleSheet HREF="../css/slider.css" TYPE="text/css">
 		<LINK REL=StyleSheet HREF="../css/accordian.css" TYPE="text/css">
 
-
 		<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
+
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-37666233-1']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
+
+		</script>
 
 	</head>
 
@@ -25,7 +40,6 @@
 				<a class="nav_item" href="/index.php"> &nbsp;HOME </a> | <a class="nav_item" href="/about/index.php"> &nbsp;ABOUT </a> | <a class="nav_item" href="/education/index.php"> &nbsp;RESUME </a> | <a href="/projects/index.php" class="nav_item" style="color:#fff; text-decoration:none;"> &nbsp;PROJECTS </a>
 			</nav>
 
-
 			<br>
 
 			<div id='content'>
@@ -39,44 +53,44 @@
 					</center>
 					<br>
 
-			<div id='content'>
+					<div id='content'>
 
-				<div class="accordian">
-					<ul>
-						<li>
-							<div class="image_title">
-								<a href="#">Featured</a>
-							</div>
-							<a href="featured/index.php"> <img src="images/featured.png"/> </a>
-						</li>
-						<li>
-							<div class="image_title">
-								<a href="indep/index.php">Independent</a>
-							</div>
-							<a href="indep/index.php"> <img src="images/na.png"/> </a>
-						</li>
-						<li>
-							<div class="image_title">
-								<a href="coursework/index.php">Coursework</a>
-							</div>
-							<a href="coursework/index.php"> <img src="images/classwork.png"/> </a>
-						</li>
-						<li>
-							<div class="image_title">
-								<a href="graphic_art">Graphic Art</a>
-							</div>
-							<a href="graphic_art"> <img src="images/graphic_art.jpg"/> </a>
-						</li>
-						<li>
-							<div class="image_title">
-								<a href="#">Photography</a>
-							</div>
-							<a href="other/index.php"> <img src="images/other.png"/> </a>
-						</li>
-					</ul>
-				</div>
+						<div class="accordian">
+							<ul>
+								<li>
+									<div class="image_title">
+										<a href="#">Featured</a>
+									</div>
+									<a href="featured/index.php"> <img src="images/featured.png"/> </a>
+								</li>
+								<li>
+									<div class="image_title">
+										<a href="indep/index.php">Independent</a>
+									</div>
+									<a href="indep/index.php"> <img src="images/indep.png"/> </a>
+								</li>
+								<li>
+									<div class="image_title">
+										<a href="coursework/index.php">Coursework</a>
+									</div>
+									<a href="coursework/index.php"> <img src="images/classwork.png"/> </a>
+								</li>
+								<li>
+									<div class="image_title">
+										<a href="graphic_art">Graphic Art</a>
+									</div>
+									<a href="graphic_art"> <img src="images/graphic_art.jpg"/> </a>
+								</li>
+								<li>
+									<div class="image_title">
+										<a href="#">Photography</a>
+									</div>
+									<a href="other/index.php"> <img src="images/other.png"/> </a>
+								</li>
+							</ul>
+						</div>
 
-			</div>
+					</div>
 
 	</body>
 </html>

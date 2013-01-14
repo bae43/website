@@ -1,0 +1,65 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>HTML Interpreter</title>
+
+<script type="text/javascript" src="http://codemirror.net/lib/codemirror.js"></script>
+<script type="text/javascript" src="http://codemirror.net/mode/htmlmixed/htmlmixed.js"></script>
+<script type="text/javascript" src="http://codemirror.net/mode/css/css.js"></script>
+<script type="text/javascript" src="http://codemirror.net/mode/javascript/javascript.js"></script>
+<script type="text/javascript" src="http://codemirror.net/mode/xml/xml.js"></script>
+<link rel="stylesheet" type="text/css" href="http://codemirror.net/lib/codemirror.css">
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+
+
+<style>
+	.CodeMirror{
+		padding:10px;
+		border:1px solid #cccccc;
+		margin-top:10px;
+	}
+	
+	#result {
+		padding:10px;
+		border:1px solid #cccccc;
+	}
+</style>
+
+<script>
+
+	var editor;
+	
+	$(document).ready(function(){
+		$("#interpret").click(function(){
+			editor.save();
+			$("#result").html($("#code").val());
+			return false;
+		});
+	});
+</script>
+
+</head>
+<body>
+	<h1>HTML</h1>
+	<div id="result"></div>
+	
+	<h1>Code</h1>
+	<form>
+		<textarea id='code'></textarea>
+		<p><button id='interpret'>Interpret!</button></p>
+	</form>
+	
+	
+	<script>
+      editor = CodeMirror.fromTextArea(document.getElementById("code"), 
+      	{
+      		mode: "text/html", 
+      		tabMode: "indent",
+      		lineNumbers: true
+      		
+      	});
+    </script>
+</body>
+</html>

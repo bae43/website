@@ -7,20 +7,32 @@
 		<LINK REL=StyleSheet HREF="css/global.css" TYPE="text/css">
 		<LINK REL=StyleSheet HREF="css/main.css" TYPE="text/css">
 		<script src="js/jquery-1.7.2.min.js"></script>
-		<script src="js/lightbox.js"></script>
-		<link href="css/lightbox.css" rel="stylesheet" />
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-37666233-1']);
+			_gaq.push(['_trackPageview']);
 
+			(function() {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
+
+		</script>
 	</head>
 	<body>
 
 		<div id="page">
-			<div id = "links">
+			<div  class = "box" id = "links">
 				<a href="about/index.php"> <img id="about" src="images/icon_about.png" alt="about"> </a>
 				<a href="education/index.php"> <img id="course" src="images/icon_courses.png" alt="coursework"> </a>
 				<a href="projects/index.php"> <img id="project" src="images/icon_other.png" alt="projects"> </a>
 			</div>
 
-			<div id="main">
+			<div class = "box" id="main">
 
 				<br>
 				<h1> bryce evans</h1>
@@ -42,13 +54,30 @@
 			</div>
 
 		</div>
-	
-			<div  id="footer" style="position:absolute;">
-				<p>
-					&copy; 2012 Bryce Evans
-				</p>
-			</div>
-		
+
+		<div  id="footer" style="position:absolute;">
+			<p>
+				&copy; 2012 Bryce Evans
+			</p>
+		</div>
+
+		<script type="text/javascript">
+			function center_vertical() {
+				var new_height = (window.innerHeight - $('.box').height()) / 3 - 50;
+				$('.box').css('margin-top', new_height);
+			}
+
+
+			$(document).ready(center_vertical);
+			$(window).resize(center_vertical);
+			$(window).bind("load", function() {
+				//if (window.outerWidth > 533) {
+				$('#links').css('left', 200);
+
+			});
+		</script>
+
 	</body>
+
 </html>
 

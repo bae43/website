@@ -71,6 +71,8 @@
 								<a href="http://campusconquest.com/version1.0/demos/00-TerritoryGrab.php" >Territory Grab</a>
 								<br>
 								<a href="http://campusconquest.com/version1.0/demos/01-AttackPhase.php" >Attack Phase</a>
+								<br>
+								<a href="http://campusconquest.com/v1.2/demos/01-AttackPhase.php" >Current Version</a>
 							</div>
 						</FIELDSET>
 
@@ -140,8 +142,7 @@
 							<a name="maze" ><h2> Features </h2></a>
 
 							<div>
-								<a href="images/terrain.png"  rel="lightbox[splat]" title="Terrain" date="Wire mesh overlayed in foreground to show geometry."><img src="images/terrain_small.png" alt="" align="right" class = "main_img" style="max-width: 35%;" /></a>
-								<a href="images/particles.png"  rel="lightbox[splat]" title="A Particle System" date=""><img src="" alt="" align="right" class = "main_img" style="max-width: 35%;" /></a>
+								<a href="images/attack2.png"  rel="lightbox[splat]" title="Terrain" date="Setting attack commands"><img src="images/attack2.png" alt="" align="right" class = "main_img" style="max-width: 35%;" /></a>
 
 								<div class="desc">
 									<ul>
@@ -158,6 +159,10 @@
 											Realtime Chat
 										</li>
 									</ul>
+									<br>
+									<br>
+									<br>
+									<br>
 								</div>
 
 							</div>

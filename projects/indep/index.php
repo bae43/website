@@ -13,6 +13,22 @@
 		<script type="text/javascript" src="../../js/jquery-1.7.2.min.js"></script>
 		<script type="text/javascript" src="../../js/lightbox.js"></script>
 
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-37666233-1']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
+
+		</script>
+
 	</head>
 
 	<body>
@@ -23,7 +39,7 @@
 
 			<span id = 'name'><img id = "secimg" src="../../images/proj_small.png" ALIGN = LEFT> bryce evans </span>
 			<nav>
-				<a class="nav_item" href="/about/index.php"> &nbsp;ABOUT </a> | <a class="nav_item" href="/education/index.php"> &nbsp;RESUME </a> | <a href="/projects/index.php" class="nav_item" style="color:#fff; text-decoration:none;"> &nbsp;PROJECTS </a>
+				<a class="nav_item" href="/index.php"> &nbsp;Home </a> |<a class="nav_item" href="/about/index.php"> &nbsp;ABOUT </a> | <a class="nav_item" href="/education/index.php"> &nbsp;RESUME </a> | <a href="/projects/index.php" class="nav_item" style="color:#fff; text-decoration:none;"> &nbsp;PROJECTS </a>
 			</nav>
 
 			<!-- 			<div >
@@ -45,17 +61,7 @@
 					</center>
 					<br>
 					<div>
-						<div style="float:left">
-							<span style="font-size:22px; margin:1em;">Contents:</span>
-							<div style="margin-left:3em; margin-right:1em;">
-
-								<a href="#chrysalis" >Chrysalis Renderer [CS 4620]</a>
-								<br>
-								<a href="#cw" >Critter World [CS 2112]</a>
-								<br>
-								<a href="#maze" >Maze Solver [CS 1114]</a>
-							</div>
-						</div>
+						<br />
 						<div >
 							These projects are all things I've done on the side for fun. Many of them are ongoing currently.
 							For more, visit <a href="https://github.com/bae43"> my GitHub </a>.
@@ -64,8 +70,46 @@
 				</div>
 				<div>
 					<br />
+
 					<br />
 					<br />
+					<div class="proj_border ">
+						<div class ="cushion" >
+							<div  class="proj_title">
+
+								<a name="chrysalis"><h2>WebGL with Three.js</h2></a>
+								Summer 2012 &mdash;
+
+								<div class="desc">
+									<a href="images/quintrino.png"  rel="lightbox[poke]" title="Quintrino" date=""><img src="images/quintrino_small.png" alt="" align="right" class = "main_img" style="max-width: 35%;" /></a>
+
+									My interests in computer graphics have led me to experiment with the HTML 5
+									implementation of OpenGL, WebGL. The majority of my work has been with the game
+									<a href="../featured/index.php"> Campus Conquest </a>, here are a list of some other
+									tests and demos I've worked with-
+
+									<ul>
+										<li>
+											<a href="http://campusconquest.com/v1.2/tools/shader_editor.html"> GLSL Shader Editor</a> - In browser editing. Based off of WebGL Playground
+										</li>
+										<li>
+											<a href="http://campusconquest.com/v1.2/demos/materials/quintrino.html">Quintrino with Environment Maps</a>
+										</li>
+										<li>
+											<a href="http://campusconquest.com/v1.2/demos/midnight.html">Dynamic Cloth and Snow Particle System</a>
+										</li>
+										<li>
+											<a href="http://campusconquest.com/v1.2/login.php">Lens Flare and Normal Mapping<a/>
+										</li>
+
+									</ul>
+
+									<br>
+
+								</div>
+							</div>
+						</div>
+					</div>
 					<br />
 					<div class="proj_border ">
 						<div class ="cushion" >
@@ -78,14 +122,17 @@
 									A currently continuing project exploring the uses of web cam
 									video input as a source for interactive applications. The input
 									can be filtered and distorted in realtime for uses such as a dynamic 15 puzzle.
-
-									<a href = "html_video/filters.php"> Filter Test</a>
-									<br>
-									<a href = "html_video/tiles.php"> Tiles</a>
-									<br>
-									<a href = "html_video/15puzz.php"> 15 Puzzle</a>
-									<br>
-
+									<ul>
+										<li>
+											<a href = "html_video/filters.php"> Filter Test</a>
+										</li>
+										<li>
+											<a href = "html_video/tiles.php"> Tiles</a>
+										</li>
+										<li>
+											<a href = "html_video/15puzz.php"> 15 Puzzle</a>
+										</li>
+									</ul>
 								</div>
 							</div>
 						</div>
@@ -95,20 +142,25 @@
 					<div class="proj_border ">
 						<div class ="cushion" >
 							<div class="body">
+								<a href="images/splat.png"  rel="lightbox[splat]" title="The first prototype shell" date=""><img src="images/splat.png" alt="" align="right" class = "main_img" style="max-width: 35%;" /></a>
 
 								<a name="maze" ><h2> SPLAT </h2></a>
 								Smartphone LAser Tag <span class="sep"> | </span> Spring 2012
 
 								<div>
-									<a href="images/terrain.png"  rel="lightbox[splat]" title="Terrain" date="Wire mesh overlayed in foreground to show geometry."><img src="images/terrain_small.png" alt="" align="right" class = "main_img" style="max-width: 35%;" /></a>
-									<a href="images/particles.png"  rel="lightbox[splat]" title="A Particle System" date=""><img src="" alt="" align="right" class = "main_img" style="max-width: 35%;" /></a>
 
 									<div class="desc">
-										I designed and modeled the shell to one of the first prototypes of SPLAT's guns. The company being a Cornell startup,
-										I worked closely with others over many revisions to reach the final design.
+										I designed and modeled the shell to the first prototype shell of SPLAT's gun.
 
 										<br>
-
+										<br>
+										<br>
+										<br>
+										<br>
+										<br>
+										<br>
+										<br>
+										<br>
 										<br>
 									</div>
 
@@ -123,104 +175,77 @@
 						<div class ="cushion" >
 							<div class="body">
 
-								<a name="maze" ><h2> Project Euler</h2></a>
-								<a href="images/pokejouki.png"  rel="lightbox[poke]" title="Poke Jouki" date=""><img src="images/pokejouki.png" alt="" align="right" class = "main_img" style="max-width: 35%;" /></a>
+								<a name="euler" ><h2> Project Euler</h2></a>
 
-								CS 3110: Functional Programming<span class="sep"> | </span> Fall 2012
-								<div class="info">
+								<br>
+							</div>
+							<div>
 
-									Language: Ocaml
-									<br>
-									Partner: Swathi Jayevel &lt;sj336&gt;
-									<br>
-									<br>
-								</div>
-								<div>
-
-									<div class="desc">
-
-										"Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-										sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-										Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-										nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-										reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-										pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-										culpa qui officia deserunt mollit anim id est laborum."
-										<br>
-										<br>
-										"Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-										sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-										Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-										nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-										reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-										pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-										culpa qui officia deserunt mollit anim id est laborum."
-										<br>
-									</div>
+								<div class="desc">
+									I've completed 25 questions from <a href="http://projecteuler.net/">Project Euler</a>.
 
 								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div class="proj_border ">
+					<div class ="cushion" >
+						<a name="cw" class="proj_title"><h2>Game Creation with Blender</h2></a>
+						<a href="images/koi.png"  rel="lightbox[bge]" title="Critters" date=""> <img src="images/koi.png" alt="" align="right" class = "main_img" style="max-width: 35%; margin:10px;"/></a>
+
+						<br>
+						<div class="desc">
+							My first projects in programming was making a series of simple games in Python using Blender.
+							A partial list - click for descriptions and images:
+							<div class = "two_col">
+								<ul style="float:left">
+									<li>
+										24!
+									</li>
+									<li>
+										3D Tic Tac Toe
+									</li>
+									<li>
+										Simple Jet Flight Simulator
+									</li>
+									<li>
+										Koi Pond Screen Saver
+									</li>
+
+								</ul>
+								<ul style="float:right">
+
+									<li>
+										"Chromasia" Racing Game
+									</li>
+									<li>
+										Muscle Model
+									</li>
+									<li>
+										Hardy-Weinburg Solver
+									</li>
+									<li>
+										DNA Restriction Enzyme Solver
+									</li>
+
+								</ul>
 							</div>
 						</div>
 					</div>
 					<br>
-					<div class="proj_border ">
-						<div class ="cushion" >
-							<a name="cw" class="proj_title"><h2>Game Creation with Blender</h2></a>
-							<a href="images/critters_big.png"  rel="lightbox[cw]" title="Critters" date=""> <img src="images/critters.png" alt="" align="right" class = "main_img" style="margin:10px;"/></a>
 
-							<br>
-							<div class="desc">
-								Critter World is a simulation of evolving artificial life. Uses an Abstract Syntax Tree (AST) to parse a grammar of a basic programming language.
-								The language defines the critters actions on each turn, whether it be eat, move, or attack a neighboring enemy critter.
-
-								Both the front end and the back end of the project involved complex problems.
-
-								When designing Critter World, my partner Nipat and I wanted differing styles. We ended up compromising and combining an
-								alien environment with a microscopic one. Our graphic interface also supported numerous features in addition to the main spec,
-								including:
-								<div class = "two_col">
-									<ul style="float:left">
-										<li>
-											Splash Screen with Loading Bar
-										</li>
-										<li>
-											Animation
-										</li>
-										<li>
-											Sounds
-										</li>
-										<li>
-											Zoom, Pan, bring critter to focus, etc...
-										</li>
-
-									</ul>
-									<ul style="float:right">
-
-										<li>
-											Importing and Exporting Critters
-										</li>
-										<li>
-											Importing and Exporting Saved World States
-										</li>
-										<li>
-											Menu Bar with total of dozen options in addition to side panel controls
-										</li>
-
-									</ul>
-								</div>
-							</div>
-						</div>
-						<br>
-
-						<br>
-						<br>
-						<br>
-						<br>
-						<br>
-					</div>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
 				</div>
 			</div>
-			<br>
+		</div>
+		<br>
 
 		</div>
 

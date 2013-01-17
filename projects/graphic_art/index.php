@@ -119,9 +119,9 @@
 
 								<a href="images/craw.jpg" class = "img"  rel="lightbox[blender]" title=""><img src="images/craw_tile.jpg" alt="" /></a>
 
-								<a href="images/chess.png" class = "img"  rel="lightbox[blender]" title=""><img src="images/chess_tile.jpg" alt="" /></a>
+								<a href="images/chess.jpg" class = "img"  rel="lightbox[blender]" title=""><img src="images/chess_tile.jpg" alt="" /></a>
 
-								<a href="images/check.png"  class = "img" rel="lightbox[blender]" title="Link's Check" date="Mar 2010"><img src="images/check_tile.jpg" alt="" /></a>
+								<a href="images/check.jpg"  class = "img" rel="lightbox[blender]" title="Link's Check" date="Mar 2010"><img src="images/check_tile.jpg" alt="" /></a>
 
 								<a href="images/horn.jpg"  class = "img" rel="lightbox[blender]" title="Skullkid's New Horn" date=""><img src="images/horn_tile.jpg" alt="" /></a>
 								<a href="images/lobster_paint.png"  class = "img" rel="lightbox[blender]" title= ""><img src="images/lobster_paint_tile.png" alt="" /></a>

@@ -123,7 +123,7 @@
 								<br>
 								<a href="images/etches/lobster.png"  class = "t" rel="lightbox[etch]" title="Happy Birthday to Christina Hanco!" date = "Sept 2011"><img src="images/etches/lobster_tile.png" alt="" /></a>
 								<a href="images/etches/pearl.png"  class = "t" rel="lightbox[etch]" title="Steinbeck's The Pearl" date = "May 2008"><img src="images/etches/pearl_tile.png" alt="" /></a>
-								<a href="images/etches/psu.png"  class = "t" rel="lightbox[etch]" title="Nittanty Lion" date = "July 2008"><img src="images/etches/psu_tile.png" alt="" /></a>
+								<a href="images/etches/psu.png"  class = "t" rel="lightbox[etch]" title="Nittany Lion" date = "July 2008"><img src="images/etches/psu_tile.png" alt="" /></a>
 								<a href="images/etches/vines.png"  class = "t" rel="lightbox[etch]" title="Vines" date = "Sept 2012"><img src="images/etches/vines_tile.png" alt="" /></a>
 
 								<br>
@@ -150,11 +150,13 @@
 					<div class="imageRow" style="position : relative; top: 0px; right:-5em;">
 
 						<div class="single">
-							<a href="images/fish.png"  class = "t" rel="lightbox[photos]" title="Seymour the Goldfish" date="Jun 2012"><img src="images/fish_tile.png" alt="" /></a>
+							<a href="images/fish.png"  class = "t" rel="lightbox[photos]" title="Seymour the Goldfish" date="June 2012"><img src="images/fish_tile.png" alt="" /></a>
 
 							<a href="images/bee_on_flower.png"  class = "t" rel="lightbox[photos]" title="Bee on Flower" date="Oct 2012"><img src="images/bee_tile.png" alt="" /></a>
 							<a href="images/skipper2.png"  class = "t" rel="lightbox[photos]" title="Snowfall" date="Dec 2012"><img src="images/skipper2_tile.png" alt="" /></a>
 							<a href="images/skipper_in_window.png"  class = "t" rel="lightbox[photos]" title="Snowfall" date="Dec 2012"><img src="images/skipper_in_window_tile.png" alt="" /></a>
+							<a href="images/fluffer.png"  class = "t" rel="lightbox[photos]" title="Fluffer" date="June 2012"><img src="images/fluffer_tile.png" alt="" /></a>
+							<a href="images/sage.png"  class = "t" rel="lightbox[photos]" title="Sage Hall" date="July 2012"><img src="images/sage_tile.png" alt="" /></a>
 						</div>
 
 					</div>

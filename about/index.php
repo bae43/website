@@ -18,6 +18,21 @@
 	</head>
 
 	<body>
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-37666233-1']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
+
+		</script>
 		<div id="header">
 
 		</div>
@@ -48,22 +63,58 @@
 					<br>
 
 				</div>
+				<br>
+				<br>
+				<div style="width:230px; float:right;">
+					<img src="images/wired_edit.png" style="width:100%;"/>
+					<br>
+					<br>
+					<br>
+					<FIELDSET>
+						<LEGEND>
+							<b>Contact and Links</b>
+						</LEGEND>
+						<div style="position:relative; left:1.5em;">
+							bae43@cornell.edu
+							<a href="https://github.com/bae43">GitHub</a>
+							<br>
 
+						</div>
+					</FIELDSET>
+					<br>
+					<br>
+
+				</div>
+				
+				<div style="width:700px;">
+
+					My interests have grown increasingly with web development recently for it's ease in distributing
+					an application to anyone anywhere. With WebGL and new improvement to 3D graphics online, I am particularly
+					interested in constructing a multiplayer game that doesn't require purchase or even a download, but just has
+					instantaneous access. Exploring shaders and new techniques with graphics in my
+					project <a href="/projects/featured/index.php">Campus Conquest</a> has been very fun.
+					<br />
+					<br />
+					I play clarinet and am part of the Big Red Marching Band. I also enjoy playing
+					the piano, and when I get the chance, tennis and ping-pong.
+
+				</div>
 				<br>
 				<br>
-				I play clarinet and am part of the Big Red Marching Band. I also enjoy playing
-				the piano and have played for many years.
-				<br />
-				<br />
-				My interests have grown increasingly with web development recently for it's ease in distributing 
-				an application to anyone anywhere. With WebGL and new improvement to 3D graphics online, I am particularly 
-				interested in constructing a multiplayer game that doesn't require purchase or even a download, but just has
-				instantaneous access. Exploring shaders and new techniques with graphics in my 
-				project <a href="/projects/featured/index.php">Campus Conquest</a> has been very fun.
-			<p>
-				&copy; 2012 Bryce Evans
-			</p>
-		</div>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<div id="footer">
+					<p>
+						&copy; 2012 Bryce Evans
+					</p>
+				</div>
+			</div>
 
 	</body>
 </html>

@@ -150,8 +150,8 @@
 								<div>
 
 									<div class="desc">
-										I designed and modeled the shell to the first prototype shell of SPLAT's gun.
-
+										I designed and modeled a shell of SPLAT's laser gun.
+										The model was 3D printed in plastic and used as a prototype. 
 										<br>
 										<br>
 										<br>

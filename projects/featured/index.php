@@ -13,8 +13,23 @@
 		<script type="text/javascript" src="../../js/jquery-1.7.2.min.js"></script>
 		<script type="text/javascript" src="../../js/lightbox.js"></script>
 
-		<style>
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-37666233-1']);
+			_gaq.push(['_trackPageview']);
 
+			(function() {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
+
+		</script>
+
+		<style>
 			#side_nav_title {
 				font-size: 22px;
 				position: relative;
@@ -64,6 +79,9 @@
 							<div style="position:relative; left:1.5em;">
 								<a href="http://campusconquest.com/v1.2/login.php" >Log in</a>
 								<br>
+								
+								<a href="http://campusconquest.com/v1.2/demos/midnight.html" >Graphics Test</a>
+								<br>
 								<a href="http://campusconquest.com/version1.1/dashboard.php" >Main Dashboard</a>
 								<br>
 								<a href="http://campusconquest.com/chat/index.php" >Live Chat Engine Test</a>
@@ -72,7 +90,8 @@
 								<br>
 								<a href="http://campusconquest.com/version1.0/demos/01-AttackPhase.php" >Attack Phase</a>
 								<br>
-								<a href="http://campusconquest.com/v1.2/demos/01-AttackPhase.php" >Current Version</a>
+								<!-- 	<a href="http://campusconquest.com/v1.2/demos/01-AttackPhase.php" >Current Version</a> -->
+								<a href="http://campusconquest.com/v1.2/demos/symbols/" >College Symbols</a>
 							</div>
 						</FIELDSET>
 
@@ -88,6 +107,8 @@
 				</div>
 			</div>
 			<div>
+				<br />
+				<br />
 				<br />
 				<br />
 
@@ -142,9 +163,10 @@
 							<a name="maze" ><h2> Features </h2></a>
 
 							<div>
-								<a href="images/attack2.png"  rel="lightbox[splat]" title="Terrain" date="Setting attack commands"><img src="images/attack2.png" alt="" align="right" class = "main_img" style="max-width: 35%;" /></a>
+								<a href="images/attack2.png"  rel="lightbox[splat]" title="Setting commands" date=""><img src="images/attack2.png" alt="" align="right" class = "main_img" style="max-width: 35%;" /></a>
 
 								<div class="desc">
+									A list of some features to be added:
 									<ul>
 										<li>
 											Accounts to save games and keep friend lists
@@ -156,7 +178,7 @@
 											Weekly massive multiplayer games organized by college and year
 										</li>
 										<li>
-											Realtime Chat
+											Realtime Chat in game
 										</li>
 									</ul>
 									<br>
@@ -175,10 +197,10 @@
 				<div class="proj_border ">
 					<div class ="cushion" >
 						<div class="body">
+							<a href="images/sundial2.png"  rel="lightbox[cc]" title="The campus up close" date=""><img src="images/sundial2.png" alt="" align="right" class = "main_img" style="max-width: 25%;" /></a>
 
 							<a name="maze" ><h2> Servers &amp; Backend</h2></a>
 							<h3>PHP, SQL, and Websockets </h3>
-							<a href="images/pokejouki.png"  rel="lightbox[poke]" title="Poke Jouki" date=""><img src="images/pokejouki.png" alt="" align="right" class = "main_img" style="max-width: 35%;" /></a>
 
 							<div>
 
@@ -188,6 +210,7 @@
 									the server may be switched to a python or ruby framework utilizing websockets to establish a connection for
 									push notifications and updates.
 
+									<br>
 									<br>
 								</div>
 
@@ -222,6 +245,35 @@
 					</div>
 				</div>
 			</div>
+			<br>
+
+			<div class="proj_border ">
+				<div class ="cushion" >
+					<div class="body">
+
+						<a name="maze" ><h2> Current Development </h2></a>
+						<a href="images/snowynight.png"  rel="lightbox[cd]" title="Realtime Snow" date="Realtime rendering test of snow"><img src="images/snowynight.png" alt="" align="right" class = "main_img" style=" float:right; max-width: 35%;" /></a>
+
+						<div>
+
+							<div class="desc">
+								Current work involves a range of different things, though primarily using WebSockets with Node.js to decrease latency in game updates.
+								Other areas include better graphic shaders and texturing models for a better UI and an efficient log in system and database tracking user data.
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
 			<br>
 
 			<div class="proj_border ">

@@ -108,7 +108,7 @@
 								<!-- 					<div style="background-color: #bd1b1b;"> -->
 								<img src="../images/cu_logo.png"/>
 								<!-- 					</div> -->
-								<h3>B.S. Computer Science
+								<h3>B.S. Computer Science<span class="sep"> | </span> Graphics Specialization
 								<br>
 								Expected Graduation: May 2015</h3>
 								<h3></h3>
@@ -180,10 +180,10 @@
 
 						<div class='slider_section'  id='s13'>
 
-							CS 5625: Interactive Computer Graphics I
+							CS 5625: Interactive Computer Graphics
 
 							<div class = 'l2'></div>
-							CS 4820: Analysis of Algorithms I
+							CS 4820: Analysis of Algorithms
 
 							<div class = 'l2'></div>
 							CS 3410: Systems Programming
@@ -356,6 +356,9 @@
 				<div class="indent">
 					<h3> Cornell Dining<span class="sep" style="float:right">Sep. 2011 - Mar. 2012</span></h3>
 
+					<br>
+					<h3> Lighthouse Harbor Marina<span class="sep" style="float:right">Jun. 2011 - Aug. 2011</span></h3>
+					
 				</div>
 				<br>
 

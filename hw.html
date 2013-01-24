@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Hardy Weinburg Solver</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<LINK REL=StyleSheet HREF="css/global.css" TYPE="text/css">
+		<LINK REL=StyleSheet HREF="css/main.css" TYPE="text/css">
+		<script src="js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-37666233-1']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
+
+		</script>
+
+		<script src="hwcalc.js"></script>
+		<script>
+			
+		</script>
+
+		<SCRIPT TYPE="text/javascript">
+			// copyright 1999 Idocs, Inc. http://www.idocs.com
+			// Distribute this script freely but keep this notice in place
+			function numbersonly(myfield, e) {
+				var key;
+				var keychar;
+
+				if (window.event)
+					key = window.event.keyCode;
+				else if (e)
+					key = e.which;
+				else
+					return true;
+				keychar = String.fromCharCode(key);
+
+				// control keys
+				if ((key == null) || (key == 0) || (key == 8) || (key == 9) || (key == 13) || (key == 27))
+					return true;
+
+				// numbers
+				else if ((("0123456789").indexOf(keychar) > -1))
+					return true;
+
+				// decimal point jump
+				else if (keychar == ".") {
+					//myfield.form.elements[dec].focus();
+					return true;
+				} else
+					return false;
+			}
+
+		</SCRIPT>
+
+	</head>
+	<body>
+
+		<div id="page">
+			<h2> Hardy Weinburg Solver </h2>
+			<br>
+			<br>
+
+			<FORM id="input" style=" width:100%; position:relative; right:0;">
+				<table >
+					<tr>
+						<td></td><th>Phenotype: </th><th>Survival Rate:</th>
+					</tr>
+					<tr>
+						<td>Homozygeous Dominant:</td><td>
+						<INPUT id = "dhom" NAME="dhom" SIZE=5 MAXLENGTH=5
+						onKeyPress="return numbersonly(this, event)">
+						</td><td>
+						<INPUT id = "sdhom" NAME="sdhom" SIZE=5 MAXLENGTH=5
+						onKeyPress="return numbersonly(this, event)">
+						</td>
+					</tr>
+					<tr>
+						<td>Heterozygeous:</td><td>
+						<INPUT id="het" NAME="het" SIZE=5 MAXLENGTH=5
+						onKeyPress="return numbersonly(this, event)">
+						</td><td>
+						<INPUT NAME="shet" id="shet" SIZE=5 MAXLENGTH=5
+						onKeyPress="return numbersonly(this, event)">
+						</td>
+					</tr>
+					<tr>
+						<td>Homozygeous Recessive:</td><td>
+						<INPUT NAME="rhom" id="rhom" SIZE=5 MAXLENGTH=5
+						onKeyPress="return numbersonly(this, event)">
+						</td><td>
+						<INPUT NAME="srhom" id="srhom" SIZE=5 MAXLENGTH=5
+						onKeyPress="return numbersonly(this, event)">
+						</td>
+					</tr>
+					<tr>
+						<td>Reproductive Rate:</td><td>
+						<INPUT NAME="rep" id="rep"  SIZE=5 MAXLENGTH=5
+						onKeyPress="return numbersonly(this, event)">
+						</td>
+					</tr>
+
+					<tr>
+						<td>Generations:</td><td>
+						<INPUT NAME="rep" id = "gen" SIZE=5 MAXLENGTH=3
+						onKeyPress="return numbersonly(this, event)">
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<BUTTON type="button" id="calc_button">submit</BUTTON>
+						</td>
+					</tr>
+				</table>
+			</FORM>
+			<br>
+			<br>
+			<canvas id="can" height="400" width="650" style="background-color: #111;"></canvas>
+		</div>
+
+		<div  id="footer" style="position:absolute;">
+			<p></p>
+		</div>
+
+	</body>
+
+</html>
+

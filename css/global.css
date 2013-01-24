@@ -138,10 +138,10 @@ h6 {
 
 div.l {
 
-	height: 1px;
+	height: 2px;
 	background-color: #03b8c8;
 	/*border-bottom: 1px solid #00eaff;*/
-	margin: 0em 1.5em 0em 1.5em;
+	/*margin: 0em 1.5em 0em 1.5em;*/
 	overflow: hidden;
 }
 
@@ -272,4 +272,3 @@ li {
 	background: #8c8c9f;
 	color: #c8c8de;
 } /* Mozilla Firefox */
-

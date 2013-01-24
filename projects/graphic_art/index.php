@@ -114,6 +114,8 @@
 								<a href="images/Stallion.png"  class = "img" rel="lightbox[blender]" title= ""><img src="images/stallion_tile.png" alt="" /></a>
 
 								<a href="images/hallow.png"  class = "img" rel="lightbox[blender]" title= ""><img src="images/hallow_tile.png" alt="" /></a>
+								
+								<a href="images/lobster.png"  class = "img" rel="lightbox[blender]" title= "Robo-Lobster 9000"><img src="images/lobster_tile.png" alt="" /></a>
 
 								<a href="images/lobster_flag.png"  class = "img" rel="lightbox[blender]" title= ""><img src="images/lobster_flag_tile.png" alt="" /></a>
 

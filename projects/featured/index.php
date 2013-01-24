@@ -147,7 +147,7 @@
 								outcome of attacking within 20% of the actual.
 								<br />
 								<br />
-								Because of balance issues, are expected to change.
+								Because of balance issues, these are likely to change.
 								<br />
 								<br />
 							</div>

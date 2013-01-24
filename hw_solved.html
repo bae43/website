@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Hardy Weinburg Solver</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<LINK REL=StyleSheet HREF="css/global.css" TYPE="text/css">
+		<LINK REL=StyleSheet HREF="css/main.css" TYPE="text/css">
+		<script src="js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-37666233-1']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
+
+		</script>
+
+		<script src="hwcalc.js"></script>
+
+	</head>
+	<body>
+
+		<div id="page">
+			<h2> Hardy Weinburg Solver </h2>
+			<br>
+			<br>
+			<br>
+			<canvas id="can" height="400" width="650" style="background-color: #111;"></canvas>
+			<script>
+				plot();
+			</script>
+		</div>
+
+		<div  id="footer" style="position:absolute;">
+			<p>
+				&copy; 2012 Bryce Evans
+			</p>
+		</div>
+
+	</body>
+
+</html>
+

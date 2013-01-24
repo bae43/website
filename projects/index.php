@@ -48,7 +48,7 @@
 				<div>
 					<br/>
 					<center>
-						<h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Projects </h1>
+						<h1>Projects </h1>
 						<div class="l"></div>
 					</center>
 					<br>

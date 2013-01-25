@@ -14,20 +14,22 @@
 
 		<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
 		<script type="text/javascript" src="../js/lightbox.js"></script>
-		
+
 		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-37666233-1']);
+			_gaq.push(['_trackPageview']);
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-37666233-1']);
-  _gaq.push(['_trackPageview']);
+			(function() {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
+		</script>
 
 		<style>
 			#pdf {
@@ -36,7 +38,7 @@
 				margin: 0 1.5em;
 				border-bottom: 2px solid #181818;
 			}
-			
+
 			#pdf:hover {
 				color: #fff;
 				border-bottom: 2px solid #3CA900;
@@ -51,8 +53,7 @@
 	</head>
 
 	<body>
-		
-		
+
 		<div id="header">
 
 		</div>
@@ -186,8 +187,11 @@
 							CS 4820: Analysis of Algorithms
 
 							<div class = 'l2'></div>
-							CS 3410: Systems Programming
+							CS 3410: Computer Organization
 
+							<div class = 'l2'></div>
+
+							ENGL 2810: Creative Writing
 							<div class = 'l2'></div>
 							DSOC 1101: Intro to Sociology
 							<div class = 'l2'></div>
@@ -343,13 +347,12 @@
 				<div class="indent">
 					<h3> Human Services Coalition of Tompkins County <a href="http://www.hsctc.org/">(HSCTC)</a><span class="sep" style="float:right">Summer 2012</span></h3>
 					<div style="margin-left:2em; width: 550px;">
-						
+
 						I worked on the back-end of HSCTC's database, helping add support for multiple counties in their
-						merge with the neighboring county. Two other project I was involved in were building a 
+						merge with the neighboring county. Two other project I was involved in were building a
 						reservation system for workshops and creating a new website for aiding people without means
 						of transportation.
-						
-						
+
 					</div>
 				</div>
 				<br>
@@ -358,7 +361,7 @@
 
 					<br>
 					<h3> Lighthouse Harbor Marina<span class="sep" style="float:right">Jun. 2011 - Aug. 2011</span></h3>
-					
+
 				</div>
 				<br>
 
@@ -450,7 +453,7 @@
 							<li>
 								Blender
 							</li>
-							
+
 						</ul>
 					</div>
 				</div>

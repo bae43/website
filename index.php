@@ -27,10 +27,12 @@
 
 		<div id="page">
 			<div  class = "box" id = "links">
-				<a class="img_link" href="about/index.php"> <img id="about" src="images/icon_about.png" alt="about"> </a>
-				<a class="img_link" href="education/index.php"> <img id="course" src="images/icon_courses.png" alt="coursework"> </a>
-				<a class="img_link" href="projects/index.php"> <img id="project" src="images/icon_other.png" alt="projects"> </a>
-			</div>
+				<a href="about/index.php"> <img class="icon"  id="about" src="images/icon_about.png" alt="about"> </a>
+<!-- 				<a href="about/index.php"> <img class="icon" id="about" src="images/icon_other.png" alt="projects"> </a> -->
+			
+				<a href="education/index.php"> <img class="icon"  id="resume" src="images/icon_courses.png" alt="coursework"> </a>
+				<a href="projects/index.php"> <img class="icon" id="projects" src="images/icon_other.png" alt="projects"> </a>
+				</div>
 
 			<div class = "box" id="main">
 
@@ -70,11 +72,19 @@
 
 			$(document).ready(center_vertical);
 			$(window).resize(center_vertical);
-			$(window).bind("load", function() {
-				if (window.outerWidth > 533) {
-					$('#links').css('left', 200);
-				}
-			});
+
+			setTimeout(function() {
+				$('#page').css({
+					"width" : 480
+				})// Set to 0 as soon as possible – may result in flicker, but it's not hidden for users with no JS (Googlebot for instance!)
+				.delay(300)// Wait for a bit so the user notices it fade in
+				.css({
+					"width" : 600
+				});
+			}, 500);
+
+
+
 		</script>
 
 	</body>

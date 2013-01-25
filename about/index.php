@@ -38,7 +38,7 @@
 		</div>
 		<div id='page'>
 
-			<span id = 'name'><img id = "secimg" src="../images/icon_courses_small.png" ALIGN = LEFT> bryce evans </span>
+			<span id = 'name'><img id = "secimg" src="../images/icon_about_small.png" ALIGN = LEFT> bryce evans </span>
 			<nav>
 				<a class="nav_item" href="/index.php"> &nbsp;HOME </a>
 				|

@@ -137,6 +137,26 @@
 							</div>
 						</div>
 					</div>
+										<br>
+
+					<div class="proj_border ">
+						<div class ="cushion" >
+							<div class="body">
+
+								<a name="euler" ><h2> Stratego </h2></a>
+
+								<br>
+							</div>
+							<div>
+
+								<div class="desc">
+									A multiplayer Stratego game written in Java. Playable over a network using Remote Method Invocation (RMI). <a href="https://github.com/bae43/Stratego">View Source</a>
+
+								</div>
+
+							</div>
+						</div>
+					</div>
 					<br>
 
 					<div class="proj_border ">

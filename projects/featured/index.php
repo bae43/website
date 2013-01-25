@@ -91,7 +91,7 @@
 								<a href="http://campusconquest.com/version1.0/demos/01-AttackPhase.php" >Attack Phase</a>
 								<br>
 								<!-- 	<a href="http://campusconquest.com/v1.2/demos/01-AttackPhase.php" >Current Version</a> -->
-								<a href="http://campusconquest.com/v1.2/demos/symbols/" >College Symbols</a>
+								<a href="http://campusconquest.com/v1.2/demos/symbols/" >College Flag Symbols</a>
 							</div>
 						</FIELDSET>
 

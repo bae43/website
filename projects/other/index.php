@@ -68,8 +68,10 @@
 						<a href="#maze" >Section 3</a>
 						</div>
 						</div> -->
-						<div >
-							A short portfolio of some of my other hobbies. Click a tile to view larger &mdash; images may take take several seconds to load.
+						<div style="margin-left:100px">
+							A short portfolio of some of my other hobbies. 
+							<br>
+							Click a tile to view larger &mdash; images may take take several seconds to load.
 						</div>
 						<br>
 					</div>
@@ -119,6 +121,7 @@
 								<a href="images/etches/quail.png"  class = "t" rel="lightbox[etch]" title="Happy Birthday to Amanda Quain!" date = "Oct 2011"><img src="images/etches/quail_tile.png" alt="" /></a>
 								<a href="images/etches/nuthatch.png"  class = "t" rel="lightbox[etch]" title="Nuthatch" date = "Dec 2006"><img src="images/etches/nuthatch_tile.png" alt="" /></a>
 								<a href="images/etches/lobster.png"  class = "t" rel="lightbox[etch]" title="Happy Birthday to Christina Hanco!" date = "Sept 2011"><img src="images/etches/lobster_tile.png" alt="" /></a>
+								<a href="images/etches/cockatoo.png"  class = "t" rel="lightbox[etch]" title="Happy Birthday to Kimberly Senko!" date = "Sept 2011"><img src="images/etches/cockatoo_tile.png" alt="" /></a>
 								<a href="images/etches/pearl.png"  class = "t" rel="lightbox[etch]" title="Steinbeck's The Pearl" date = "May 2008"><img src="images/etches/pearl_tile.png" alt="" /></a>
 								<a href="images/etches/psu.png"  class = "t" rel="lightbox[etch]" title="Nittany Lion" date = "July 2008"><img src="images/etches/psu_tile.png" alt="" /></a>
 								<a href="images/etches/delibird.png"  class = "t" rel="lightbox[etch]" title="Delibird" date = "Jan 2013"><img src="images/etches/delibird_tile.png" alt="" /></a>
@@ -151,6 +154,7 @@
 							<a href="images/skipper2.png"  class = "t" rel="lightbox[photos]" title="Skipper the Cat" date="Dec 2012"><img src="images/skipper2_tile.png" alt="" /></a>
 							<a href="images/skipper_in_window.png"  class = "t" rel="lightbox[photos]" title="Snowfall" date="Dec 2012"><img src="images/skipper_in_window_tile.png" alt="" /></a>
 							<a href="images/lightning.png"  class = "t" rel="lightbox[photos]" title="Lightning over Ithaca" date="July 2012"><img src="images/lightning_tile.png" alt="" /></a>
+							<a href="images/iced_sill.png"  class = "t" rel="lightbox[photos]" title="A Window Sill in Winter" date="Jan 2012"><img src="images/iced_sill_tile.png" alt="" /></a>
 							<a href="images/ithacasunrise.png"  class = "t" rel="lightbox[photos]" title="Sunrise in Ithaca" date="July 2012"><img src="images/ithacasunrise_tile.png" alt="" /></a>
 							<a href="images/foxglove.png"  class = "t" rel="lightbox[photos]" title="Foxglove" date="June 2012"><img src="images/foxglove_tile.png" alt="" /></a>
 							<a href="images/foxglove2.png"  class = "t" rel="lightbox[photos]" title="Foxglove" date="June 2012"><img src="images/foxglove2_tile.png" alt="" /></a>
@@ -159,6 +163,8 @@
 							<a href="images/fish.png"  class = "t" rel="lightbox[photos]" title="Seymour the Goldfish" date="June 2012"><img src="images/fish_tile.png" alt="" /></a>
 							<a href="images/bee_on_flower.png"  class = "t" rel="lightbox[photos]" title="Bee on Flower" date="Oct 2012"><img src="images/bee_tile.png" alt="" /></a>
 							<a href="images/woodfrog.png"  class = "t" rel="lightbox[photos]" title="Woodfrog" date="Oct 2012"><img src="images/woodfrog_tile.png" alt="" /></a>
+							<a href="images/robbin.png"  class = "t" rel="lightbox[photos]" title="Robbin" date="June 2012"><img src="images/robbin_tile.png" alt="" /></a>
+							<a href="images/snake.png"  class = "t" rel="lightbox[photos]" title="Wild Gartner Snake" date="June 2012"><img src="images/snake_tile.png" alt="" /></a>
 							<a href="images/sage.png"  class = "t" rel="lightbox[photos]" title="Sage Hall" date="July 2012"><img src="images/sage_tile.png" alt="" /></a>
 						</div>
 

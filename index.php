@@ -7,6 +7,22 @@
 		<LINK REL=StyleSheet HREF="css/global.css" TYPE="text/css">
 		<LINK REL=StyleSheet HREF="css/main.css" TYPE="text/css">
 		<script src="js/jquery-1.7.2.min.js"></script>
+		<script src="js/jquery.tipsy.js"></script>
+		
+
+
+
+<!--  -->
+<link rel="stylesheet" href="http://onehackoranother.com/projects/jquery/tipsy/stylesheets/tipsy.css" type="text/css" />
+<link rel="stylesheet" href="css/tipsy-docs.css" type="text/css" />
+
+<style>.tipsy{font-size:12px;}</style>
+<script type="text/javascript" src="js/jquery.tipsy.js"></script>
+
+
+<!--  -->
+		
+		
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-37666233-1']);
@@ -27,12 +43,10 @@
 
 		<div id="page">
 			<div  class = "box" id = "links">
-				<a href="about/index.php"> <img class="icon"  id="about" src="images/icon_about.png" alt="about"> </a>
-<!-- 				<a href="about/index.php"> <img class="icon" id="about" src="images/icon_other.png" alt="projects"> </a> -->
-			
-				<a href="education/index.php"> <img class="icon"  id="resume" src="images/icon_courses.png" alt="coursework"> </a>
-				<a href="projects/index.php"> <img class="icon" id="projects" src="images/icon_other.png" alt="projects"> </a>
-				</div>
+				<a href="about/index.php" rel="tooltip"  id="about"  title="About Me"> <img class="icon"  src="images/icon_about.png" alt="about"> </a>
+				<a href="education/index.php" rel="tooltip" id="resume" title="Resume"><img class="icon" src="images/icon_courses.png" alt="Resume" /></a>
+				<a href="projects/index.php" rel="tooltip" id="projects" title="Projects"> <img class="icon" id="projects" src="images/icon_other.png" alt="projects"> </a>
+			</div>
 
 			<div class = "box" id="main">
 
@@ -56,6 +70,9 @@
 			</div>
 
 		</div>
+		
+	
+
 
 		<div  id="footer" style="position:absolute;">
 			<p>
@@ -83,8 +100,15 @@
 				});
 			}, 500);
 
+			// $(function() {
+				// $('[rel=tooltip]').tooltip();
+			// });
+  $(function() {
+    $('#about').tipsy({gravity: 'e'});
+    $('#resume').tipsy({gravity: 'n'});
+    $('#projects').tipsy({gravity: 'w'});
 
-
+  });
 		</script>
 
 	</body>

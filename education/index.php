@@ -264,6 +264,7 @@
 							<div class = 'l2'></div>
 
 							<script type="text/javascript">
+								var slide_duration = 500;
 								(function() {
 									//color hovered links
 									$(document).ready(function() {
@@ -282,36 +283,75 @@
 										$('#s12').hide();
 										$('#f11').hide();
 
+										// $('#s13_title').click(function() {
+										// $('#s13').stop(false, false).animate({
+										// height : "toggle",
+										// opacity : "toggle"
+										// }, duration);
+										// });
+
 										$('#s13_title').click(function() {
-											if ($('#s13').is(":hidden")) {
-												$(curpage).slideUp();
-												$('#s13').slideDown();
-												curpage = '#s13';
-											}
+											if ("#s13" != curpage) {
+
+												$('#s13').stop(true, true).fadeIn({
+													duration : slide_duration,
+													queue : false
+												}).css('display', 'none').slideDown(slide_duration);
+
+												$(curpage).stop(true, true).fadeOut({
+													duration : slide_duration,
+													queue : false
+												}).slideUp(slide_duration);
+												curpage = "#s13";
+											} 
 										});
 
 										$('#f12_title').click(function() {
-											if ($('#f12').is(":hidden")) {
-												$(curpage).slideUp();
-												$('#f12').slideDown();
-												curpage = '#f12';
-											}
+											if ("#f12" != curpage) {
+
+												$('#f12').stop(true, true).fadeIn({
+													duration : slide_duration,
+													queue : false
+												}).css('display', 'none').slideDown(slide_duration);
+
+												$(curpage).stop(true, true).fadeOut({
+													duration : slide_duration,
+													queue : false
+												}).slideUp(slide_duration);
+												curpage = "#f12";
+											} 
 										});
 
 										$('#s12_title').click(function() {
-											if ($('#s12').is(":hidden")) {
-												$(curpage).slideUp();
-												$('#s12').slideDown();
-												curpage = '#s12';
-											}
+											if ("#s12" != curpage) {
+
+												$('#s12').stop(true, true).fadeIn({
+													duration : slide_duration,
+													queue : false
+												}).css('display', 'none').slideDown(slide_duration);
+
+												$(curpage).stop(true, true).fadeOut({
+													duration : slide_duration,
+													queue : false
+												}).slideUp(slide_duration);
+												curpage = "#s12";
+											} 
 										});
 
 										$('#f11_title').click(function() {
-											if ($('#f11').is(":hidden")) {
-												$(curpage).slideUp();
-												$('#f11').slideDown();
-												curpage = '#f11';
-											}
+											if ("#f11" != curpage) {
+
+												$('#f11').stop(true, true).fadeIn({
+													duration : slide_duration,
+													queue : false
+												}).css('display', 'none').slideDown(slide_duration);
+
+												$(curpage).stop(true, true).fadeOut({
+													duration : slide_duration,
+													queue : false
+												}).slideUp(slide_duration);
+												curpage = "#f11";
+											} 
 										});
 									});
 

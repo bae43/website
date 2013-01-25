@@ -27,9 +27,8 @@
 	width: 600px;
 }
 .icon {
-margin-top: 10px;
-
-/*	*/
+	margin-top: 10px;
+	/*	*/
 	transition: width 2s, margin 0.5s;
 	-moz-transition: width 2s, margin 0.5s, -moz-transform 0.2s; /* Firefox 4 */
 	-webkit-transition: width 2s, margin 0.2s, -webkit-transform 0.2s; /* Safari and Chrome */
@@ -84,13 +83,15 @@ h1 {
 	font-family: harabara, 'helvetica', 'trebuchet ms', 'sans serif';
 	font-weight: 100;
 	font-size: 80px;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
 	background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#333));
 	-webkit-background-clip: text;
 	/*-webkit-text-fill-color: transparent;*/
 
 }
 
-.l{
+.l {
 	margin: 0em 1.5em 0em 1.5em;
 }
 
@@ -106,7 +107,6 @@ h1 {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
-
 
 /*#project:hover {
  -moz-box-shadow: 3px 3px 4px #fff;

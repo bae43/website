@@ -1,32 +1,31 @@
-/*Now the styles*/
 * {
-	margin: 0; 
+	margin: 0;
 	padding: 0;
 }
 body {
-	background: #222; 
-	font-family: arial, verdana, tahoma;
+	background: #222;
+	font-family: helvetica, arial, verdana, tahoma;
 }
 
-/*Time to apply widths for accordian to work
-Width of image = 640px
-total images = 5
-so width of hovered image = 640px
-width of un-hovered image = 40px - you can set this to anything
-so total container width = 640 + 40*4 = 800px;
-default width = 800/5 = 160px;
+/*
+ Width of image = 640px
+ total images = 5
+ so width of hovered image = 640px
+ width of un-hovered image = 40px - you can set this to anything
+ so total container width = 640 + 40*4 = 800px;
+ default width = 800/5 = 160px;
 
-380x760
-width-60
-total 1000
-*/
-#page{
-	width: 1005px; 
+ 380x760
+ width-60
+ total 1000
+ */
+#page {
+	width: 1005px;
 }
 .accordian {
-	width: 1005px; height: 380px;
+	width: 1005px;
+	height: 380px;
 	overflow: hidden;
-	
 	/*Time for some styling*/
 	margin: 100px auto;
 	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
@@ -38,7 +37,7 @@ total 1000
 .accordian ul {
 	width: 2000px;
 	/*This will give ample space to the last item to move
-	instead of falling down/flickering during hovers.*/
+	 instead of falling down/flickering during hovers.*/
 }
 
 .accordian li {
@@ -46,13 +45,10 @@ total 1000
 	display: block;
 	width: 200px;
 	float: left;
-	
 	border-left: 1px solid #888;
-	
 	box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
 	-webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
 	-moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
-	
 	/*Transitions to give animation effect*/
 	transition: all 0.5s;
 	-webkit-transition: all 0.5s;
@@ -60,11 +56,14 @@ total 1000
 }
 
 /*Reduce with of un-hovered elements*/
-.accordian ul:hover li {width: 60px;}
+.accordian ul:hover li {
+	width: 60px;
+}
 /*Lets apply hover effects now*/
 /*The LI hover style should override the UL hover style*/
-.accordian ul li:hover {width: 760px;}
-
+.accordian ul li:hover {
+	width: 760px;
+}
 
 .accordian li img {
 	display: block;
@@ -74,14 +73,14 @@ total 1000
 .image_title {
 	background: rgba(0, 0, 0, 0.5);
 	position: absolute;
-	left: 0; bottom: 0;	
-width: 760px;	
-
+	left: 0;
+	bottom: 0;
+	width: 760px;
 }
 .image_title a {
 	display: block;
 	color: #fff;
 	text-decoration: none;
-	padding: 20px;
-	font-size: 16px;
+	padding: 12px;
+	font-size: 20px;
 }

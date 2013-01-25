@@ -14,6 +14,25 @@
 		<script type="text/javascript" src="../../js/jquery-1.7.2.min.js"></script>
 		<script type="text/javascript" src="../../js/lightbox.js"></script>
 
+		<link rel="stylesheet" href="http://onehackoranother.com/projects/jquery/tipsy/stylesheets/tipsy.css" type="text/css" />
+		<link rel="stylesheet" href="../../css/tipsy-docs.css" type="text/css" />
+
+		<style>
+			.tipsy {
+				font-size: 12px;
+				top:-50px;				
+			}
+			.tipsy-arrow{
+				display:none;
+			}
+			a.t{
+				line-height:10px;
+				height:0;
+				
+			}
+		</style>
+		<script type="text/javascript" src="../../js/jquery.tipsy.js"></script>
+		
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-37666233-1']);
@@ -147,7 +166,11 @@
 		<br>
 		<br>
 		<br>
-
+<script>
+	  $(function() {
+    $('.img').tipsy({gravity: 's'});
+  });
+</script>
 		<div id="footer">
 			<p>
 				&copy; 2012 Bryce Evans

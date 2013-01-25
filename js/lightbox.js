@@ -164,15 +164,24 @@
 			if ($link.attr('rel') === 'lightbox') {
 				this.album.push({
 					link : $link.attr('href'),
-					title : $link.attr('title')
+					title : $link.attr('title_disp'),
+					info : $link.attr('info')
 				});
 			} else {
 				_ref = $($link.prop("tagName") + '[rel="' + $link.attr('rel') + '"]');
 				for ( i = 0, _len = _ref.length; i < _len; i++) {
 					a = _ref[i];
+					var title = $(a).attr('title_disp');
+					var date = $(a).attr('date');
+					var info = $(a).attr('info');
+					if(!title){title="";}
+					if(!date){date="";}
+					if(!info){info="";}
 					this.album.push({
 						link : $(a).attr('href'),
-						title : $(a).attr('title') + "<br>" + $(a).attr('date')//picture caption
+						title : title + 
+						" &mdash; <span style='text-decoration:none; font-size:12px; font-family:helvetica, arial, sans;'>" +  date +
+						 "</span><br><span style='text-decoration:none; font-size:12px; font-family:helvetica, arial, sans;'>" +  info + "</span>"//picture caption
 					});
 					if ($(a).attr('href') === $link.attr('href'))
 						imageNumber = i;

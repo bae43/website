@@ -7,7 +7,9 @@
     
     function fixTitle($ele) {
         if ($ele.attr('title') || typeof($ele.attr('original-title')) != 'string') {
-            $ele.attr('original-title', $ele.attr('title') || '').removeAttr('title');
+        	$ele.attr('original-title', $ele.attr('title') || '').attr('title_disp',$ele.attr('title'));
+           $ele.attr('original-title', $ele.attr('title') || '').removeAttr('title');
+           
         }
     }
     

@@ -14,6 +14,25 @@
 		<script type="text/javascript" src="../../js/jquery-1.7.2.min.js"></script>
 		<script type="text/javascript" src="../../js/lightbox.js"></script>
 
+		<link rel="stylesheet" href="http://onehackoranother.com/projects/jquery/tipsy/stylesheets/tipsy.css" type="text/css" />
+		<link rel="stylesheet" href="../../css/tipsy-docs.css" type="text/css" />
+
+		<style>
+			.tipsy {
+				font-size: 12px;
+				top:-50px;				
+			}
+			.tipsy-arrow{
+				display:none;
+			}
+			a.t{
+				line-height:10px;
+				height:0;
+				
+			}
+		</style>
+		<script type="text/javascript" src="../../js/jquery.tipsy.js"></script>
+
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-37666233-1']);
@@ -69,7 +88,7 @@
 						</div>
 						</div> -->
 						<div style="margin-left:100px">
-							A short portfolio of some of my other hobbies. 
+							A short portfolio of some of my other hobbies.
 							<br>
 							Click a tile to view larger &mdash; images may take take several seconds to load.
 						</div>
@@ -112,7 +131,7 @@
 						<div class="set">
 							<div class="single first">
 
-								<a href="images/etches/scotty%20full.png"  class = "t" rel="lightbox[etch]" title="A Scotty Dog" date ="Nov 2012"><img src="images/etches/scotty_tile.png" alt="" /></a>
+								<a href="images/etches/scotty_full.png"  class = "t" rel="lightbox[etch]" title="A Scotty Dog" date ="Nov 2012"><img src="images/etches/scotty_tile.png" alt="" /></a>
 								<a href="images/etches/band_close.jpg"  class = "t" rel="lightbox[etch]" title="Winds" date ="Jan 2011"><img src="images/etches/band_tile.png" alt="" /></a>
 								<a href="images/etches/butterfly.png"  class = "t" rel="lightbox[etch]" title="Spring" date ="Mar 2012"><img src="images/etches/butterfly_tile.png" alt="" /></a>
 								<a href="images/etches/pterodactle.png"  class = "t" rel="lightbox[etch]" title="Pterodactyl" date = "Jan 2008"><img src="images/etches/pterodactle_tile.png" alt="" /></a>
@@ -151,16 +170,16 @@
 					<div class="imageRow" style="position : relative; top: 0px; right:-5em;">
 
 						<div class="single">
-							<a href="images/skipper2.png"  class = "t" rel="lightbox[photos]" title="Skipper the Cat" date="Dec 2012"><img src="images/skipper2_tile.png" alt="" /></a>
+							<a href="images/skipper2.png"  id="skip" class = "t" rel="lightbox[photos]" title="Skipper the Cat" date="Dec 2012"><img src="images/skipper2_tile.png" alt="" /></a>
 							<a href="images/skipper_in_window.png"  class = "t" rel="lightbox[photos]" title="Snowfall" date="Dec 2012"><img src="images/skipper_in_window_tile.png" alt="" /></a>
-							<a href="images/lightning.png"  class = "t" rel="lightbox[photos]" title="Lightning over Ithaca" date="July 2012"><img src="images/lightning_tile.png" alt="" /></a>
-							<a href="images/iced_sill.png"  class = "t" rel="lightbox[photos]" title="A Window Sill in Winter" date="Jan 2012"><img src="images/iced_sill_tile.png" alt="" /></a>
+							<a href="images/lightning.png"  class = "t" rel="lightbox[photos]" title="Lightning over Ithaca" date="July 2012" info="30 sec. exposure time"><img src="images/lightning_tile.png" alt="" /></a>
+							<a href="images/iced_sill.png"  class = "t" rel="lightbox[photos]" title="A Window Sill in Winter" date="Jan 2012" info="-5 F in Ithaca"><img src="images/iced_sill_tile.png" alt="" /></a>
 							<a href="images/ithacasunrise.png"  class = "t" rel="lightbox[photos]" title="Sunrise in Ithaca" date="July 2012"><img src="images/ithacasunrise_tile.png" alt="" /></a>
 							<a href="images/foxglove.png"  class = "t" rel="lightbox[photos]" title="Foxglove" date="June 2012"><img src="images/foxglove_tile.png" alt="" /></a>
 							<a href="images/foxglove2.png"  class = "t" rel="lightbox[photos]" title="Foxglove" date="June 2012"><img src="images/foxglove2_tile.png" alt="" /></a>
-							<a href="images/fluffer.png"  class = "t" rel="lightbox[photos]" title="Fluffer" date="June 2012"><img src="images/fluffer_tile.png" alt="" /></a>
+							<a href="images/fluffer.png"  class = "t" rel="lightbox[photos]" title="Fluffer" date="June 2012" info="My brother's rabbit"><img src="images/fluffer_tile.png" alt="" /></a>
 							<a href="images/flowers_pink.png"  class = "t" rel="lightbox[photos]" title="Trumpet Honeysuckle" date="June 2012"><img src="images/flowers_pink_tile.png" alt="" /></a>
-							<a href="images/fish.png"  class = "t" rel="lightbox[photos]" title="Seymour the Goldfish" date="June 2012"><img src="images/fish_tile.png" alt="" /></a>
+							<a href="images/fish.png"  class = "t" rel="lightbox[photos]" title="Seymour the Goldfish" date="June 2012" info="...Playing around with Photoshop"><img src="images/fish_tile.png" alt="" /></a>
 							<a href="images/bee_on_flower.png"  class = "t" rel="lightbox[photos]" title="Bee on Flower" date="Oct 2012"><img src="images/bee_tile.png" alt="" /></a>
 							<a href="images/woodfrog.png"  class = "t" rel="lightbox[photos]" title="Woodfrog" date="Oct 2012"><img src="images/woodfrog_tile.png" alt="" /></a>
 							<a href="images/robbin.png"  class = "t" rel="lightbox[photos]" title="Robbin" date="June 2012"><img src="images/robbin_tile.png" alt="" /></a>
@@ -180,13 +199,17 @@
 		<br>
 		<br>
 		<br>
-
+				
 		<div id="footer">
 			<p>
 				&copy; 2012 Bryce Evans
 			</p>
 		</div>
-
+<script>
+	  $(function() {
+    $('.t').tipsy({gravity: 's'});
+  });
+</script>
 	</body>
 </html>
 

@@ -138,6 +138,30 @@
 						</div>
 					</div>
 										<br>
+										
+															<div class="proj_border ">
+						<div class ="cushion" >
+							<div class="body">
+
+								<a name="euler" ><h2> Hardy Weinburg Calculator </h2></a>
+
+								<br>
+							</div>
+							<div>
+
+								<div class="desc">
+									I made a calculator to plot allele frequencies over time using random mating through 
+									the Hardy Weinburg equation. Unlike the standard equation though, 
+									I implemented simulation of predation through  input of statistical survival rates
+									to make the frequencies dynamic over many generations. 
+									
+									<a href="../../hw.html">Try it!</a>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<br>
 
 					<div class="proj_border ">
 						<div class ="cushion" >
@@ -158,6 +182,8 @@
 						</div>
 					</div>
 					<br>
+					
+					
 
 					<div class="proj_border ">
 						<div class ="cushion" >

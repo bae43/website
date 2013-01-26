@@ -6,6 +6,39 @@
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 		<LINK REL=StyleSheet HREF="css/global.css" TYPE="text/css">
 		<LINK REL=StyleSheet HREF="css/main.css" TYPE="text/css">
+		<style>
+			div.l2 {
+				height: 1px;
+				background-color: rgba(85,85,85,0.7);
+				border-bottom-color: #888;
+				margin: .25em 0;
+				overflow: hidden;
+			}
+			td {
+				line-height: 18px;
+				height: 30px;
+			}
+			button {
+				background: #111;
+				color: #fff;
+				border: solid 1px #666;
+				border-radius: 8px;
+				font-family: Helvetica, Arial, sans-serif;
+				font-size: 16px;
+				width: 80px;
+			}
+			button:hover {
+				background: #224;
+				color: #fff;
+			}
+			input {
+				background-color: #111;
+				border: 1px solid #444;
+				color: #ddd;
+				text-align: center;
+				width: 80px;
+			}
+		</style>
 		<script src="js/jquery-1.7.2.min.js"></script>
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
@@ -23,10 +56,8 @@
 
 		</script>
 
-		<script src="hwcalc.js"></script>
-		<script>
-			
-		</script>
+		<script src="js/hwcalc.js"></script>
+		<script></script>
 
 		<SCRIPT TYPE="text/javascript">
 			// copyright 1999 Idocs, Inc. http://www.idocs.com
@@ -65,70 +96,115 @@
 	<body>
 
 		<div id="page">
-			<h2> Hardy Weinburg Solver </h2>
+			<span style="margin: 0px;
+			font-family: neutraface, helvetica, 'sans serif';
+			font-size: 36px;
+			color: #5bbd2c;"> Hardy Weinburg Solver </span><span style="color:#444; font-size: 20px;">v1.0</span>
 			<br>
 			<br>
-
+			<div class = 'l2'></div>
 			<FORM id="input" style=" width:100%; position:relative; right:0;">
 				<table >
+					<col width="150">
+					<col width="150">
+					<col width="200">
 					<tr>
-						<td></td><th>Phenotype: </th><th>Survival Rate:</th>
+						<td></td><td>Phenotype: </td><td>Survival Rate:</td>
 					</tr>
 					<tr>
 						<td>Homozygeous Dominant:</td><td>
-						<INPUT id = "dhom" NAME="dhom" SIZE=5 MAXLENGTH=5
+						<INPUT id = "dhom" NAME="dhom" SIZE=5 MAXLENGTH=5 value="25"
 						onKeyPress="return numbersonly(this, event)">
 						</td><td>
-						<INPUT id = "sdhom" NAME="sdhom" SIZE=5 MAXLENGTH=5
+						<INPUT id = "sdhom" NAME="sdhom" SIZE=5 MAXLENGTH=5 value="100"
 						onKeyPress="return numbersonly(this, event)">
 						</td>
 					</tr>
 					<tr>
 						<td>Heterozygeous:</td><td>
-						<INPUT id="het" NAME="het" SIZE=5 MAXLENGTH=5
+						<INPUT id="het" NAME="het" SIZE=5 MAXLENGTH=5 value="50"
 						onKeyPress="return numbersonly(this, event)">
 						</td><td>
-						<INPUT NAME="shet" id="shet" SIZE=5 MAXLENGTH=5
+						<INPUT NAME="shet" id="shet" SIZE=5 MAXLENGTH=5 value="100"
 						onKeyPress="return numbersonly(this, event)">
 						</td>
 					</tr>
 					<tr>
 						<td>Homozygeous Recessive:</td><td>
-						<INPUT NAME="rhom" id="rhom" SIZE=5 MAXLENGTH=5
+						<INPUT NAME="rhom" id="rhom" SIZE=5 MAXLENGTH=5 value="25"
 						onKeyPress="return numbersonly(this, event)">
 						</td><td>
-						<INPUT NAME="srhom" id="srhom" SIZE=5 MAXLENGTH=5
+						<INPUT NAME="srhom" id="srhom" SIZE=5 MAXLENGTH=5 value="100"
 						onKeyPress="return numbersonly(this, event)">
 						</td>
 					</tr>
-					<tr>
-						<td>Reproductive Rate:</td><td>
-						<INPUT NAME="rep" id="rep"  SIZE=5 MAXLENGTH=5
-						onKeyPress="return numbersonly(this, event)">
-						</td>
+					<!-- 				<tr>
+					<td>Reproductive Rate:</td><td>
+					<INPUT NAME="rep" id="rep"  SIZE=5 MAXLENGTH=5 value="2"
+					onKeyPress="return numbersonly(this, event)">
+					</td>
+					</tr> -->
+					<tr style="height:6px;">
+						<td></td>
 					</tr>
 
 					<tr>
+
 						<td>Generations:</td><td>
-						<INPUT NAME="rep" id = "gen" SIZE=5 MAXLENGTH=3
+						<INPUT NAME="rep" id = "gen" SIZE=5 MAXLENGTH=3 value="25"
 						onKeyPress="return numbersonly(this, event)">
 						</td>
 					</tr>
+					<tr style="height:8px;">
+						<td></td>
+					</tr>
+					<!-- 		<tr>
+					<td>Resolution<sup>-1</sup> :</td><td>
+					<INPUT NAME="res" id = "res" SIZE=5 MAXLENGTH=2 value="1"
+					onKeyPress="return numbersonly(this, event)">
+					</td>
+					</tr> -->
 					<tr>
-						<td>
-						<BUTTON type="button" id="calc_button">submit</BUTTON>
-						</td>
+						<td></td><td></td><td></td><td>
+						<BUTTON type="button" id="calc_button">
+							Plot
+						</BUTTON></td>
 					</tr>
 				</table>
 			</FORM>
+			<div class = 'l2'></div>
 			<br>
 			<br>
-			<canvas id="can" height="400" width="650" style="background-color: #111;"></canvas>
-		</div>
+			<div id="legend" style ="margin-left:50px; width:100px; display:none;">
+				<div style="float:left;">
+					<span style="display:block; width:8px; position:relative; margin-top:13px; height:8px; background-color: #33ff33; float:left;"></span> &nbsp; p
+				</div>
+				<div style="float:right;">
+					<span style="display:block; width:8px; position:relative; margin-top:13px; height:8px; background-color: #3366ff; float:left;"></span> &nbsp; q
+				</div>
+			</div>
 
-		<div  id="footer" style="position:absolute;">
-			<p></p>
+			<canvas id="can" height="400" width="650" style="background-color: #111; display:none;"></canvas>
+			<br>
+
 		</div>
+		<br>
+		<br>
+		<br>
+		<div  id="footer" >
+			<p>
+				&copy; 2013 Bryce Evans
+			</p>
+		</div>
+		<script>
+			$("#gen").mousedown(function(e) {
+				if ($(this).find('option').length > 1) {
+					e.preventDefault();
+					//return false will also work
+					// return false;
+				}
+			});
+		</script>
 
 	</body>
 

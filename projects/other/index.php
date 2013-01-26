@@ -183,7 +183,7 @@
 							<a href="images/bee_on_flower.png"  class = "t" rel="lightbox[photos]" title="Bee on Flower" date="Oct 2012"><img src="images/bee_tile.png" alt="" /></a>
 							<a href="images/woodfrog.png"  class = "t" rel="lightbox[photos]" title="Woodfrog" date="Oct 2012"><img src="images/woodfrog_tile.png" alt="" /></a>
 							<a href="images/robbin.png"  class = "t" rel="lightbox[photos]" title="Robbin" date="June 2012"><img src="images/robbin_tile.png" alt="" /></a>
-							<a href="images/snake.png"  class = "t" rel="lightbox[photos]" title="Wild Gartner Snake" date="June 2012"><img src="images/snake_tile.png" alt="" /></a>
+							<a href="images/snake.png"  class = "t" rel="lightbox[photos]" title="Wild Gartner Snake" date="June 2012" info="Caught just flicking his tongue out (1/320 s. exposure)"><img src="images/snake_tile.png" alt="" /></a>
 							<a href="images/sage.png"  class = "t" rel="lightbox[photos]" title="Sage Hall" date="July 2012"><img src="images/sage_tile.png" alt="" /></a>
 						</div>
 

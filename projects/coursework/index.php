@@ -134,7 +134,7 @@
 								<a href="images/gears.png"  rel="lightbox[chrysalis]" title="Gears" date=""><img src="images/gears_small.png" alt="" align="left" class = "main_img" style="max-width: 35%;" /></a>
 								<br>
 								<div class="desc">
-									Working with 3D modeling for several years, I always took the raytracer for granid but building
+									Working with 3D modeling for several years, I always took the raytracer for granted but building
 									one and seeing the internals was really fascinating. The project was engrossing to both of us and
 									we added many features that helped our raytracer stand out as being able to render near photo-realistic images.
 									Our submission to the annual Raytracer Rendering Competition "Misty Morning" won first place.
@@ -163,7 +163,7 @@
 								</div>
 								<div>
 									<a href="images/terrain.png"  rel="lightbox[graphics_prac]" title="Terrain" date="Wire mesh overlayed in foreground to show geometry."><img src="images/terrain_small.png" alt="" align="right" class = "main_img" style="max-width: 35%;" /></a>
-									<a href="images/particles.png"  rel="lightbox[graphics_prac]" title="A Particle System" date=""><img src="" alt="" align="right" class = "main_img" style="max-width: 35%;" /></a>
+									<a href="images/particles.png"  rel="lightbox[graphics_prac]" title="A Particle System" date=""></a>
 
 									<div class="desc">
 										The graphics practicum consisted of slowly constructing and adding new features to a scene editor throughout the semester.
@@ -330,9 +330,9 @@
 										<img src="images/animation.png" class = "flipper_img" id="i2"> -->
 										<a href="images/critter.gif"  id="i1" class = "flipper_img" rel="lightbox[critter]" title="Critter Animation" date=""><img src="images/animation_lit.png" alt="" /></a>
 										<a href="images/critter.gif"  id="i2" class = "flipper_img" rel="lightbox[asdf]" title="Critter Animation" date=""><img src="images/animation.png" alt="" /></a>
-										<a href="images/plants.gif"  class = "img" rel="lightbox[critter]" title="Plant Animation" date=""><img src="" alt="" /></a>
-										<a href="images/rocks.gif"  class = "img" rel="lightbox[critter]" title="Rock Animation" date=""><img src="" alt="" /></a>
-										<a href="images/carcass.gif"  class = "img" rel="lightbox[critter]" title="Critter Carcass Animation" date=""><img src="" alt="" /></a>
+										<a href="images/plants.gif"  class = "img" rel="lightbox[critter]" title="Plant Animation" date=""></a>
+										<a href="images/rocks.gif"  class = "img" rel="lightbox[critter]" title="Rock Animation" date=""></a>
+										<a href="images/carcass.gif"  class = "img" rel="lightbox[critter]" title="Critter Carcass Animation" date=""></a>
 										<br>
 										<br>
 										<br>
@@ -343,7 +343,7 @@
 										<span style="font-size:14px; line-height: 3px; color:#888; height:5px;">(~5 second loadtime)</span>
 									</div>
 
-									<div id="imgs2" style = "float:right;">
+									<div id="imgs2" style = "float:left; margin-left:600px;">
 										<a  id = "i3" class = "flipper_img2" href="critterworld/CritterWorld.zip"><img src="images/download_lit.png" alt="" /></a>
 										<a  id = "i4" class = "flipper_img2" href="critterworld/CritterWorld.zip"><img src="images/download.png" alt="" /></a>
 

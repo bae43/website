@@ -122,7 +122,7 @@
 
 								Campus Conquest is turn-based strategy, capture-the-flag game. Each team places their flag
 								in any of the buildings that they start with, and must defend their flag while fighting to capture
-								their opponents'. The tenetive rule set includes:
+								their opponents'. The tentative rule set includes:
 								<ul>
 									<li>
 										Flags are hidden from enemies
@@ -336,7 +336,7 @@
 
 		<div id="footer">
 			<p>
-				&copy; 2012 Bryce Evans
+				&copy; 2013 Bryce Evans
 			</p>
 		</div>
 		</div>

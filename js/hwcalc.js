@@ -102,16 +102,26 @@ function calc() {
 		q = 1 - p;
 
 		logData();
-		
+
 		gen_cur++;
 	}
 
 	plot([ps, qs]);
 }
 
+function clear(canvas) {
+	canvas.getContext("2d").clearRect(0, 0, canvas.width, canvas.height);
+}
+
 function plot(data) {
 	$("#legend").show();
 	$("#can").show();
+	$("#overlay").show();
+
+	var can = document.getElementById("can");
+	var ctx = can.getContext("2d");
+	var height = 400;
+	var width = 650;
 
 	// alert(data[0] + " " + data[1]);
 
@@ -126,8 +136,7 @@ function plot(data) {
 
 	function init() {
 		// set these values for your data
-		height = 400;
-		width = 650;
+
 		maxVal = 1;
 		minVal = 0;
 		var stepSize = 0.1;
@@ -138,14 +147,15 @@ function plot(data) {
 
 		can = document.getElementById("can");
 		ctx = can.getContext("2d");
-		ctx.clearRect(0, 0, width, height);
+		clear(can);
+		// ctx.clearRect(0, 0, width, height);
 		ctx.fillStyle = "black"
 		ctx.font = "14pt Helvetica";
 		ctx.fillStyle = "#0088ff";
 		// set vertical scalar to available height / data points
 		yScalar = (can.height - colHead - margin) / (maxVal - minVal);
 		// set horizontal scalar to available width / number of samples
-		xScalar = (can.width - rowHead) / (numSamples-1);
+		xScalar = (can.width - rowHead) / (numSamples - 1);
 
 		ctx.strokeStyle = "rgba(128, 128, 255, 0.3)";
 
@@ -156,7 +166,7 @@ function plot(data) {
 			increment = Math.floor(numSamples / 20);
 		}
 		for ( i = 0; i < numSamples; i = i + increment) {
-			var x = i * xScalar + colHead ;
+			var x = i * xScalar + colHead;
 
 			ctx.fillText(cur_gen, x - 5, colHead - margin);
 			cur_gen += increment;
@@ -171,7 +181,7 @@ function plot(data) {
 
 			var y = colHead + (yScalar * count * stepSize);
 			ctx.fillText(scale, margin, y + margin);
-			ctx.moveTo(rowHead-6, y)
+			ctx.moveTo(rowHead - 6, y)
 			ctx.lineTo(can.width, y)
 			count++;
 		}
@@ -179,7 +189,8 @@ function plot(data) {
 
 		// set a color and make one call to plotData()
 		// for each data set
-		for (var i = 0; i < (data.length); i++) {
+		//go in reverse order so dominant is on top
+		for (var i = (data.length) - 1; i >= 0; i--) {
 			ctx.strokeStyle = colors[i];
 			plotData(data[i]);
 		}
@@ -195,8 +206,59 @@ function plot(data) {
 	}
 
 	init();
+	analyzePlot();
 	/*
 
 	 alert("DSadsf");*/
+
+}
+
+function analyzePlot() {
+
+	var overlay = document.getElementById("overlay");
+	var ctx = overlay.getContext("2d");
+	var height = overlay.height;
+	var width = overlay.width;
+	var inside = false;
+	
+	//"rgba(128, 255, 255, .4)";
+
+	// Initialization sequence.
+	function init() {
+
+		// Attach the mousemove event handler.
+		overlay.addEventListener('mousemove', ev_mousemove, false);
+		overlay.addEventListener ("mouseout", function() {overlay.width = overlay.width}, false);
+	}
+
+	// The mousemove event handler.
+	var started = false;
+	function ev_mousemove(ev) {
+		var x, y;
+		//clears
+		overlay.width = overlay.width;
+		ctx.strokeStyle = "#3366ff";
+		
+		// Get the mouse position relative to the canvas element.
+		if (ev.layerX || ev.layerX == 0) {// Firefox
+			x = ev.layerX;
+			y = ev.layerY;
+		} else if (ev.offsetX || ev.offsetX == 0) {// Opera
+			x = ev.offsetX;
+			y = ev.offsetY;
+		}
+
+		// The event handler works like a drawing pencil which tracks the mouse
+		// movements. We start drawing a path made up of lines.
+		ctx.moveTo(x, 0);
+		ctx.lineTo(x, height);
+
+		ctx.stroke();
+
+	}
+
+	init();
+
+	////
 
 }

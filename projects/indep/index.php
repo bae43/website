@@ -137,9 +137,9 @@
 							</div>
 						</div>
 					</div>
-										<br>
-										
-															<div class="proj_border ">
+					<br>
+
+					<div class="proj_border ">
 						<div class ="cushion" >
 							<div class="body">
 
@@ -150,12 +150,15 @@
 							<div>
 
 								<div class="desc">
-									I made a calculator to plot allele frequencies over time using random mating through 
-									the Hardy Weinburg equation. Unlike the standard equation though, 
+									I made a calculator to plot allele frequencies over time using random mating through
+									the Hardy Weinburg equation. Unlike the standard equation though,
 									I implemented simulation of predation through  input of statistical survival rates
-									to make the frequencies dynamic over many generations. 
-									
+									to make the frequencies dynamic over many generations.
+<br>
+<br>
 									<a href="../../hw.html">Try it!</a>
+									<br>
+									<a href="hw.py">Download Python Version</a>
 								</div>
 
 							</div>
@@ -182,8 +185,6 @@
 						</div>
 					</div>
 					<br>
-					
-					
 
 					<div class="proj_border ">
 						<div class ="cushion" >
@@ -197,7 +198,7 @@
 
 									<div class="desc">
 										I designed and modeled a shell of SPLAT's laser gun.
-										The model was 3D printed in plastic and used as a prototype. 
+										The model was 3D printed in plastic and used as a prototype.
 										<br>
 										<br>
 										<br>
@@ -240,41 +241,57 @@
 				<div class="proj_border ">
 					<div class ="cushion" >
 						<a name="cw" class="proj_title"><h2>Game Creation with Blender</h2></a>
-						<a href="images/koi.png"  rel="lightbox[bge]" title="Critters" date=""> <img src="images/koi.png" alt="" align="right" class = "main_img" style="max-width: 35%; margin:10px;"/></a>
+						<a href="images/koi.png"  rel="lightbox[bge]" title="Animated Koi Pond" date=""> <img src="images/koi.png" alt="" align="right" class = "main_img" style="max-width: 35%; margin:10px;"/></a>
 
 						<br>
 						<div class="desc">
 							My first projects in programming was making a series of simple games in Python using Blender.
-							A partial list - click for descriptions and images:
+							Click for descriptions and images:
 							<div class = "two_col">
 								<ul style="float:left">
 									<li>
-										24!
+										<a href="images/24.png"  rel="lightbox[24]" title_disp="24 Card Game" date="" info="Make 24 using the four basic operations ( + , - ,  * , / ) <br> Featured timers, setting probability of solution, and changing target number to another number than 24. <br> Also solved any draw and showed solutions for any given target. <br> Click for more images"> 24!</a>
+										<a href="images/casino_sigma.png"  rel="lightbox[24]" title_disp="" date="" info="newer version with a full world and animations"> </a>
+										<a href="images/casino_test3.png"  rel="lightbox[24]" title_disp="" date=""> </a>
+
 									</li>
 									<li>
-										3D Tic Tac Toe
+										<a href="images/tic_tac.png"  rel="lightbox[tictac]" title_disp="3D Tic Tac Toe" date="" info=""> 3D Tic Tac Toe</a>
+
 									</li>
 									<li>
-										Simple Jet Flight Simulator
+										<a href="images/Ante3.png"  rel="lightbox[ante]" title_disp="" date="" info="Click on north or south to sort based on the views presented in the quote">Antebellum Quiz </a>
+										<a href="images/Ante.png"  rel="lightbox[ante]" title_disp="" date="" info=""> </a>
 									</li>
 									<li>
-										Koi Pond Screen Saver
+										<a href="images/inferno.png"  rel="lightbox[inf]" title_disp="The Inferno Quizzer" date="" info="An animated game used to display and make quizzes more fun. Just don't fail."> Inferno Quizzer</a>
+									</li>
+									<li>
+										<a href="images/koi.png"  rel="lightbox[koi]" title_disp="Koi Pond" date="" info="Animated fish, lily pads, and water. Very relaxing."> Koi Pond Screen Saver</a>
 									</li>
 
 								</ul>
 								<ul style="float:right">
 
 									<li>
-										"Chromasia" Racing Game
+
+										<a href="images/muscle1.png"  rel="lightbox[muscle]" title_disp="Muscle Model" date="" info="A model of a muscle gave info and a close up when clicking on any section"> Muscle Model</a>
+										<a href="images/muscle2.png"  rel="lightbox[muscle]" title_disp="Up Close" date="" info="Fully animations showing chemical interactions and microscopic movement"> </a>
+
 									</li>
 									<li>
-										Muscle Model
+
+										<a href="images/chromasia1.png"  rel="lightbox[chrome]" title_disp="Main Menu" date="" info=""> "Chromasia" Racing Game</a>
+										<a href="images/chromasia2.png"  rel="lightbox[chrome]" title_disp="Game Play" date="" info=""> </a>
+
 									</li>
 									<li>
-										Hardy-Weinburg Solver
+										<a href="images/DREQ.png"  rel="lightbox[dreq]" title_disp="DREQ Solver" date="" info="Used for solving DNA Restriction Enzyme Questions, as found on the AP Biology test"> DNA Restriction Enzyme Solver</a>
+
 									</li>
 									<li>
-										DNA Restriction Enzyme Solver
+										<a href="images/jet.png"  rel="lightbox[jet]" title_disp="" date="" info=""> Simple Jet Game</a>
+										<a href="images/jet2.png"  rel="lightbox[jet]" title_disp="Jet Model Close" date="" info=""> </a>
 									</li>
 
 								</ul>
@@ -303,7 +320,7 @@
 
 		<div id="footer">
 			<p>
-				&copy; 2012 Bryce Evans
+				&copy; 2013 Bryce Evans
 			</p>
 		</div>
 		</div>

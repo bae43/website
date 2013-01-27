@@ -76,7 +76,7 @@
 
 		<div  id="footer" style="position:absolute;">
 			<p>
-				&copy; 2012 Bryce Evans
+				&copy; 2013 Bryce Evans
 			</p>
 		</div>
 

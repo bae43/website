@@ -233,6 +233,9 @@ nav {
 	width: 960px;
 }
 
+#top_info{
+	margin-left:100px;
+}
 #curPage {
 	float: left;
 	margin: 5px;

@@ -389,7 +389,7 @@
 					<div style="margin-left:2em; width: 550px;">
 
 						I worked on the back-end of HSCTC's database, helping add support for multiple counties in their
-						merge with the neighboring county. Two other project I was involved in were building a
+						merge with the neighboring county. Two other projects I was involved in were building a
 						reservation system for workshops and creating a new website for aiding people without means
 						of transportation.
 
@@ -549,7 +549,7 @@
 
 		<div id="footer">
 			<p>
-				&copy; 2012 Bryce Evans
+				&copy; 2013 Bryce Evans
 			</p>
 		</div>
 

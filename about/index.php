@@ -85,18 +85,26 @@
 					<br>
 
 				</div>
-				
+
 				<div style="width:700px;">
 
-					My interests have grown increasingly with web development recently for it's ease in distributing
-					an application to anyone anywhere. With WebGL and new improvement to 3D graphics online, I am particularly
-					interested in constructing a multiplayer game that doesn't require purchase or even a download, but just has
-					instantaneous access. Exploring shaders and new techniques with graphics in my
-					project <a href="/projects/featured/index.php">Campus Conquest</a> has been very fun.
+					Hi! I'm currently a sophomore attending Cornell University. 
+					
+					<br />
+					<br />
+					My interest in web development has grown recently because new technology
+					has made it easier to distribute applications to anyone anywhere.
+					I am particularly interested in using WebGl and new improvements to 3D
+					graphics to construct a multiplayer game that doesn't require purchase
+					or even a download, but just has instantaneous access. Exploring shaders
+					and new techniques with graphics in my project
+					<a href="/projects/featured/index.php">Campus Conquest</a>  has been
+					fun and rewarding.
+
 					<br />
 					<br />
 					I play clarinet and am part of the Big Red Marching Band. I also enjoy playing
-					the piano, and when I get the chance, tennis and ping-pong.
+					the piano, a good game of tennis or ping-pong, cooking, photography, and the Etch-a-Sketch.
 
 				</div>
 				<br>
@@ -111,7 +119,7 @@
 				<br>
 				<div id="footer">
 					<p>
-						&copy; 2012 Bryce Evans
+						&copy; 2013 Bryce Evans
 					</p>
 				</div>
 			</div>

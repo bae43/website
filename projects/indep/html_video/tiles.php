@@ -308,7 +308,9 @@ dImageData.data[dpos+3] = sImageData.data[spos+3]; //A
 	</head>
 
 	<body onload="init()" style="margin:0px;">
-
+<div>
+Move your cursor over the video feed to push the tiles around. Based upon <a href="http://www.craftymind.com/2010/04/20/blowing-up-html5-video-and-mapping-it-into-3d-space/">"Blowing up HTML video"</a></div>
+<br> 
 		<div style="display:none">
 			<video id="sourcevid" autoplay="true" loop="true"></video>
 			<canvas id="sourcecopy" width="640" height="360"></canvas>

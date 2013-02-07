@@ -307,7 +307,7 @@
 								<br>
 								The map creator is a simple program that loads in a series of object files, places them into
 								the scene, and using those models, allows a user to generate a JSON map for use in the game.
-								This is powerful because fixing maps is a sinch instead of having to manually edit a JSON file.
+								This is powerful because fixing maps is a cinch instead of having to manually edit a JSON file.
 								<br>
 								<br>
 								<h3> To the Ivy League and Beyond </h3>

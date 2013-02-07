@@ -103,7 +103,7 @@
 					<div class="proj_border ">
 						<div class ="cushion" >
 
-							<h2>Etch-a-Sketch</h2>
+							<a name="etches" ><h2>Etch-a-Sketch</h2></a>
 
 						</div>
 					</div>
@@ -161,7 +161,7 @@
 						<div class ="cushion" >
 							<div class="body">
 
-								<h2>Photography</h2>
+								<a name="photos" ><h2>Photography</h2></a>
 
 							</div>
 						</div>

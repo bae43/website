@@ -122,6 +122,8 @@
 									A currently continuing project exploring the uses of web cam
 									video input as a source for interactive applications. The input
 									can be filtered and distorted in realtime for uses such as a dynamic 15 puzzle.
+									<br>
+									<br> Make sure to "Allow" for use of your webcam when prompted on page load.
 									<ul>
 										<li>
 											<a href = "html_video/filters.php"> Filter Test</a>
@@ -133,6 +135,7 @@
 											<a href = "html_video/15puzz.php"> 15 Puzzle</a>
 										</li>
 									</ul>
+							
 								</div>
 							</div>
 						</div>
@@ -159,6 +162,24 @@
 									<a href="../../hw.html">Try it!</a>
 									<br>
 									<a href="hw.py">Download Python Version</a>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<br>
+										<div class="proj_border ">
+						<div class ="cushion" >
+							<div class="body">
+
+								<a name="euler" ><h2> Code Challenge: "CS 3110 Revenge" </h2></a>
+
+								<br>
+							</div>
+							<div>
+
+								<div class="desc">
+<a href="cs3110_revenge/index.php">View description, solution, and original code</a>
 								</div>
 
 							</div>
@@ -240,7 +261,7 @@
 				<br>
 				<div class="proj_border ">
 					<div class ="cushion" >
-						<a name="cw" class="proj_title"><h2>Game Creation with Blender</h2></a>
+						<a name="blender" class="proj_title"><h2>Game Creation with Blender</h2></a>
 						<a href="images/koi.png"  rel="lightbox[bge]" title="Animated Koi Pond" date=""> <img src="images/koi.png" alt="" align="right" class = "main_img" style="max-width: 35%; margin:10px;"/></a>
 
 						<br>
@@ -276,7 +297,7 @@
 									<li>
 
 										<a href="images/muscle1.png"  rel="lightbox[muscle]" title_disp="Muscle Model" date="" info="A model of a muscle gave info and a close up when clicking on any section"> Muscle Model</a>
-										<a href="images/muscle2.png"  rel="lightbox[muscle]" title_disp="Up Close" date="" info="Fully animations showing chemical interactions and microscopic movement"> </a>
+										<a href="images/muscle2.png"  rel="lightbox[muscle]" title_disp="Up Close" date="" info="Full animations showing chemical interactions and microscopic movement"> </a>
 
 									</li>
 									<li>

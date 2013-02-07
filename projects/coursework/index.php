@@ -5,10 +5,12 @@
 
 		<title>Bryce Evans | Projects </title>
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		
+		<link rel="stylesheet" href="../../css/lightbox.css" type="text/css" media="screen" />
 		<LINK REL=StyleSheet HREF="../../css/global.css" TYPE="text/css">
 		<LINK REL=StyleSheet HREF="../../css/slider.css" TYPE="text/css">
 		<LINK REL=StyleSheet HREF="../../css/cards.css" TYPE="text/css">
-		<link rel="stylesheet" href="../../css/lightbox.css" type="text/css" media="screen" />
+
 
 		<script type="text/javascript" src="../../js/jquery-1.7.2.min.js"></script>
 		<script type="text/javascript" src="../../js/lightbox.js"></script>
@@ -88,7 +90,7 @@
 							CS 4620: Computer Graphics <span class="sep">|</span> Fall 2012
 							<div class="body">
 								<!-- <img  class="main_img" src="images/misty_morning.png"  /> -->
-								<a href="images/misty_morning.png"  rel="lightbox[chrysalis]" title="Misty Morning" date=""><img src="images/misty_small.png" alt="" align="right" class = "main_img"/></a>
+								<a href="images/misty_morning.png"  rel="lightbox[chrysalis]" title="Misty Morning" title_disp="Misty Morning" date=""><img src="images/misty_small.png" alt="" align="right" class = "main_img"/></a>
 
 								<div class="info">
 
@@ -131,7 +133,7 @@
 
 								</div>
 
-								<a href="images/gears.png"  rel="lightbox[chrysalis]" title="Gears" date=""><img src="images/gears_small.png" alt="" align="left" class = "main_img" style="max-width: 35%;" /></a>
+								<a href="images/gears.png"  rel="lightbox[chrysalis]" title_disp="Gears" date=""><img src="images/gears_small.png" alt="" align="left" class = "main_img" style="max-width: 35%;" /></a>
 								<br>
 								<div class="desc">
 									Working with 3D modeling for several years, I always took the raytracer for granted but building
@@ -162,8 +164,8 @@
 									<br>
 								</div>
 								<div>
-									<a href="images/terrain.png"  rel="lightbox[graphics_prac]" title="Terrain" date="Wire mesh overlayed in foreground to show geometry."><img src="images/terrain_small.png" alt="" align="right" class = "main_img" style="max-width: 35%;" /></a>
-									<a href="images/particles.png"  rel="lightbox[graphics_prac]" title="A Particle System" date=""></a>
+									<a href="images/terrain.png"  rel="lightbox[graphics_prac]" title_disp="Terrain" date="Wire mesh overlayed in foreground to show geometry."><img src="images/terrain_small.png" alt="" align="right" class = "main_img" style="max-width: 35%;" /></a>
+									<a href="images/particles.png"  rel="lightbox[graphics_prac]" title_disp="A Particle System" date=""></a>
 
 									<div class="desc">
 										The graphics practicum consisted of slowly constructing and adding new features to a scene editor throughout the semester.
@@ -213,7 +215,7 @@
 							<div class="body">
 
 								<a name="maze" ><h2> Poke Jouki</h2></a>
-								<a href="images/pokejouki.png"  rel="lightbox[poke]" title="Poke Jouki" date=""><img src="images/pokejouki.png" alt="" align="right" class = "main_img" style="max-width: 35%;" /></a>
+								<a href="images/pokejouki.png"  rel="lightbox[poke]" title_disp="Poke Jouki" date=""><img src="images/pokejouki.png" alt="" align="right" class = "main_img" style="max-width: 35%;" /></a>
 
 								CS 3110: Functional Programming<span class="sep"> | </span> Fall 2012
 								<div class="info">
@@ -253,7 +255,7 @@
 					<div class="proj_border ">
 						<div class ="cushion" >
 							<a name="cw" class="proj_title"><h2>Critter World</h2></a>
-							<a href="images/critters_big.png"  rel="lightbox[cw]" title="Critters" date=""> <img src="images/critters.png" alt="" align="right" class = "main_img" style="margin:10px;"/></a>
+							<a href="images/critters_big.png"  rel="lightbox[cw]" title_disp="Critters" date=""> <img src="images/critters.png" alt="" align="right" class = "main_img" style="margin:10px;"/></a>
 
 							<div class="body">
 								CS 2112: OOP &amp; Data Structures [Honors]<span class="sep"> | </span> Spring 2012
@@ -328,11 +330,11 @@
 									<div id="imgs" style="float:left;">
 										<!-- 						<img src="images/animation_lit.png" class = "flipper_img"  id="i1">
 										<img src="images/animation.png" class = "flipper_img" id="i2"> -->
-										<a href="images/critter.gif"  id="i1" class = "flipper_img" rel="lightbox[critter]" title="Critter Animation" date=""><img src="images/animation_lit.png" alt="" /></a>
-										<a href="images/critter.gif"  id="i2" class = "flipper_img" rel="lightbox[asdf]" title="Critter Animation" date=""><img src="images/animation.png" alt="" /></a>
-										<a href="images/plants.gif"  class = "img" rel="lightbox[critter]" title="Plant Animation" date=""></a>
-										<a href="images/rocks.gif"  class = "img" rel="lightbox[critter]" title="Rock Animation" date=""></a>
-										<a href="images/carcass.gif"  class = "img" rel="lightbox[critter]" title="Critter Carcass Animation" date=""></a>
+										<a href="images/critter.gif"  id="i1" class = "flipper_img" rel="lightbox[critter]" title_disp="Critter Animation" date=""><img src="images/animation_lit.png" alt="" /></a>
+										<a href="images/critter.gif"  id="i2" class = "flipper_img" rel="lightbox[asdf]" title_disp="Critter Animation" date=""><img src="images/animation.png" alt="" /></a>
+										<a href="images/plants.gif"  class = "img" rel="lightbox[critter]" title_disp="Plant Animation" date=""></a>
+										<a href="images/rocks.gif"  class = "img" rel="lightbox[critter]" title_disp="Rock Animation" date=""></a>
+										<a href="images/carcass.gif"  class = "img" rel="lightbox[critter]" title_disp="Critter Carcass Animation" date=""></a>
 										<br>
 										<br>
 										<br>
@@ -343,7 +345,7 @@
 										<span style="font-size:14px; line-height: 3px; color:#888; height:5px;">(~5 second loadtime)</span>
 									</div>
 
-									<div id="imgs2" style = "float:left; margin-left:600px;">
+									<div id="imgs2" style = "float:right; margin-right:100px;">
 										<a  id = "i3" class = "flipper_img2" href="critterworld/CritterWorld.zip"><img src="images/download_lit.png" alt="" /></a>
 										<a  id = "i4" class = "flipper_img2" href="critterworld/CritterWorld.zip"><img src="images/download.png" alt="" /></a>
 
@@ -437,7 +439,7 @@
 					<div class="body">
 
 						<a name="maze" ><h2> Breakout</h2></a>
-						<a href="images/breakout_holder.png"  rel="lightbox[breakout]" title="A Solved Maze" date="The game graphic interface. Each pixel is set manually by the program."><img src="images/breakout_holder.png" alt="" align="right" class = "main_img" style="max-width: 35%; max-height:150px;" /></a>
+						<a href="images/breakout_holder.png"  rel="lightbox[breakout]" title="" date="The game graphic interface. Each pixel is set manually by the program."><img src="images/breakout_holder.png" alt="" align="right" class = "main_img" style="max-width: 35%; max-height:150px;" /></a>
 
 						ECE 1210: Modern Computing Devices<span class="sep"> | </span> Fall 2011
 

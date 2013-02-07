@@ -1,18 +1,94 @@
-<LINK REL=StyleSheet HREF="/css/global.css" TYPE="text/css">
-<LINK REL=StyleSheet HREF="/css/accordian.css" TYPE="text/css">
-	
-	
-	
-<script src="/js/jquery-1.7.2.min.js"></script>
-<script src="/js/lightbox.js"></script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
 
+		<title>Bryce Evans | Projects </title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<LINK REL=StyleSheet HREF="../../../css/global.css" TYPE="text/css">
+		<LINK REL=StyleSheet HREF="../../../css/slider.css" TYPE="text/css">
+		<LINK REL=StyleSheet HREF="../../../css/cards.css" TYPE="text/css">
+		<link rel="stylesheet" href="../../../css/lightbox.css" type="text/css" media="screen" />
+<style>.code{
+	font-size:15px;
+	font-family:consolas, monospace
+}</style>
+		<script type="text/javascript" src="../../../js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="../../../js/lightbox.js"></script>
 
-<?php 
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-37666233-1']);
+			_gaq.push(['_trackPageview']);
 
-$title = "PROJECTS";
-$contentTitle = "&nbspCOURSEWORK";
-$content = <<<EXCERPT
+			(function() {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
 
+		</script>
+
+	</head>
+
+	<body>
+		<div id="header">
+
+		</div>
+		<div id='page'>
+
+			<span id = 'name'><img id = "secimg" src="../../../images/proj_small.png" ALIGN = LEFT> bryce evans </span>
+			<nav>
+				<a class="nav_item" href="/index.php"> &nbsp;Home </a> |<a class="nav_item" href="/about/index.php"> &nbsp;ABOUT </a> | <a class="nav_item" href="/education/index.php"> &nbsp;RESUME </a> | <a href="/projects/index.php" class="nav_item" style="color:#fff; text-decoration:none;"> &nbsp;PROJECTS </a>
+			</nav>
+
+			<!-- 			<div >
+			<div id='curPage'>
+			<span><h3><b>&nbsp;Projects></b></h3></span>
+			</div>
+
+			</div> -->
+			<br>
+
+			<div id='content'>
+
+				<!-- -------------------------------------------------------------------------------------  -->
+				<div>
+					<br/>
+					<center>
+						<h2> CS 3110 Revenge</h2><span style="font-size:22px; color:#ccc;">( </span><span class="code" style="font-size: 22px;"><span style="color: #f9263c;">fun</span> <i style="color: #fd971f;">is a keyword</i></span><span class= "code" style="font-size:26px; color:#ddd;"> -&gt; _ </span><span style="font-size:22px; color:#ccc;"> )</span>
+						<div class = 'l'></div>
+					</center>
+					<br>
+					<div>
+						<br />
+						<div >
+							This code snippet was written after taking CS 3110, where the test questions were notoriously obfuscated, frequently 
+							referencing other aspects of the class and other jokes from the TAs (such as the "yolo" function below). This is a compilation of many of those questions, with an addition
+							of several more. 
+							
+							In here are examples of such things as:
+							<ul>
+								<li>Infinite Streams and functions on them such as interweaving them functionally</li>
+								<li>Folds</li>
+								<li>Multiple implementations of Pervasives, such as <span class="code">fold_left</span> being tail recursive, non-tail recusive, and with references</li>
+								<li>Recursive functions without the use of <span class="code">rec</span></li>
+								<li>Advanced Continuation Passing Style</li>
+							</ul>
+							<center>
+							The code below returns "A+"
+							</center>
+						</div>
+					</div>
+				</div>
+				<div>
+					<br />
+
+					<br />
+					<pre class="code">
 (* A personal challenge to the 3110 TAs *)
 
 type 'a hw = ProblemSet of 'a * (unit -> 'a hw)
@@ -116,7 +192,8 @@ let cs thirtyone ten revenge =
 
 	let rec which_is_which yo lo yolo loyo =
 		match (yo yolo ()) with
-	  | ProblemSet (a, b) -> ProblemSet (a, fun () -> which_is_which lo yo a loyo )  in
+	  | ProblemSet (a, b) -> ProblemSet (a, fun () -> 
+	  	 which_is_which lo yo a loyo )  in
 
 
 	let rec tro g dor = 
@@ -140,7 +217,8 @@ let cs thirtyone ten revenge =
 
 	let get_new_cube lst not_in_the_collection =
 		List.fold_left (fun harris cube -> 
-			if not (cube=not_in_the_collection) then cube::harris else harris) [] lst
+			if not (cube=not_in_the_collection) 
+			then cube::harris else harris) [] lst
 	in 
 
 	let jianneng = get_new_cube (!course_staff)  in
@@ -149,14 +227,14 @@ let cs thirtyone ten revenge =
 		if hashtag veryrare then
 			course_staff := hai "Greg";
 		 
-		if (max sung (min thirtyone ten)) < 42 then
+		if (max sung (min thirtyone ten)) &lt; 42 then
 			course_staff := (hai "Sam");
 	in wen jianneng;
 
 	let office_hours help_lst = 
-		let count = induction (fun acc el->
+		let count = induction (fun acc el-&gt;
 
-			piazza(substitution (fun acc2 el2 -> 
+			piazza(substitution (fun acc2 el2 -&gt;
 				if fst el2 = el then 
 				begin
 				(snd el2) := (!(snd el2)) + 1;
@@ -186,19 +264,50 @@ let cs thirtyone ten revenge =
 
 
 let final = 
-	let thirtyone = ["Greg";"Sam";"Michael";"Chris";"Ben";"Ben";
-		"Andrew";"Andrew";"Andrew";"Jane";"Jeremy";"Jianneng";
-		"Ranjay";"Pablo"; "Dylan";"Harris";"Todd"] in
+    let thirtyone = ["Greg";"Sam";"Michael";"Chris";"Ben";"Ben";
+      "Andrew";"Andrew";"Andrew";"Jane";"Jeremy";"Jianneng";
+      "Ranjay";"Pablo"; "Dylan";"Harris";"Todd"] in
 	
-	let ten = [63; 33; 82; 69; 84; 65; 69; 72; 67] in
+    let ten = [63; 33; 82; 69; 84; 65; 69; 72; 67] in
 
     cs thirtyone ten (fun is a keyword -> a )
+</pre>
+					<br>
 
-EXCERPT;
+					
+					<br>
 
-include '/template.php';
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+				</div>
+			</div>
+		</div>
+		<br>
 
+		</div>
 
-?>
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<div id="footer">
+			<p>
+				&copy; 2013 Bryce Evans
+			</p>
+		</div>
+		</div>
+
+	</body>
+</html>
+
+</div>
+</div>
+</body>
+</html>
 
 

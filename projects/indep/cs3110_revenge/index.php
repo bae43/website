@@ -9,10 +9,18 @@
 		<LINK REL=StyleSheet HREF="../../../css/slider.css" TYPE="text/css">
 		<LINK REL=StyleSheet HREF="../../../css/cards.css" TYPE="text/css">
 		<link rel="stylesheet" href="../../../css/lightbox.css" type="text/css" media="screen" />
-<style>.code{
-	font-size:15px;
-	font-family:consolas, monospace
-}</style>
+		<style>
+			.code {
+				font-size: 15px;
+				font-family: consolas, monospace
+			}
+			#code_body {
+				background-color: #0c0c0c;
+				padding: 16px;
+				-moz-border-radius: 7px;
+				border-radius: 7px;
+			}
+		</style>
 		<script type="text/javascript" src="../../../js/jquery-1.7.2.min.js"></script>
 		<script type="text/javascript" src="../../../js/lightbox.js"></script>
 
@@ -42,7 +50,7 @@
 
 			<span id = 'name'><img id = "secimg" src="../../../images/proj_small.png" ALIGN = LEFT> bryce evans </span>
 			<nav>
-				<a class="nav_item" href="/index.php"> &nbsp;Home </a> |<a class="nav_item" href="/about/index.php"> &nbsp;ABOUT </a> | <a class="nav_item" href="/education/index.php"> &nbsp;RESUME </a> | <a href="/projects/index.php" class="nav_item" style="color:#fff; text-decoration:none;"> &nbsp;PROJECTS </a>
+				<a class="nav_item" href="/index.php"> &nbsp;Home </a> |<a class="nav_item" href="/about/index.php"> &nbsp;ABOUT </a> | <a class="nav_item" href="/resume/index.php"> &nbsp;RESUME </a> | <a href="/projects/index.php" class="nav_item" style="color:#fff; text-decoration:none;"> &nbsp;PROJECTS </a>
 			</nav>
 
 			<!-- 			<div >
@@ -66,20 +74,30 @@
 					<div>
 						<br />
 						<div >
-							This code snippet was written after taking CS 3110, where the test questions were notoriously obfuscated, frequently 
+							This code snippet was written after taking CS 3110, where the test questions were notoriously obfuscated, frequently
 							referencing other aspects of the class and other jokes from the TAs (such as the "yolo" function below). This is a compilation of many of those questions, with an addition
-							of several more. 
-							
+							of several more.
+
 							In here are examples of such things as:
 							<ul>
-								<li>Infinite Streams and functions on them such as interweaving them functionally</li>
-								<li>Folds</li>
-								<li>Multiple implementations of Pervasives, such as <span class="code">fold_left</span> being tail recursive, non-tail recusive, and with references</li>
-								<li>Recursive functions without the use of <span class="code">rec</span></li>
-								<li>Advanced Continuation Passing Style</li>
+								<li>
+									Infinite Streams and functions on them such as interweaving them functionally
+								</li>
+								<li>
+									Folds
+								</li>
+								<li>
+									Multiple implementations of Pervasives, such as <span class="code">fold_left</span> being tail recursive, non-tail recusive, and with references
+								</li>
+								<li>
+									Recursive functions without the use of <span class="code">rec</span>
+								</li>
+								<li>
+									Advanced Continuation Passing Style
+								</li>
 							</ul>
 							<center>
-							The code below returns "A+"
+								The code below returns "A+"
 							</center>
 						</div>
 					</div>
@@ -88,7 +106,8 @@
 					<br />
 
 					<br />
-					<pre class="code">
+					<div id="code_body">
+						<pre class="code">
 (* A personal challenge to the 3110 TAs *)
 
 type 'a hw = ProblemSet of 'a * (unit -> 'a hw)
@@ -272,9 +291,9 @@ let final =
 
     cs thirtyone ten (fun is a keyword -> a )
 </pre>
+					</div>
 					<br>
 
-					
 					<br>
 
 					<br>
@@ -309,5 +328,4 @@ let final =
 </div>
 </body>
 </html>
-
 

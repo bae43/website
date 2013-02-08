@@ -44,7 +44,7 @@
 		<div id="page">
 			<div  class = "box" id = "links">
 				<a href="about/index.php" rel="tooltip"  id="about"  title="About Me"> <img class="icon"  src="images/icon_about.png" alt="about"> </a>
-				<a href="education/index.php" rel="tooltip" id="resume" title="Resume"><img class="icon" src="images/icon_courses.png" alt="Resume" /></a>
+				<a href="resume/index.php" rel="tooltip" id="resume" title="Resume"><img class="icon" src="images/icon_courses.png" alt="Resume" /></a>
 				<a href="projects/index.php" rel="tooltip" id="projects" title="Projects"> <img class="icon" id="projects" src="images/icon_other.png" alt="projects"> </a>
 			</div>
 

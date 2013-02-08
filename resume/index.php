@@ -65,7 +65,7 @@
 				|
 				<a class="nav_item" href="/about/index.php" href="/about/index.php" > &nbsp;ABOUT </a>
 				|
-				<a class="nav_item" href="/education/index.php" style="color:#fff; text-decoration:none;"> &nbsp;RESUME </a>
+				<a class="nav_item" href="/resume/index.php" style="color:#fff; text-decoration:none;"> &nbsp;RESUME </a>
 				|
 				<a href="/projects/index.php" class="nav_item"> &nbsp;PROJECTS </a>
 			</nav>
@@ -379,8 +379,7 @@
 				<div class="indent">
 					<h3> Course Consultant for CS 1114 : Robotics with MatLab<span class="sep" style="float:right">Spring 2013</span></h3>
 					<div style="margin-left:2em; width: 550px;">
-						I am currently a course consultant, responsible for running a class section, grading, and
-						writing assignments.
+						Responsible for holding regular office hours, grading homeworks &amp; exams, and helping students master the material. 
 					</div>
 				</div>
 				<br>

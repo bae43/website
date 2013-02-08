@@ -44,7 +44,7 @@
 				|
 				<a class="nav_item" href="/about/index.php" href="/about/index.php" style="color:#fff; text-decoration:none;" > &nbsp;ABOUT </a>
 				|
-				<a class="nav_item" href="/education/index.php" > &nbsp;RESUME </a>
+				<a class="nav_item" href="/resume/index.php" > &nbsp;RESUME </a>
 				|
 				<a href="/projects/index.php" class="nav_item"> &nbsp;PROJECTS </a>
 			</nav>

@@ -39,7 +39,7 @@
 
 			<span id = 'name'><img id = "secimg" src="../../images/proj_small.png" ALIGN = LEFT> bryce evans </span>
 			<nav style="float:right;">
-				<a href="/Website/about/index.php"> About </a> | <a href="/Website/education/index.php"> Resume </a> | <a href="/Website/projects/index.php"> Projects </a>
+				<a href="/Website/about/index.php"> About </a> | <a href="/Website/resume/index.php"> Resume </a> | <a href="/Website/projects/index.php"> Projects </a>
 			</nav>
 			<div >
 				<div id='curPage'>

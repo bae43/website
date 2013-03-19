@@ -74,7 +74,7 @@
 					<br>
 					<div id="top_info">
 					One of my hobbies is graphic art, primarily with <a href="http://www.blender.org/">Blender</a>. I generally take a minimalist approach
-					with the focus being on a single object.
+					with the focus being on a single object. All images are modeled and textured by me and rendered with Blender unless otherwise noted.
 					</div>
 					<!-- 					<span style="font-size:22px; margin-left:1em;">Contents:</span>
 					<div style="margin-left:3em;">
@@ -87,6 +87,7 @@
 					</div> -->
 				</div>
 				<div>
+					
 					<br>
 					<br>
 
@@ -126,7 +127,7 @@
 
 								<a href="images/quintrino.png"  class = "img" rel="lightbox[blender]" title="A quintrino composed of red wire"><img src="images/quintrino_tile.png" alt="" /></a>
 
-								<a href="images/Stallion.png"  class = "img" rel="lightbox[blender]" title= "The Stallion"><img src="images/stallion_tile.png" alt="" /></a>
+								<a href="images/Stallion.png"  class = "img" rel="lightbox[blender]" title= "The Stallion" info="Modeled after da Vinci's Horse"><img src="images/stallion_tile.png" alt="" /></a>
 
 								<a href="images/chess.jpg" class = "img"  rel="lightbox[blender]" title=""><img src="images/chess_tile.jpg" alt="" /></a>
 
@@ -141,11 +142,13 @@
 								<a href="images/hallow.png"  class = "img" rel="lightbox[blender]" title= "Halloween"><img src="images/hallow_tile.png" alt="" /></a>
 
 								<a href="images/lobster.png"  class = "img" rel="lightbox[blender]" title= "Robo-Lobster 9000" date="July 2010"><img src="images/lobster_tile.png" alt="" /></a>
+								
 								<a href="images/lobster_earth.png"  class = "img" rel="lightbox[blender]" title= "Earth"><img src="images/lobster_earth_tile.png" alt="" /></a>
 
 								<a href="images/lobster_flag.png"  class = "img" rel="lightbox[blender]" title= "Partriot"><img src="images/lobster_flag_tile.png" alt="" /></a>
 
 								<a href="images/porygon.png" class = "img"  rel="lightbox[blender]" title="Porygon"><img src="images/porygon_tile.png" alt="" /></a>
+								
 								<a href="images/craw.jpg" class = "img"  rel="lightbox[blender]" title="Crawdaunt"><img src="images/craw_tile.jpg" alt="" /></a>
 
 								<a href="images/check.jpg"  class = "img" rel="lightbox[blender]" title="Link's Check" date="Mar 2010" info='Rigged and Posed Models from "The Legend of Zelda" <br> Character and castle models and textures &copy; Nintendo'><img src="images/check_tile.jpg" alt="" /></a>

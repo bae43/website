@@ -90,7 +90,7 @@
 						<div style="margin-left:100px">
 							A short portfolio of some of my other hobbies.
 							<br>
-							Click a tile to view larger &mdash; images may take take several seconds to load.
+							Click a tile to view larger &mdash; images may take take some time to load.
 						</div>
 						<br>
 					</div>
@@ -170,10 +170,19 @@
 					<div class="imageRow" style="position : relative; top: 0px; right:-5em;">
 
 						<div class="single">
+							<a href="images/ivy.png"  id="ivy" class = "t" rel="lightbox[photos]" title="Ivy" info="" date="Mar 2013"><img src="images/ivy_tile.png" alt="" /></a>
+							<a href="images/crocus1.png"  id="croc1" class = "t" rel="lightbox[photos]" title="Crocus" info="First flowers in Ithaca" date="Mar 2013"><img src="images/crocus1_tile.png" alt="" /></a>
+							<a href="images/crocus2.png"  id="croc2" class = "t" rel="lightbox[photos]" title="" info="First flowers in Ithaca" date="Mar 2013"><img src="images/crocus2_tile.png" alt="" /></a>
+							<a href="images/wall.png"  id="wall" class = "t" rel="lightbox[photos]" title="Wall" info="" date="Mar 2013"><img src="images/wall_tile.png" alt="" /></a>
+							<a href="images/gorge_berries.JPG"  id="gberries" class = "t" rel="lightbox[photos]" title="Berries next to the gorge" info="Taken under Cornell's suspension bridge" date="Feb 2013"><img src="images/gorge_berries_tile.JPG" alt="" /></a>
+							<a href="images/hollister_berries.png"  id="hberries" class = "t" rel="lightbox[photos]" title="Berries" info="Taken next to Hollister Hall" date="Feb 2013"><img src="images/hollister_berries_tile.png" alt="" /></a>
+							<a href="images/gorge.png"  id="gorge" class = "t" rel="lightbox[photos]" title="The Gorge" info="Taken under Cornell's suspension bridge" date="Feb 2013"><img src="images/gorge_tile.png" alt="" /></a>
+							<a href="images/arts_quad.png"  id="aq" class = "t" rel="lightbox[photos]" title="The Arts Quad" info="Not edited at all. Seriously, I'm not even good enough with photoshop to make this up." date="Feb 2013"><img src="images/arts_quad_tile.png" alt="" /></a>
+							<a href="images/palantir.JPG"  id="palantir" class = "t" rel="lightbox[photos]" title="Palantir's &quot;Toothpick Holding Cups&quot;" date="Feb 2013"><img src="images/palantir_tile.JPG" alt="" /></a>
 							<a href="images/skipper2.png"  id="skip" class = "t" rel="lightbox[photos]" title="Skipper the Cat" date="Dec 2012"><img src="images/skipper2_tile.png" alt="" /></a>
 							<a href="images/skipper_in_window.png"  class = "t" rel="lightbox[photos]" title="Snowfall" date="Dec 2012"><img src="images/skipper_in_window_tile.png" alt="" /></a>
-							<a href="images/lightning.png"  class = "t" rel="lightbox[photos]" title="Lightning over Ithaca" date="July 2012" info="30 sec. exposure time"><img src="images/lightning_tile.png" alt="" /></a>
 							<a href="images/iced_sill.png"  class = "t" rel="lightbox[photos]" title="A Window Sill in Winter" date="Jan 2012" info="-5 F in Ithaca"><img src="images/iced_sill_tile.png" alt="" /></a>
+							<a href="images/lightning.png"  class = "t" rel="lightbox[photos]" title="Lightning over Ithaca" date="July 2012" info="30 sec. exposure time"><img src="images/lightning_tile.png" alt="" /></a>
 							<a href="images/ithacasunrise.png"  class = "t" rel="lightbox[photos]" title="Sunrise in Ithaca" date="July 2012"><img src="images/ithacasunrise_tile.png" alt="" /></a>
 							<a href="images/foxglove.png"  class = "t" rel="lightbox[photos]" title="Foxglove" date="June 2012"><img src="images/foxglove_tile.png" alt="" /></a>
 							<a href="images/foxglove2.png"  class = "t" rel="lightbox[photos]" title="Foxglove" date="June 2012"><img src="images/foxglove2_tile.png" alt="" /></a>
